@@ -31,7 +31,7 @@ enableEmoji = true
   themeColor = "#494f5c"
 
   # this is my homepage
-  homeSubtitle = "Personal homepage of Christoph Cullmann"
+  homeSubtitle = "Private homepage of Christoph Cullmann"
 
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = false  # Set "text-align: justify" to `.content`.
