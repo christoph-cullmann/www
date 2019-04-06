@@ -31,7 +31,7 @@ enableEmoji = true
   themeColor = "#494f5c"
 
   # this is my homepage
-  homeSubtitle = "Personal homepage of Christoph Cullmann."
+  homeSubtitle = "Personal homepage of Christoph Cullmann"
 
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = false  # Set "text-align: justify" to `.content`.
@@ -47,16 +47,26 @@ enableEmoji = true
 [menu]
 
   [[menu.main]]
-    name = "Posts"
-    url = "posts/"
+    name = "About"
+    url = "about/"
     weight = 10
 
   [[menu.main]]
-    name = "About"
-    url = "about/"
+    name = "Posts"
+    url = "posts/"
     weight = 20
+
+  [[menu.main]]
+    name = "Projects"
+    url = "projects/"
+    weight = 30
+
+  [[menu.main]]
+    name = "Academic"
+    url = "academic/"
+    weight = 40
 
   [[menu.main]]
     name = "Impressum"
     url = "impressum/"
-    weight = 30
+    weight = 50
