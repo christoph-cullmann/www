@@ -40,6 +40,10 @@ enableEmoji = true
     name = "github"
     url = "https://github.com/christoph-cullmann/"
 
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/ChrCullmann/"
+
 [menu]
 
   [[menu.main]]
