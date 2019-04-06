@@ -75,6 +75,12 @@ pygmentscodefencesguesssyntax = true
     weight = 3
     url = "https://www.youtube.com/channel/UChxsQT-6tVSbEmfiPqMM1Jg"
 
+[[params.social]]
+    name = "amazon.de"
+    icon = "fab fa-amazon"
+    weight = 4
+    url = "https://www.amazon.de/gp/profile/amzn1.account.AGWKWWFPCHLCW6E33CEFF7XKIHAQ"
+
 [menu]
 
   [[menu.main]]
