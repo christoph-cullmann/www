@@ -25,24 +25,30 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 [params]
+    # me
     author = "Christoph Cullmann"
 
+    # what's this?
     description = "Christoph Cullmann's personal website"
 
+    # some keywords
     keywords = "blog,developer,personal"
 
+    # my profession
     info = "Software Engineer"
+
+    # my image, place holder ATM
     avatarurl = "images/avatar.jpg"
 
+    # ;=) how true
+    footercontent = "Ignorance is bliss..."
 
-    #footercontent = "Enter a text here."
-
+    # nice dates
     dateformat = "January 2, 2006"
 
+    # nice footer
     hideCredits = true
     hideCopyright = false
-
-    # Git Commit in Footer, uncomment the line below to enable it.
     commit = "https://github.com/christoph-cullmann/cullmann.io/tree/"
 
     # no right to left
@@ -56,6 +62,10 @@ pygmentscodefencesguesssyntax = true
 
     # Custom CSS
     custom_css = []
+
+#
+# links to my public profiles
+#
 
 [[params.social]]
     name = "Github"
@@ -80,6 +90,10 @@ pygmentscodefencesguesssyntax = true
     icon = "fab fa-amazon"
     weight = 4
     url = "https://www.amazon.de/gp/profile/amzn1.account.AGWKWWFPCHLCW6E33CEFF7XKIHAQ"
+
+#
+# main menu
+#
 
 [menu]
 
