@@ -12,4 +12,4 @@ git pull
 ./hugo
 
 # current date
-date -Iminutes
+date -Iseconds
