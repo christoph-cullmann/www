@@ -14,7 +14,7 @@ title = "Impressum"
 
 ### Kontakt / Contact
 
-> Telefon/Phone: +49 176 235 467 98<br>
+> Telefon/Mobile: +49 176 235 467 98<br>
 > E-Mail: cullmann@kde.org
 
 ## Datenschutzerklärung
