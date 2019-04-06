@@ -1,3 +1,25 @@
-baseURL = "http://example.org/"
+# our homepage url
+baseURL = "https://cullmann.io/"
+
+# default content is in english
 languageCode = "en-us"
-title = "My New Hugo Site"
+
+# cullmann.io website
+title = "cullmann.io"
+
+# use hermit theme
+theme = "hermit"
+
+[author]
+  name = "Christoph Cullmann"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  themeColor = "#494f5c"
+
+  homeSubtitle = "Homepage of Christoph Cullmann."
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
