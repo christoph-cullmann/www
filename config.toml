@@ -10,6 +10,9 @@ title = "cullmann.io"
 # use hermit theme
 theme = "hermit"
 
+# hugo can use git
+enableGitInfo = true
+
 [author]
   name = "Christoph Cullmann"
 
@@ -21,8 +24,7 @@ theme = "hermit"
 
   themeColor = "#494f5c"
 
-  homeSubtitle = "Homepage of Christoph Cullmann."
-  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  homeSubtitle = "Personal homepage of Christoph Cullmann."
 
 [menu]
 
@@ -39,4 +41,4 @@ theme = "hermit"
   [[menu.main]]
     name = "Impressum"
     url = "impressum/"
-    weight = 20
+    weight = 30
