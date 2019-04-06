@@ -44,6 +44,10 @@ enableEmoji = true
     name = "twitter"
     url = "https://twitter.com/ChrCullmann/"
 
+  [[params.social]]
+    name = "youtube"
+    url = "https://www.youtube.com/channel/UChxsQT-6tVSbEmfiPqMM1Jg"
+
 [menu]
 
   [[menu.main]]
