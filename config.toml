@@ -37,6 +37,6 @@ theme = "hermit"
     weight = 20
 
   [[menu.main]]
-    name = "Impressum"
+    name = "Datenschutz und Impressum"
     url = "impressum/"
     weight = 20
