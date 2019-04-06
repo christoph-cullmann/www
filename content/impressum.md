@@ -6,14 +6,15 @@ title = "Impressum"
 
 > Dr.-Ing. Christoph Cullmann
 
-### Postanschrift
+### Postanschrift / Mailing Address
 
 > Lessingstrasse 61<br>
-> 66121 Saarbrücken
+> 66121 Saarbrücken<br>
+> Deutschland
 
-### Kontakt
+### Kontakt / Contact
 
-> Telefon: +49 176 235 467 98<br>
+> Telefon/Phone: +49 176 235 467 98<br>
 > E-Mail: cullmann@kde.org
 
 ## Datenschutzerklärung
