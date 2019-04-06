@@ -1,51 +1,78 @@
 # our homepage url
 baseURL = "https://cullmann.io/"
 
-# default content is in english
-languageCode = "en-us"
-defaultContentLanguage = "en"
-
 # cullmann.io website
 title = "cullmann.io"
 
-# use hermit theme
-theme = "hermit"
+# theme
+theme = "hugo-coder"
 
-# some settings
+# content == english, Impressum is german
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+# pagination
+paginate = 20
+
+# allow git
 enableGitInfo = true
-pygmentsCodefences = true
-pygmentsUseClasses = true
-enableEmoji = true
+# nice urls
+canonifyurls = true
 
-[author]
-  name = "Christoph Cullmann"
+# pygment settings
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
 [params]
-  # different date formats to use
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+    author = "Christoph Cullmann"
 
-  # our color
-  themeColor = "#494f5c"
+    description = "Christoph Cullmann's personal website"
 
-  # this is my homepage
-  homeSubtitle = "Private homepage of Christoph Cullmann"
+    keywords = "blog,developer,personal"
 
-  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
-  justifyContent = false  # Set "text-align: justify" to `.content`.
+    info = "Software Engineer"
+    avatarurl = "images/avatar.jpg"
 
-  [[params.social]]
-    name = "github"
+
+    #footercontent = "Enter a text here."
+
+    dateformat = "January 2, 2006"
+
+    hideCredits = true
+    hideCopyright = false
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    commit = "https://github.com/christoph-cullmann/cullmann.io/tree/"
+
+    # no right to left
+    rtl = false
+
+    # Use inverted colors
+    inverted = true
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Custom CSS
+    custom_css = []
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
     url = "https://github.com/christoph-cullmann/"
 
-  [[params.social]]
-    name = "twitter"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 2
     url = "https://twitter.com/ChrCullmann/"
 
-  [[params.social]]
-    name = "youtube"
+[[params.social]]
+    name = "YouTube"
+    icon = "fab fa-youtube"
+    weight = 3
     url = "https://www.youtube.com/channel/UChxsQT-6tVSbEmfiPqMM1Jg"
 
 [menu]
