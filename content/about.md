@@ -2,7 +2,7 @@
 title = "About"
 +++
 
-cullmann.io is the personal homepage of Christoph Cullmann.
+cullmann.io is the private homepage of Christoph Cullmann.
 
 ## Professional Life
 
@@ -12,7 +12,9 @@ My work is focused on static analysis of both binary and source programs and the
 
 ## Private Projects
 
-In my spare time, I work on the [KDE](https://www.kde.org/) project and maintain the Kate/KWrite editor application and KTextEditor framework.
+In my spare time, I work for example on the [KDE](https://www.kde.org/) project and maintain the Kate/KWrite editor and the KTextEditor framework.
+
+A list of the projects I contribute to are collected on the [Projects](/projects/) page.
 
 ## Contact Information
 
