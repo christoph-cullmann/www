@@ -35,3 +35,8 @@ theme = "hermit"
     name = "About"
     url = "about/"
     weight = 20
+
+  [[menu.main]]
+    name = "Impressum"
+    url = "impressum/"
+    weight = 20
