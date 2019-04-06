@@ -1,6 +1,6 @@
 ---
 title: "New Website"
-date: 2019-04-06T18:09:00+01:00
+date: 2019-04-06
 draft: false
 ---
 

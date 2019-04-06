@@ -3,6 +3,7 @@ baseURL = "https://cullmann.io/"
 
 # default content is in english
 languageCode = "en-us"
+defaultContentLanguage = "en"
 
 # cullmann.io website
 title = "cullmann.io"
@@ -10,21 +11,34 @@ title = "cullmann.io"
 # use hermit theme
 theme = "hermit"
 
-# hugo can use git
+# some settings
 enableGitInfo = true
+pygmentsCodefences = true
+pygmentsUseClasses = true
+enableEmoji = true
 
 [author]
   name = "Christoph Cullmann"
 
 [params]
+  # different date formats to use
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
+  # our color
   themeColor = "#494f5c"
 
+  # this is my homepage
   homeSubtitle = "Personal homepage of Christoph Cullmann."
+
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = false  # Set "text-align: justify" to `.content`.
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/christoph-cullmann/"
 
 [menu]
 
