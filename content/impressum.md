@@ -4,10 +4,7 @@ title = "Impressum"
 
 ## Angaben gemäß § 5 TMG:
 
-> Dr.-Ing. Christoph Cullmann
-
-### Postanschrift / Mailing Address
-
+> Dr.-Ing. Christoph Cullmann<br>
 > Lessingstrasse 61<br>
 > 66121 Saarbrücken<br>
 > Deutschland
