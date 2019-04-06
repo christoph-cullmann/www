@@ -1,5 +1,5 @@
 +++
-title = "Private Projects"
+title = "Open Source Projects"
 +++
 
 ## KDE
@@ -24,6 +24,6 @@ I you wish to sponsor the work done by KDE in non-technical ways, please think a
 
 ## Github
 
-Some smaller things I work on, like this homepage, can be found on my GitHub account:
+Some smaller things I work on can be found on my GitHub account:
 
 * https://github.com/christoph-cullmann/

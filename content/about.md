@@ -2,7 +2,7 @@
 title = "About"
 +++
 
-cullmann.io is the private homepage of Christoph Cullmann.
+cullmann.io is the personal homepage of Christoph Cullmann.
 
 ## Professional Life
 
@@ -10,7 +10,7 @@ I work as a Senior Software Engineer at [AbsInt Angewandte Informatik GmbH](http
 
 My work is focused on static analysis of both binary and source programs and the WCET analysis of embedded systems.
 
-## Private Projects
+## Open Source Projects
 
 In my spare time, I work for example on the [KDE](https://www.kde.org/) project and maintain the Kate/KWrite editor and the KTextEditor framework.
 
