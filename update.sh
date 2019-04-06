@@ -10,3 +10,6 @@ git pull
 
 # rerun hugo generator
 ./hugo
+
+# current date
+date -Iminutes
