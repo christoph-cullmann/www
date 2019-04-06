@@ -16,6 +16,7 @@ paginate = 20
 
 # allow git
 enableGitInfo = true
+
 # nice urls
 canonifyurls = true
 
@@ -42,9 +43,6 @@ pygmentscodefencesguesssyntax = true
 
     # ;=) how true
     footercontent = "Ignorance is bliss..."
-
-    # nice dates
-    dateformat = "January 2, 2006"
 
     # nice footer
     hideCredits = true
