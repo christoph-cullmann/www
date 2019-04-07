@@ -5,8 +5,7 @@ set -e
 
 # update our clone
 git submodule update --init --recursive
-git submodule update --recursive --remote
-git pull
+git pull --recurse-submodules
 
 # rerun hugo generator
 # export the GIT env vars we need to have links in the footer
