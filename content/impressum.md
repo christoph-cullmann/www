@@ -18,6 +18,11 @@ title = "Impressum"
 
 Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
 
+> Dr.-Ing. Christoph Cullmann<br>
+> Lessingstrasse 61<br>
+> 66121 Saarbrücken<br>
+> Deutschland
+
 ### Ihre Betroffenenrechte
 
 Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:
