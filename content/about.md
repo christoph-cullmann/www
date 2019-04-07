@@ -8,13 +8,17 @@ cullmann.io is the personal homepage of Christoph Cullmann.
 
 I work as a Senior Software Engineer at [AbsInt Angewandte Informatik GmbH](https://www.absint.com/).
 
-My work is focused on static analysis of both binary and source programs and the WCET analysis of embedded systems.
+My work is focused on [static program analysis](https://en.wikipedia.org/wiki/Static_program_analysis) on both binary and source level.
+
+For binary programs, the worst-case [stack usage](https://www.absint.com/stackanalyzer/) or [execution time](https://www.absint.com/ait/) are computed.
+
+For source programs, [coding rules](https://www.absint.com/rulechecker/) or [run time errors](https://www.absint.com/astree/) are checked.
 
 ## Open Source Projects
 
-In my spare time, I work for example on the [KDE](https://www.kde.org/) project and maintain the Kate/KWrite editor and the KTextEditor framework.
+In my spare time, I work on various open source projects.
 
-A list of the projects I contribute to are collected on the [Projects](/projects/) page.
+For more details take a look at the [Projects](/projects/) page.
 
 ## Contact Information
 
