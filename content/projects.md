@@ -20,7 +20,7 @@ I work on various projects that are under the [KDE](https://www.kde.org/) umbrel
 
 Contributors to these projects are welcome.
 
-I you wish to sponsor the work done by KDE in non-technical ways, please think about [donating](https://kde.org/donations).
+If you wish to sponsor the work done by KDE in non-technical ways, please think about [donating](https://kde.org/donations).
 
 ## Github
 
