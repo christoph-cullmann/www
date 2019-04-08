@@ -13,4 +13,6 @@ The official publication can be found [here](https://publikationen.sulb.uni-saar
 
 ## Publications
 
-A relatively complete list of my publications can be found on my [Google Scholar Profile](https://scholar.google.com/citations?user=eK6jgYUAAAAJ&hl=en).
+A relatively complete list of my publications can be found on [my Google Scholar profile](https://scholar.google.com/citations?user=eK6jgYUAAAAJ&hl=en).
+
+An other good source is [my dblp computer science library profile](https://dblp.org/pers/hd/c/Cullmann:Christoph).
