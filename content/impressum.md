@@ -12,7 +12,7 @@ title = "Impressum"
 ### Kontakt / Contact
 
 > Telefon/Mobile: +49 176 235 467 98<br>
-> E-Mail: cullmann@kde.org
+> E-Mail: christoph@cullmann.io
 
 ## Datenschutzerklärung
 
