@@ -66,27 +66,33 @@ pygmentscodefencesguesssyntax = true
 #
 
 [[params.social]]
+    name = "E-Mail"
+    icon = "fa fa-envelope"
+    weight = 1
+    url = "mailto:christoph@cullmann.io"
+
+[[params.social]]
     name = "GitHub"
     icon = "fab fa-github"
-    weight = 1
+    weight = 2
     url = "https://github.com/christoph-cullmann/"
 
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
-    weight = 2
+    weight = 3
     url = "https://twitter.com/ChrCullmann/"
 
 [[params.social]]
     name = "YouTube"
     icon = "fab fa-youtube"
-    weight = 3
+    weight = 4
     url = "https://www.youtube.com/c/ChristophCullmann/"
 
 [[params.social]]
     name = "amazon.de"
     icon = "fab fa-amazon"
-    weight = 4
+    weight = 5
     url = "https://www.amazon.de/gp/profile/amzn1.account.AGWKWWFPCHLCW6E33CEFF7XKIHAQ"
 
 #
