@@ -12,7 +12,7 @@ title = "Impressum"
 ### Kontakt / Contact
 
 > Telefon/Mobile: +49 176 235 467 98<br>
-> E-Mail: christoph@cullmann.io
+> E-Mail: [christoph@cullmann.io](mailto:christoph@cullmann.io)
 
 ## Datenschutzerklärung
 
