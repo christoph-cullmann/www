@@ -82,6 +82,11 @@ Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets de
 
 Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz verantwortliche Person in unserer Organisation:
 
+> Dr.-Ing. Christoph Cullmann<br>
+> Lessingstrasse 61<br>
+> 66121 Saarbrücken<br>
+> Deutschland
+
 > Generiert von https://www.activemind.de/datenschutz/datenschutzhinweis-generator/<br>
 > Datenschutzerklärungs-Generator der activeMind AG (Version 2018-09-24)
 
