@@ -122,6 +122,11 @@ pygmentscodefencesguesssyntax = true
     weight = 40
 
   [[menu.main]]
+    name = "Links"
+    url = "links/"
+    weight = 50
+
+  [[menu.main]]
     name = "Impressum"
     url = "impressum/"
-    weight = 50
+    weight = 60
