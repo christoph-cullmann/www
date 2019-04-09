@@ -5,9 +5,9 @@ draft: false
 ---
 
 Several years the [kate-editor.org](https://kate-editor.org) & [cullmann.io](https://cullmann.io) pages got hosted on a [Hetzner](https://www.hetzner.de/) root server.
-To reduce costs and switch away from old hardware they got now moved to a [OpenVZ](https://openvz.org/) based virtual server at [Host Europe](https://www.hosteurope.de).
+To reduce costs and switch away from old hardware they got now moved to an [OpenVZ](https://openvz.org/) based virtual server at [Host Europe](https://www.hosteurope.de).
 
-On both servers [CentOS](https://centos.org) 7.x is running, it did always provide a stable foundation of the web services.
+On both servers [CentOS](https://centos.org) 7.x is running, it did always provide a stable foundation for the services these sites use.
 
 As with any server move in the past, I always need to search how to best move the data/config from one server to the other.
 To document this for me and others, here the quick way to move the basic things needed for web services using just plain [Apache](https://httpd.apache.org/) & [MariaDB](https://mariadb.org/).
