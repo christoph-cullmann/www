@@ -4,6 +4,8 @@ title = "About"
 
 cullmann.io is the personal homepage of Christoph Cullmann.
 
+The full sources of this web site can be found on [GitHub](https://github.com/christoph-cullmann/cullmann.io).
+
 ## Professional Life
 
 I work as a Senior Software Engineer at [AbsInt Angewandte Informatik GmbH](https://www.absint.com/).
