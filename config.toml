@@ -25,6 +25,10 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+[outputs]
+    # JSON for search
+    home = ["HTML", "RSS", "JSON"]
+
 [params]
     # me
     author = "Christoph Cullmann"
