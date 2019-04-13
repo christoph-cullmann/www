@@ -30,3 +30,12 @@ The libraries linked below will in most cases be for C or C++.
 
 * fast JSON parser/generator: http://rapidjson.org
 
+## Mail Server Stuff
+
+For my mails, I use postfix & dovecot, here some links about documentation and more.
+
+* postfix documentation: http://www.postfix.org/documentation.html
+
+* dovecot 2.x documentation: https://wiki2.dovecot.org/
+
+* blacklist performance monitoring: https://www.intra2net.com/en/support/antispam/
