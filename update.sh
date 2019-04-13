@@ -14,5 +14,8 @@ export GIT_COMMIT_SHA=`git rev-parse --verify HEAD`
 export GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD`
 ./hugo
 
+# copy .htaccess
+cp -f static/.htaccess public
+
 # current date
 date -Iseconds
