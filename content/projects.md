@@ -22,8 +22,8 @@ Contributors to these projects are welcome.
 
 If you wish to sponsor the work done by KDE in non-technical ways, please think about [donating](https://kde.org/donations).
 
-## Github
+## GitHub
 
-Some smaller things I work on can be found on my GitHub account:
+Some smaller things I work on can be found on my [GitHub](https://github.com/) account:
 
 * https://github.com/christoph-cullmann/
