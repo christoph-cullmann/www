@@ -43,7 +43,7 @@ pygmentscodefencesguesssyntax = true
     info = "Software Engineer"
 
     # my cartoon variant ;=)
-    avatarurl = "images/christoph_avatar.png"
+    avatarurl = "images/christoph_avatar.jpg"
 
     # ;=) how true
     footercontent = "Ignorance is bliss..."
