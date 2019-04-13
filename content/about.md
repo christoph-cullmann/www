@@ -2,7 +2,7 @@
 title = "About"
 +++
 
-cullmann.io is the personal homepage of Christoph Cullmann.
+cullmann.io is the personal web site of Christoph Cullmann.
 
 The full sources of this web site can be found on [GitHub](https://github.com/christoph-cullmann/cullmann.io).
 
