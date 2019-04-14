@@ -3,7 +3,7 @@ title: "Web-Server Transition"
 date: 2019-04-08T23:59:00+02:00
 draft: false
 categories: [www]
-tags: [centos, apache mariadb]
+tags: [centos, apache, mariadb]
 ---
 
 Several years the [kate-editor.org](https://kate-editor.org) & [cullmann.io](https://cullmann.io) pages got hosted on a [Hetzner](https://www.hetzner.de/) root server.
