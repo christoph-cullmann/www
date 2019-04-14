@@ -2,6 +2,8 @@
 title: "New Website"
 date: 2019-04-06T18:18:00+02:00
 draft: false
+categories: [www]
+tags: [www, hugo]
 ---
 
 After several years of failing to update my personal WordPress page, I restarted my website with the [Hugo framework](https://gohugo.io/).

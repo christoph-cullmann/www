@@ -2,6 +2,8 @@
 title: "Privacy and Hugo Themes"
 date: 2019-04-07T17:10:00+02:00
 draft: false
+categories: [www]
+tags: [hugo, privacy]
 ---
 
 I use the "Hugo Coder" theme for this page.

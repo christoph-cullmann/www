@@ -2,6 +2,8 @@
 title: "Kate History - KDE 4 Porting"
 date: 2019-04-12T23:50:00+02:00
 draft: false
+categories: [kde, kate, development]
+tags: [kde, kate]
 ---
 
 During my web site upgrade, I reviewed the old stuff I had hosted on my long gone web sites but still archived here locally. An interesting thing I stumbled on are the KDE 3 -> 4 porting screenshots of Kate I saved in 2005.

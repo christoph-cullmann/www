@@ -2,6 +2,8 @@
 title: "Hugo Extended on CentOS 7"
 date: 2019-04-06T22:55:00+02:00
 draft: false
+categories: [www]
+tags: [hugo, centos]
 ---
 
 After first using the Hermit theme, I moved to the Hugo Coder theme to have a nicer front page and menu at the top.
