@@ -1,6 +1,6 @@
 ---
 title: "Removing Files from Git History"
-date: 2019-04-15T20:00:00+02:00
+date: 2019-04-15T20:05:00+02:00
 draft: false
 categories: [git, development]
 tags: [git]
