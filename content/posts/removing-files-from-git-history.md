@@ -31,3 +31,5 @@ with just
 
 to not wait potential hours for the aggressive GC.
 For me that was good enough to get some estimate of the later size for my experiments before I settled to some final settings and did the real run.
+
+**And as always, if you touch your Git history: Do that only if you really need to, keep backups, check carefully that afterwards the repository is in some sensible state (`git fsck --strict` is your friend) and inform all people using that repository that they will need to do a full new clone.**
