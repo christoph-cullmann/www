@@ -28,8 +28,10 @@
         {{ .Content }}
 
         <!-- meta data at footer of content -->
+        <div class="post-meta">
         {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories" . }}{{ end }}
         {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags" . }}{{ end }}
+        </div>
       </div>
 
       <footer>
