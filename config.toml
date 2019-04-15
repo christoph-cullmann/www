@@ -25,6 +25,9 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+# add info for crawlers
+enableRobotsTXT = true
+
 [outputs]
     # JSON for search
     home = ["HTML", "RSS", "JSON"]
