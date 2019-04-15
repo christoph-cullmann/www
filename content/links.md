@@ -30,6 +30,10 @@ The libraries linked below will in most cases be for C or C++.
 
 * fast JSON parser/generator: http://rapidjson.org
 
+## Git
+
+* BFG Repo-Cleaner, fast way to remove stuff from the history: https://rtyley.github.io/bfg-repo-cleaner/
+
 ## Mail Server Stuff
 
 For my mails, I use postfix & dovecot, here some links about documentation and more.
