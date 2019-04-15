@@ -1,6 +1,6 @@
 ---
 title: "Removing Files from Git History"
-date: 2019-04-15T20:05:00+02:00
+date: 2019-04-15T20:07:00+02:00
 draft: false
 categories: [git, development]
 tags: [git]
@@ -32,4 +32,4 @@ with just
 to not wait potential hours for the aggressive GC.
 For me that was good enough to get some estimate of the later size for my experiments before I settled to some final settings and did the real run.
 
-**And as always, if you touch your Git history: Do that only if you really need to, keep backups, check carefully that afterwards the repository is in some sensible state (`git fsck --strict` is your friend) and inform all people using that repository that they will need to do a full new clone.**
+And as always, if you touch your Git history: **Do that only if you really need to, keep backups, check carefully that afterwards the repository is in some sensible state (`git fsck --strict` is your friend) and inform all people using that repository that they will need to do a full new clone.**
