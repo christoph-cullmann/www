@@ -23,11 +23,15 @@ Just following the steps described on their [landing page](https://rtyley.github
 
 If you still are just in the "experimenting" phase to see which space decrease one can archive with which file size filter (or which files you want to purge by removing them from master before running the tool), I recommend to swap the step
 
-> git reflog expire --expire=now --all && git gc --prune=now --aggressive
+{{< highlight bash >}}
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+{{< / highlight >}}
 
 with just
 
-> git reflog expire --expire=now --all && git gc --prune=now
+{{< highlight bash >}}
+git reflog expire --expire=now --all && git gc --prune=now
+{{< / highlight >}}
 
 to not wait potential hours for the aggressive GC.
 For me that was good enough to get some estimate of the later size for my experiments before I settled to some final settings and did the real run.
