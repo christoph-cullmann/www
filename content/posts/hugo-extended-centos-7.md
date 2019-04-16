@@ -18,7 +18,7 @@ To make it easier for others, to do so, just:
 
 * install golang + gcc-c++ on your CentOS 7
 * download https://github.com/gohugoio/hugo/archive/v0.54.0.tar.gz
-* execute in the source directory "go install -tags extended"
+* execute in the source directory `go install -tags extended`
 * grab the result binary in your ~/go directory
 
 If you need a pre-compiled one, on your own risk, use the one in my git, https://github.com/christoph-cullmann/cullmann.io.
