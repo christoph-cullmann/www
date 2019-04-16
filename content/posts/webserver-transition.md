@@ -24,25 +24,33 @@ Best use the raw IP as address if you are in parallel updating your DNS entries 
 
 * sync your data, assuming it is in /home and /srv/(ftp/www)
 
-> rsync --delete -av root@$SERV:/home/ /home<br>
-> rsync --delete -av root@$SERV:/srv/ftp /srv<br>
-> rsync --delete -av root@$SERV:/srv/www /srv<br>
+{{< highlight bash >}}
+rsync --delete -av root@$SERV:/home/ /home
+rsync --delete -av root@$SERV:/srv/ftp /srv
+rsync --delete -av root@$SERV:/srv/www /srv
+{{< / highlight >}}
 
 * transfer your databases
 
-> ssh root@$SERV "mysqldump -u root -p$PASS --all-databases > /root/db.sql"<br>
-> scp root@$SERV:/root/db.sql /root/<br>
-> mysql -u root -p$PASS < /root/db.sql<br>
+{{< highlight bash >}}
+ssh root@$SERV "mysqldump -u root -p$PASS --all-databases > /root/db.sql"
+scp root@$SERV:/root/db.sql /root/
+mysql -u root -p$PASS < /root/db.sql
+{{< / highlight >}}
 
 * sync configs (you might need more, this is just apache & vsftp)
 
-> rsync --delete -av root@$SERV:/etc/httpd /etc<br>
-> rsync --delete -av root@$SERV:/etc/letsencrypt /etc<br>
-> rsync --delete -av root@$SERV:/etc/vsftpd /etc<br>
+{{< highlight bash >}}
+rsync --delete -av root@$SERV:/etc/httpd /etc
+rsync --delete -av root@$SERV:/etc/letsencrypt /etc
+rsync --delete -av root@$SERV:/etc/vsftpd /etc
+{{< / highlight >}}
 
 * get crontabs over for later re-use, store them in the root home
 
-> rsync --delete -av root@$SERV:/var/spool/cron /root
+{{< highlight bash >}}
+rsync --delete -av root@$SERV:/var/spool/cron /root
+{{< / highlight >}}
 
 Now all things should be there and after some service restarts e.g. [WordPress](https://wordpress.org/) powered pages should be up-and-running again.
 
