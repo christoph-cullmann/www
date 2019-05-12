@@ -1,6 +1,6 @@
 ---
 title: "Kate LSP Client Progress"
-date: 2019-05-12T23:54:00+02:00
+date: 2019-05-13T00:02:00+02:00
 draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
@@ -15,9 +15,7 @@ For example, if you use the CMake Kate project generator and you compile Kate fr
 
 If you press ALT-1 over some identifier, you will get some debug output on the console about found links, like below:
 
-{{< highlight bash >}}
-qtc.languageclient.parse:   content:  "{\"id\":\"{812e04c6-2bca-42e3-a632-d616fdc2f7d4}\",\"jsonrpc\":\"2.0\",\"result\":[{\"range\":{\"end\":{\"character\":20,\"line\":67},\"start\":{\"character\":6,\"line\":67}},\"uri\":\"file:///local/cullmann/kde/src/kate/kate/katemainwindow.h\"}]}"
-{{< / highlight >}}
+> qtc.languageclient.parse:   content:  "{\"id\":\"{812e04c6-2bca-42e3-a632-d616fdc2f7d4}\",\"jsonrpc\":\"2.0\",\"result\":[{\"range\":{\"end\":{\"character\":20,\"line\":67},\"start\":{\"character\":6,\"line\":67}},\"uri\":\"file:///local/cullmann/kde/src/kate/kate/katemainwindow.h\"}]}"
 
 The current ALT-1 handling is a big hack, as then one just adds the current document and triggers the GotoDefinitionRequest.
 A proper implementation tracks the opened/closed documented of the editor.
