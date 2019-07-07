@@ -14,9 +14,7 @@ We have now a prototype plugin in kate.git master, see [lspclient](https://cgit.
 
 It is not compiled per default, you can turn it on via:
 
-{{< highlight bash >}}
-cmake -DCMAKE_INSTALL_PREFIX=<your prefix> -DENABLE_LSPCLIENT=ON <kate src dir>
-{{< / highlight >}}
+> cmake -DCMAKE_INSTALL_PREFIX="your prefix" -DENABLE_LSPCLIENT=ON "kate src dir"
 
 It shares no code with my initial prototype.
 The author started this without knowing of my work.
