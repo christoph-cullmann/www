@@ -1,6 +1,6 @@
 ---
 title: "Kate LSP Client Restart"
-date: 2019-07-07T15:10:00+02:00
+date: 2019-07-07T15:13:00+02:00
 draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
