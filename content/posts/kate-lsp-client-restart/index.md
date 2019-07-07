@@ -49,5 +49,5 @@ But given I just needed one hour to add the document highlight support, I would 
 => If you have time and want a good LSP client, now you can join the fun and have direct results.
 
 As the author was kind enough to move his work on the plugin to the KDE infrastructure, feel welcome to show up on [kwrite-devel@kde.org](mailto:kwrite-devel@kde.org) and help out!
-All development discussion regarding this plugin happens there.
+All development discussions regarding this plugin happen there.
 We are happy to accept patches, too, if you are a new contributor!
