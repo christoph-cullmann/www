@@ -1,6 +1,6 @@
 ---
 title: "Kate LSP Status - July 22"
-date: 2019-07-22T22:42:00+02:00
+date: 2019-07-22T22:43:00+02:00
 draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
