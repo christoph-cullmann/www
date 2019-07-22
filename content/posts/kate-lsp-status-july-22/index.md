@@ -1,6 +1,6 @@
 ---
 title: "Kate LSP Status - July 22"
-date: 2019-07-22T22:16:00+02:00
+date: 2019-07-22T22:42:00+02:00
 draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
@@ -18,7 +18,7 @@ To get a usable build directory, I build my stuff locally with [kdesrc-build](ht
 
 > cmake-options -DCMAKE_BUILD_TYPE=RelWithDebInfo -G "Kate - Unix Makefiles" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 
-This will auto generate the needed **.kateproject** files for the Kate project plugin and the **compile_commands.json** for clangd (the LSP server for C/C++ the plugin uses).
+This will auto generate the needed **.kateproject** files for the Kate project plugin and the **compile_commands.json** for **clangd** (the LSP server for C/C++ the plugin uses).
 
 If you manually build your stuff with **cmake**, you can just add the
 
@@ -33,3 +33,14 @@ Then, let's see what you can do, once you are in a prepared build directory and 
 <center><a href="https://youtu.be/w0grp9npnNA" target="_blank"><img width=500 src="images/kate-lsp-video.jpg"></a></center>
 
 I hope the quality is acceptable, that is my first try in a long time to do some screen-cast ;)
+
+As you see, this is already in a usable state at least for C/C++ in combination with **clangd**.
+
+For details how to build Kate master with it's plugins, please take a look at [this guide](https://kate-editor.org/build-it/).
+
+If you want to start to hack on the plugin, you find it in the kate.git, [addons/lspclient](https://cgit.kde.org/kate.git/tree/addons/lspclient).
+
+Feel welcome to show up on [kwrite-devel@kde.org](mailto:kwrite-devel@kde.org) and help out!
+All development discussions regarding this plugin happen there.
+
+If you are already familiar with Phabricator, post some patch directly at [KDE's Phabricator instance](https://phabricator.kde.org/differential/).
