@@ -34,7 +34,7 @@ Then, let's see what you can do, once you are in a prepared build directory and 
 
 I hope the quality is acceptable, that is my first try in a long time to do some screen-cast ;)
 
-As you see, this is already in a usable state at least for C/C++ in combination with **clangd**.
+As you can see, this is already in an usable state at least for C/C++ in combination with **clangd**.
 
 For details how to build Kate master with it's plugins, please take a look at [this guide](https://kate-editor.org/build-it/).
 
