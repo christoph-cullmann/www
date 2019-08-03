@@ -35,7 +35,7 @@ enableRobotsTXT = true
     selfHosted = true
 
     # Kate mascot
-    logo = "images/christoph_avatar.png"
+    logo = "images/christoph_logo.png"
 
     dateFormat = "January 2, 2006"
     commit = true
