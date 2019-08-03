@@ -4,6 +4,7 @@ date: 2019-04-15T20:07:00+02:00
 draft: false
 categories: [git, development]
 tags: [git]
+url: /posts/removing-files-from-git-history/
 ---
 
 Today I did run again into an old problem:

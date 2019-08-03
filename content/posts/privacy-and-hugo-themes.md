@@ -4,6 +4,7 @@ date: 2019-04-07T17:10:00+02:00
 draft: false
 categories: [www]
 tags: [hugo, privacy]
+url: /posts/privacy-and-hugo-themes/
 ---
 
 I use the "Hugo Coder" theme for this page.

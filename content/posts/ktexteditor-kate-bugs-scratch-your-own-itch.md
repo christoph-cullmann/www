@@ -4,6 +4,7 @@ date: 2019-05-26T14:25:00+02:00
 draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
+url: /posts/ktexteditor-kate-bugs-scratch-your-own-itch/
 ---
 
 Two days ago I mentioned [here](/posts/ktexteditor-kate-bugs-help-appreciated/) that the bug report count of KTextEditor and Kate has risen to some not that manageable amount.

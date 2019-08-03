@@ -4,6 +4,7 @@ date: 2019-07-07T15:13:00+02:00
 draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
+url: /posts/kate-lsp-client-restart/
 ---
 
 Since my last post about the [LSP client progress](/posts/kate-lsp-client-progress/) in May I didn't work on that project at all I think.

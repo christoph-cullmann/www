@@ -4,6 +4,7 @@ date: 2019-04-28T20:36:00+02:00
 draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
+url: /posts/kate-language-server-protocol-client/
 ---
 
 The [Language Server Protocol (LSP)](https://microsoft.github.io/language-server-protocol/overview) allows the integration of stuff like code completion, jump to definition, symbol search and more into an application without manual re-implementation for each language one wants to support.

@@ -4,6 +4,7 @@ date: 2019-07-21T15:18:00+02:00
 draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
+url: /posts/kate-lsp-status-july-21/
 ---
 
 The new LSP client by Mark Nauwelaerts keeps making nice progress.

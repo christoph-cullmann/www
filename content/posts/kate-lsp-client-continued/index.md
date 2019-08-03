@@ -4,6 +4,7 @@ date: 2019-07-14T15:33:00+02:00
 draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
+url: /posts/kate-lsp-client-continued/
 ---
 
 The new LSP client by Mark Nauwelaerts made nice progress since the [LSP client restart](/posts/kate-lsp-client-restart/) post last week.
