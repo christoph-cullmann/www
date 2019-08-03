@@ -567,10 +567,10 @@ footer .theme-by {
   }
   .intro-header .page-heading h1,
   .intro-header .tags-heading h1 {
-    font-size: 80px;
+    font-size: 40px;
   }
   .intro-header .post-heading h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
   .intro-header.big-img .img-desc {
     font-size: 14px;
@@ -756,7 +756,7 @@ div.splitbox div.right {
     padding: 15px 25px;
   }
 }
-.disqus-comments button:hover, 
+.disqus-comments button:hover,
 .disqus-comments button:focus {
   color: #FFF;
   background: #0085a1;
