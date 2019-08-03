@@ -2,17 +2,14 @@
 baseURL = "https://cullmann.io/"
 
 # cullmann.io website
-title = "cullmann.io"
+title = "Ignorance is bliss..."
 
-# theme
-theme = "hugo-coder"
+# theme hugo-coder
+theme = "beautifulhugo"
 
 # content == english, Impressum is german
 languagecode = "en"
 defaultcontentlanguage = "en"
-
-# pagination
-paginate = 20
 
 # allow git
 enableGitInfo = true
@@ -21,9 +18,10 @@ enableGitInfo = true
 canonifyurls = true
 
 # pygment settings
-pygmentsstyle = "b2"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
 
 # add info for crawlers
 enableRobotsTXT = true
