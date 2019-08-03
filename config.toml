@@ -31,40 +31,22 @@ enableRobotsTXT = true
     home = ["HTML", "RSS", "JSON"]
 
 [params]
-    # me
-    author = "Christoph Cullmann"
+    # we want to self-host stuff, no data leaks to google and co.
+    selfHosted = true
 
-    # what's this?
-    description = "Christoph Cullmann's personal website"
+    # Kate mascot
+    logo = "images/christoph_avatar.png"
 
-    # some keywords
-    keywords = "blog,developer,personal"
+    dateFormat = "January 2, 2006"
+    commit = true
+    rss = false
+    comments = false
+    readingTime = true
+    wordCount = false
+    useHLJS = true
+    socialShare = false
+    showRelatedPosts = true
 
-    # my profession
-    info = "Software Engineer"
-
-    # my cartoon variant ;=)
-    avatarurl = "images/christoph_avatar.jpg"
-
-    # ;=) how true
-    footercontent = "Ignorance is bliss..."
-
-    # nice footer
-    hideCredits = true
-    hideCopyright = false
-    commit = "https://github.com/christoph-cullmann/cullmann.io/tree/"
-
-    # no right to left
-    rtl = false
-
-    # Use inverted colors
-    inverted = true
-
-    # Series see also post count
-    maxSeeAlsoItems = 5
-
-    # Custom CSS
-    custom_css = []
 
 #
 # links to my public profiles
@@ -113,39 +95,43 @@ enableRobotsTXT = true
 [menu]
 
   [[menu.main]]
-    name = "About"
-    url = "about/"
+    name = "BLOG"
+    url = ""
     weight = 10
 
   [[menu.main]]
-    name = "Posts"
-    url = "posts/"
+    identifier = "menu"
+    name = "MORE"
     weight = 20
 
   [[menu.main]]
+    parent = "menu"
     name = "Projects"
     url = "projects/"
     weight = 30
 
   [[menu.main]]
+    parent = "menu"
     name = "Academic"
     url = "academic/"
     weight = 40
 
   [[menu.main]]
+    parent = "menu"
     name = "Links"
     url = "links/"
     weight = 50
 
   [[menu.main]]
-    name = "Search"
-    url = "search/"
-    weight = 60
-
-  [[menu.main]]
+    parent = "menu"
     name = "Impressum"
     url = "impressum/"
     weight = 70
+
+  [[menu.main]]
+    name = "ABOUT"
+    url = "about/"
+    weight = 30
 
 # maximal privacy
 [privacy]
