@@ -95,9 +95,27 @@ enableRobotsTXT = true
 [menu]
 
   [[menu.main]]
+    identifier = "blog"
     name = "BLOG"
+    weight = 10
+
+  [[menu.main]]
+    parent = "blog"
+    name = "Posts"
     url = ""
     weight = 10
+
+  [[menu.main]]
+    parent = "blog"
+    name = "Categories"
+    url = "categories/"
+    weight = 20
+
+  [[menu.main]]
+    parent = "blog"
+    name = "Tags"
+    url = "tags/"
+    weight = 30
 
   [[menu.main]]
     identifier = "menu"
