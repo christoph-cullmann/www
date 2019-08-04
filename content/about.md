@@ -1,5 +1,6 @@
 +++
 title = "About"
+author = "Christoph Cullmann"
 +++
 
 cullmann.io is the personal web site of Christoph Cullmann.

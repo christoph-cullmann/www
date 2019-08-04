@@ -5,6 +5,7 @@ draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
 url: /posts/ktexteditor-kate-bugs-scratch-your-own-itch/
+author: "Christoph Cullmann"
 ---
 
 Two days ago I mentioned [here](/posts/ktexteditor-kate-bugs-help-appreciated/) that the bug report count of KTextEditor and Kate has risen to some not that manageable amount.

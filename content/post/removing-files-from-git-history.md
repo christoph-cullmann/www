@@ -5,6 +5,7 @@ draft: false
 categories: [git, development]
 tags: [git]
 url: /posts/removing-files-from-git-history/
+author: "Christoph Cullmann"
 ---
 
 Today I did run again into an old problem:

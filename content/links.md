@@ -1,5 +1,6 @@
 +++
 title = "Links"
+author = "Christoph Cullmann"
 +++
 
 Links to stuff I often use/read/...

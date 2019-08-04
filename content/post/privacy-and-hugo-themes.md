@@ -5,6 +5,7 @@ draft: false
 categories: [www]
 tags: [hugo, privacy]
 url: /posts/privacy-and-hugo-themes/
+author: "Christoph Cullmann"
 ---
 
 I use the "Hugo Coder" theme for this page.

@@ -5,6 +5,7 @@ draft: false
 categories: [kde, qt, development]
 tags: [kde, qt]
 url: /posts/qt-creator-4-9-uses-ksyntaxhighlighting/
+author: "Christoph Cullmann"
 ---
 
 As you can read in the [official Creator 4.9.0 release announcement](https://blog.qt.io/blog/2019/04/15/qt-creator-4-9-0-released/), Qt Creator now uses the [KSyntaxHighlighting Framework](https://api.kde.org/frameworks/syntax-highlighting/html/index.html) for providing the [generic highlighting](https://doc.qt.io/qtcreator/creator-highlighting.html#generic-highlighting).

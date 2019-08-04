@@ -5,6 +5,7 @@ draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
 url: /posts/kate-cpp-developer-survey/
+author: "Christoph Cullmann"
 ---
 
 While browsing the [ISO C++ homepage](https://isocpp.org) I stumbled over the [results PDF](https://isocpp.org/files/papers/CppDevSurvey-2019-04-summary.pdf) of the [Second Annual C++ Foundation Developer Survey “Lite”](https://isocpp.org/blog/2019/05/results-summary-2019-global-developer-survey-lite).

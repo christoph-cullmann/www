@@ -5,6 +5,7 @@ draft: false
 categories: [www]
 tags: [hugo, centos]
 url: /posts/hugo-extended-centos-7/
+author: "Christoph Cullmann"
 ---
 
 After first using the Hermit theme, I moved to the Hugo Coder theme to have a nicer front page and menu at the top.

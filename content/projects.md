@@ -1,5 +1,6 @@
 +++
 title = "Open Source Projects"
+author = "Christoph Cullmann"
 +++
 
 ## KDE

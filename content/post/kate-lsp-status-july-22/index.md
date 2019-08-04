@@ -5,6 +5,7 @@ draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
 url: /posts/kate-lsp-status-july-22/
+author: "Christoph Cullmann"
 ---
 
 After my series of LSP client posts, I got the question: What does this actually do? And why should I like this or help with it?

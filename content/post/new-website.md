@@ -5,6 +5,7 @@ draft: false
 categories: [www]
 tags: [hugo]
 url: /posts/new-website/
+author: "Christoph Cullmann"
 ---
 
 After several years of failing to update my personal WordPress page, I restarted my website with the [Hugo framework](https://gohugo.io/).

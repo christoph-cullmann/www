@@ -5,6 +5,7 @@ draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
 url: /posts/ktexteditor-kate-bugs-help-appreciated/
+author: "Christoph Cullmann"
 ---
 
 The bug report count of KTextEditor (implementing the editing part used in Kate/KWrite/KDevelop/Kile/...) and Kate itself reached again

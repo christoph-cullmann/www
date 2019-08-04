@@ -5,6 +5,7 @@ draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
 url: /posts/kate-lsp-client-progress/
+author: "Christoph Cullmann"
 ---
 
 The [Kate lsp branch](https://cgit.kde.org/kate.git/log/?h=lsp) contains now the infrastructure as used by Qt Creator.
