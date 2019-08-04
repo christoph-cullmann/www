@@ -6,10 +6,11 @@ set -e
 # update our clone
 git pull -q &> /dev/null
 
-# rerun hugo generator
 # export the GIT env vars we need to have links in the footer
 export GIT_COMMIT_SHA=`git rev-parse --verify HEAD`
 export GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD`
+
+# rerun hugo generator
 ./hugo --minify
 
 # copy .htaccess
