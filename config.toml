@@ -26,6 +26,10 @@ pygmentsCodefencesGuessSyntax = true
 # add info for crawlers
 enableRobotsTXT = true
 
+# default author
+[Author]
+    name = "Christoph Cullmann"
+
 [outputs]
     # JSON for search
     home = ["HTML", "RSS", "JSON"]
@@ -102,7 +106,7 @@ enableRobotsTXT = true
   [[menu.main]]
     parent = "blog"
     name = "Posts"
-    url = ""
+    url = "post/"
     weight = 10
 
   [[menu.main]]
