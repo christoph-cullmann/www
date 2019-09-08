@@ -9,7 +9,7 @@ I work on various projects that are under the [KDE](https://www.kde.org/) umbrel
 
 * The Kate editor, a full-featured text editor
  * https://kate-editor.org/
- * https://cgit.kde.org/kate.git/
+ * https://invent.kde.org/kde/kate/
 
 * The KTextEditor framework, a versatile text editor component
  * https://api.kde.org/frameworks/ktexteditor/html/
