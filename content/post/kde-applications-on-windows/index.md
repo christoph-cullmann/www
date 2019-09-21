@@ -1,6 +1,6 @@
 ---
 title: "KDE applications on Windows"
-date: 2019-09-21T22:47:00+02:00
+date: 2019-09-21T23:13:00+02:00
 draft: false
 categories: [kde, development]
 tags: [kde]
@@ -53,15 +53,15 @@ Direct links to the store entries can be found below (the screenshots are in Ger
 
 * [Okular - more than a reader](https://www.microsoft.com/store/apps/9N41MSQ1WNM8)
 
-<center><a href="/posts/kde-applications-on-windows/images/okular-on-windows.png" target="_blank"><img width=500 src="images/okular-on-windows.png"></a></center>
+<center><a href="/posts/kde-applications-on-windows/images/okular-on-windows.png" target="_blank"><img width=500 src="/posts/kde-applications-on-windows/images/okular-on-windows.png"></a></center>
 
 * [Kate - Advanced Text Editor](https://www.microsoft.com/store/apps/9NWMW7BB59HW)
 
-<center><a href="/posts/kde-applications-on-windows/images/kate-on-windows.png" target="_blank"><img width=500 src="images/kate-on-windows.png"></a></center>
+<center><a href="/posts/kde-applications-on-windows/images/kate-on-windows.png" target="_blank"><img width=500 src="/posts/kde-applications-on-windows/images/kate-on-windows.png"></a></center>
 
 * [KStars - Astronomy Software](https://www.microsoft.com/store/apps/9PPRZ2QHLXTG)
 
-<center><a href="/posts/kde-applications-on-windows/images/kstars-on-windows.png" target="_blank"><img width=500 src="images/kstars-on-windows.png"></a></center>
+<center><a href="/posts/kde-applications-on-windows/images/kstars-on-windows.png" target="_blank"><img width=500 src="/posts/kde-applications-on-windows/images/kstars-on-windows.png"></a></center>
 
 #### Help Wanted!
 
