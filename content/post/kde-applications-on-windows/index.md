@@ -87,3 +87,5 @@ The [KDE Binary Factory](https://binary-factory.kde.org/) outputs normal install
 
 The Microsoft Store is just a good way to advertise our applications to a broader scope of potential users.
 The KDE e.V. published applications are there available for free but you can use any other means to install them.
+
+Feel free to join the discussion at the [KDE reddit](https://www.reddit.com/r/kde/comments/d7g44o/kde_applications_on_windows_whats_the_current/).
