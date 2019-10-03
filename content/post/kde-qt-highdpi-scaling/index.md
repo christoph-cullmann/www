@@ -1,6 +1,6 @@
 ---
 title: "KDE & Qt Applications and High DPI Displays with Scaling"
-date: 2019-10-03T18:20:00+02:00
+date: 2019-10-03T18:22:00+02:00
 draft: false
 categories: [kde, qt, development]
 tags: [kde, qt]
@@ -156,3 +156,7 @@ For details, just read up about how stuff like 0.1 or 0.2 is represented ;=)
 * [Binary Fractions](https://floating-point-gui.de/formats/binary/)
 
 You can ignore that advice and scale like you want, but I won't take care of the artifacts that remain for e.g. 1.1 scaling in some corner cases ;=)
+
+### Discussion
+
+Feel free to join the discussion at the [KDE reddit](https://www.reddit.com/r/kde/comments/dct6r1/kde_qt_applications_and_high_dpi_displays_with/).
