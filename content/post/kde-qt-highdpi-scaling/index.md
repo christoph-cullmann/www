@@ -1,6 +1,6 @@
 ---
 title: "KDE & Qt Applications and High DPI Displays with Scaling"
-date: 2019-10-03T18:22:00+02:00
+date: 2019-10-03T18:40:00+02:00
 draft: false
 categories: [kde, qt, development]
 tags: [kde, qt]
@@ -10,13 +10,13 @@ author: "Christoph Cullmann"
 
 ### What is a High DPI Display?
 
-In the past, most displays had (or the OS pretended to have) around [96 DPI](https://en.wikipedia.org/wiki/Dots_per_inch#Computer_monitor_DPI_standards), more or less.
+In the past, most displays had (or the OS pretended to have) around [96 PPI](https://en.wikipedia.org/wiki/Dots_per_inch#Computer_monitor_DPI_standards), more or less.
 
 If you differed a bit and had too small/large UI elements, you mostly just resized your default font size a bit and were kind of happy.
 
-In the last years, more and more displays arise that have a much higher DPI, which allows for e.g. very crisp rendering of text.
+In the last years, more and more displays arise that have a much higher PPI values, which allows for e.g. very crisp rendering of text.
 
-I arrived late in that era for my Linux machines by now starting to use two 163 DPI displays.
+I arrived late in that era for my Linux machines by now starting to use two 163 PPI displays.
 
 Just tweaking your fonts doesn't help here, all other things will still be unbearable small, even if you in addition increase e.g. icon sizes.
 
@@ -42,7 +42,7 @@ Let's take a look at how this works out in practice using the latest stable rele
 * KDE Frameworks 5.62.0
 * Qt 5.13.1
 
-My setup for the below experiments are two 163 DPI displays with scale factor 1.5.
+My setup for the below experiments are two 163 PPI displays with scale factor 1.5.
 
 I use some [Manjaro Linux](https://manjaro.org/) with open-source AMD drivers for some average middle class card.
 
