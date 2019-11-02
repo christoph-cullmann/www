@@ -11,7 +11,7 @@ export GIT_COMMIT_SHA=`git rev-parse --verify HEAD`
 export GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD`
 
 # rerun hugo generator
-./hugo --minify
+./hugo --minify --noTimes
 
 # copy .htaccess
 cp -f static/.htaccess public
