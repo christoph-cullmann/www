@@ -28,7 +28,7 @@ I did assume that the project won't compile & link without adjustments, as CompC
 But that it directly ends at the compiler initialization in the build system itself was astonishing.
 
 I searched a bit in the internet and it seems, if I really want to get this working, I actually need to patch Meson itself :/
-(see how to add a new compiler [here](https://github.com/mesonbuild/meson/commit/74602928100394f6129e064f8e0bfe6c9e08c9d2#diff-1eaa302b42bbbba32f1c6d474d08397e)
+(see how to add a new compiler [here](https://github.com/mesonbuild/meson/commit/74602928100394f6129e064f8e0bfe6c9e08c9d2#diff-1eaa302b42bbbba32f1c6d474d08397e))
 
 At least I found no other solution, actually, I found no real solution for the above error message at all and the code looks like you need to manually add compilers anyways.
 
