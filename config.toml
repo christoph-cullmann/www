@@ -26,6 +26,12 @@ pygmentsCodefencesGuessSyntax = true
 # add info for crawlers
 enableRobotsTXT = true
 
+# we want raw HTML
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 # default author
 [Author]
     name = "Christoph Cullmann"

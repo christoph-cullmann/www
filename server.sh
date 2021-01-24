@@ -8,4 +8,4 @@ export GIT_COMMIT_SHA=`git rev-parse --verify HEAD`
 export GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD`
 
 # run hugo in local server mode, show all stuff
-exec ./hugo server -D --buildFuture
+exec hugo server -D --buildFuture

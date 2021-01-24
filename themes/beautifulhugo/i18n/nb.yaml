@@ -4,9 +4,9 @@
 - id: shortdateFormat
   translation: "2 Jan, 2006 15:04:05"
 - id: postedOnDate
-  translation: "Postet {{ .Count }}"
+  translation: "Postet {{ . }}"
 - id: lastModified
-  translation: "(Sist endret {{ .Count }})"
+  translation: "(Sist endret {{ . }})"
 - id: translationsLabel
   translation: "Andre språk: "
 - id: translationsSeparator
@@ -67,7 +67,7 @@
 - id: show
   translation: "Vis"
 - id: comments
-  translation: "kommentarer" 
+  translation: "kommentarer"
 
 # Related posts
 - id: seeAlso
