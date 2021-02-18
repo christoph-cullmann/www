@@ -5,14 +5,23 @@ baseURL = "https://cullmann.io/"
 title = "Ignorance is bliss..."
 
 # theme hugo-coder
-theme = "beautifulhugo"
+theme = "LoveIt"
 
 # content == english, Impressum is german
 languagecode = "en"
-defaultcontentlanguage = "en"
+defaultContentLanguage = "en"
 
-# allow git
+# whether to use robots.txt
+# 是否使用 robots.txt
+enableRobotsTXT = true
+
+# whether to use git commit log
+# 是否使用 git 信息
 enableGitInfo = true
+
+# whether to use emoji code
+# 是否使用 emoji 代码
+enableEmoji = true
 
 # nice urls
 canonifyurls = true
@@ -23,8 +32,164 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
-# add info for crawlers
-enableRobotsTXT = true
+[languages]
+  [languages.en]
+    weight = 1
+    # language code
+    languageCode = "en"
+    # language name
+    languageName = "English"
+    # whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = false
+    # default amount of posts in each pages
+    paginate = 12
+    # [UA-XXXXXXXX-X] google analytics code
+    googleAnalytics = ""
+    # copyright description used only for seo schema
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    # Menu config
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "Posts"
+        url = "/posts/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "Tags"
+        url = "/tags/"
+        title = ""
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "Categories"
+        url = "/categories/"
+        title = ""
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        pre = ""
+        post = ""
+        name = "Projects"
+        url = "/projects/"
+        title = ""
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "academic"
+        pre = ""
+        post = ""
+        name = "Academic"
+        url = "/academic/"
+        title = ""
+        weight = 5
+      [[languages.en.menu.main]]
+        identifier = "links"
+        pre = ""
+        post = ""
+        name = "Links"
+        url = "/links/"
+        title = ""
+        weight = 6
+      [[languages.en.menu.main]]
+        identifier = "impressum"
+        pre = ""
+        post = ""
+        name = "Impressum"
+        url = "/impressum/"
+        title = ""
+        weight = 7
+      [[languages.en.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+        weight = 8
+
+    [languages.en.params]
+      # site description
+      description = "Ignorance is bliss..."
+      # site keywords
+      keywords = ["Christoph", "Cullmann"]
+      # App icon config
+      [languages.en.params.app]
+        # optional site title override for the app when added to an iOS home screen or Android launcher
+        title = "Ignorance is bliss..."
+        # whether to omit favicon resource links
+        noFavicon = false
+        # modern SVG favicon to use in place of older style .png and .ico files
+        svgFavicon = ""
+        # Android browser theme color
+        themeColor = "#ffffff"
+        # Safari mask icon color
+        iconColor = "#5bbad5"
+        # Windows v8-10 tile color
+        tileColor = "#da532c"
+
+      # Search config
+      [languages.en.params.search]
+        enable = true
+        # type of search engine ("lunr", "algolia")
+        type = "lunr"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+
+      # Home page config
+      [languages.en.params.home]
+        # amount of RSS pages
+        rss = 10
+        # Home page profile
+        [languages.en.params.home.profile]
+          enable = true
+          # Gravatar Email for preferred avatar in home page
+          gravatarEmail = ""
+          # URL of avatar shown in home page
+          avatarURL = "/images/christoph_avatar.png"
+          # title shown in home page (HTML format is supported)
+          title = ""
+          # subtitle shown in home page
+          subtitle = "Christoph Cullmann's personal website"
+          # whether to use typeit animation for subtitle
+          typeit = true
+          # whether to show social links
+          social = true
+          # disclaimer (HTML format is supported)
+          disclaimer = ""
+        # Home page posts
+        [languages.en.params.home.posts]
+          enable = true
+          # special amount of posts in each home posts page
+          paginate = 6
+      # Social config in home page
+      [languages.en.params.social]
+        GitHub = "christoph-cullmann"
+        Twitter = "ChrCullmann"
+        Gitlab = "cullmann"
+        Youtubecustom = "ChristophCullmann"
+        Reddit = "ChristophCullmann"
+        Email = "christoph@cullmann.io"
+        RSS = true
 
 # we want raw HTML
 [markup]
@@ -36,18 +201,31 @@ enableRobotsTXT = true
 [Author]
     name = "Christoph Cullmann"
 
-[outputs]
-    # JSON for search
-    home = ["HTML", "RSS", "JSON"]
-
 [params]
-    # we want to self-host stuff, no data leaks to google and co.
-    selfHosted = true
+    # LoveIt theme version
+    # LoveIt 主题版本
+    version = "0.2.X"
 
-    # Kate mascot
-    logo = "images/christoph_logo.png"
+    # site default theme ("light", "dark", "auto")
+    # 网站默认主题 ("light", "dark", "auto")
+    defaultTheme = "auto"
 
+    # public git repo url only then enableGitInfo is true
+    # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
+    gitRepo = "https://github.com/christoph-cullmann/cullmann.io"
+
+    # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
+    # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
+    fingerprint = ""
+
+    # date format
+    # 日期格式
     dateFormat = "January 2, 2006"
+
+    # website images for Open Graph and Twitter Cards
+    # 网站图片, 用于 Open Graph 和 Twitter Cards
+    images = ["images/christoph_logo.png"]
+
     commit = true
     rss = false
     comments = false
@@ -56,110 +234,6 @@ enableRobotsTXT = true
     useHLJS = true
     socialShare = false
     showRelatedPosts = true
-
-
-#
-# links to my public profiles
-#
-
-[[params.social]]
-    name = "E-Mail"
-    icon = "fa fa-envelope"
-    weight = 1
-    url = "mailto:christoph@cullmann.io"
-
-[[params.social]]
-    name = "GitHub"
-    icon = "fab fa-github"
-    weight = 2
-    url = "https://github.com/christoph-cullmann/"
-
-[[params.social]]
-    name = "GitLab"
-    icon = "fab fa-gitlab"
-    weight = 3
-    url = "https://gitlab.com/cullmann"
-
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
-    weight = 4
-    url = "https://twitter.com/ChrCullmann/"
-
-[[params.social]]
-    name = "YouTube"
-    icon = "fab fa-youtube"
-    weight = 5
-    url = "https://www.youtube.com/c/ChristophCullmann/"
-
-[[params.social]]
-    name = "amazon.de"
-    icon = "fab fa-amazon"
-    weight = 6
-    url = "https://www.amazon.de/gp/profile/amzn1.account.AGWKWWFPCHLCW6E33CEFF7XKIHAQ"
-
-#
-# main menu
-#
-
-[menu]
-
-  [[menu.main]]
-    identifier = "blog"
-    name = "BLOG"
-    weight = 10
-
-  [[menu.main]]
-    parent = "blog"
-    name = "Posts"
-    url = "post/"
-    weight = 10
-
-  [[menu.main]]
-    parent = "blog"
-    name = "Categories"
-    url = "categories/"
-    weight = 20
-
-  [[menu.main]]
-    parent = "blog"
-    name = "Tags"
-    url = "tags/"
-    weight = 30
-
-  [[menu.main]]
-    identifier = "menu"
-    name = "MORE"
-    weight = 20
-
-  [[menu.main]]
-    parent = "menu"
-    name = "Projects"
-    url = "projects/"
-    weight = 30
-
-  [[menu.main]]
-    parent = "menu"
-    name = "Academic"
-    url = "academic/"
-    weight = 40
-
-  [[menu.main]]
-    parent = "menu"
-    name = "Links"
-    url = "links/"
-    weight = 50
-
-  [[menu.main]]
-    parent = "menu"
-    name = "Impressum"
-    url = "impressum/"
-    weight = 70
-
-  [[menu.main]]
-    name = "ABOUT"
-    url = "about/"
-    weight = 30
 
 # maximal privacy
 [privacy]
@@ -175,3 +249,25 @@ enableRobotsTXT = true
     disable = true
   [privacy.youtube]
     disable = true
+
+# Options to make output .md files
+# 用于输出 Markdown 格式文档的设置
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+# Options to make output .md files
+# 用于输出 Markdown 格式文档的设置
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+# Options to make hugo output files
+# 用于 Hugo 输出文档的设置
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
