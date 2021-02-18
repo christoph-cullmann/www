@@ -233,13 +233,7 @@ pygmentsCodefencesGuessSyntax = true
   # Cookie consent config
   # Cookie 许可配置
   [params.cookieconsent]
-    enable = false
-    # text strings used for Cookie consent banner
-    # 用于 Cookie 许可横幅的文本字符串
-    [params.cookieconsent.content]
-      message = ""
-      dismiss = ""
-      link = ""
+    enable = true
 
 # Markup related configuration in Hugo
 # Hugo 解析文档的配置
