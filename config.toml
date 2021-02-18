@@ -61,21 +61,13 @@ pygmentsCodefencesGuessSyntax = true
         title = ""
         weight = 1
       [[languages.en.menu.main]]
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Tags"
-        url = "/tags/"
-        title = ""
-        weight = 2
-      [[languages.en.menu.main]]
         identifier = "categories"
         pre = ""
         post = ""
         name = "Categories"
         url = "/categories/"
         title = ""
-        weight = 3
+        weight = 2
       [[languages.en.menu.main]]
         identifier = "projects"
         pre = ""
@@ -83,7 +75,7 @@ pygmentsCodefencesGuessSyntax = true
         name = "Projects"
         url = "/projects/"
         title = ""
-        weight = 4
+        weight = 3
       [[languages.en.menu.main]]
         identifier = "academic"
         pre = ""
@@ -91,7 +83,7 @@ pygmentsCodefencesGuessSyntax = true
         name = "Academic"
         url = "/academic/"
         title = ""
-        weight = 5
+        weight = 4
       [[languages.en.menu.main]]
         identifier = "links"
         pre = ""
@@ -99,7 +91,7 @@ pygmentsCodefencesGuessSyntax = true
         name = "Links"
         url = "/links/"
         title = ""
-        weight = 6
+        weight = 5
       [[languages.en.menu.main]]
         identifier = "about"
         pre = ""
@@ -107,7 +99,7 @@ pygmentsCodefencesGuessSyntax = true
         name = "About"
         url = "/about/"
         title = ""
-        weight = 7
+        weight = 6
       [[languages.en.menu.main]]
         identifier = "impressum"
         pre = ""
@@ -115,7 +107,7 @@ pygmentsCodefencesGuessSyntax = true
         name = "Impressum"
         url = "/impressum/"
         title = ""
-        weight = 8
+        weight = 7
 
     [languages.en.params]
       # site description
