@@ -101,19 +101,19 @@ pygmentsCodefencesGuessSyntax = true
         title = ""
         weight = 6
       [[languages.en.menu.main]]
-        identifier = "impressum"
-        pre = ""
-        post = ""
-        name = "Impressum"
-        url = "/impressum/"
-        title = ""
-        weight = 7
-      [[languages.en.menu.main]]
         identifier = "about"
         pre = ""
         post = ""
         name = "About"
         url = "/about/"
+        title = ""
+        weight = 7
+      [[languages.en.menu.main]]
+        identifier = "impressum"
+        pre = ""
+        post = ""
+        name = "Impressum"
+        url = "/impressum/"
         title = ""
         weight = 8
 

@@ -3,7 +3,7 @@ title = "Impressum"
 author = "Christoph Cullmann"
 +++
 
-## Angaben gemäß § 5 TMG:
+## Angaben gemäß § 5 TMG
 
 > Dr.-Ing. Christoph Cullmann<br>
 > Lessingstrasse 61<br>
@@ -43,7 +43,7 @@ Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen Bereich) mit Ansc
 
 ### Erfassung allgemeiner Informationen beim Besuch unserer Website
 
-#### Art und Zweck der Verarbeitung:
+#### Art und Zweck der Verarbeitung
 
 Wenn Sie auf unsere Website zugreifen, d.h., wenn Sie sich nicht registrieren oder anderweitig Informationen übermitteln, werden automatisch Informationen allgemeiner Natur erfasst. Diese Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das verwendete Betriebssystem, den Domainnamen Ihres Internet-Service-Providers, Ihre IP-Adresse und ähnliches.
 
@@ -56,24 +56,88 @@ Sie werden insbesondere zu folgenden Zwecken verarbeitet:
 
 Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre Person zu ziehen. Informationen dieser Art werden von uns ggfs. statistisch ausgewertet, um unseren Internetauftritt und die dahinterstehende Technik zu optimieren.
 
-#### Rechtsgrundlage:
+#### Rechtsgrundlage
 
 Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten Interesses an der Verbesserung der Stabilität und Funktionalität unserer Website.
 
-#### Empfänger:
+#### Empfänger
 
 Empfänger der Daten sind ggf. technische Dienstleister, die für den Betrieb und die Wartung unserer Webseite als Auftragsverarbeiter tätig werden.
 
-#### Speicherdauer:
+#### Speicherdauer
 
 Die Daten werden gelöscht, sobald diese für den Zweck der Erhebung nicht mehr erforderlich sind. Dies ist für die Daten, die der Bereitstellung der Webseite dienen, grundsätzlich der Fall, wenn die jeweilige Sitzung beendet ist.
 
-#### Bereitstellung vorgeschrieben oder erforderlich:
+#### Bereitstellung vorgeschrieben oder erforderlich
 
 Die Bereitstellung der vorgenannten personenbezogenen Daten ist weder gesetzlich noch vertraglich vorgeschrieben. Ohne die IP-Adresse ist jedoch der Dienst und die Funktionsfähigkeit unserer Website nicht gewährleistet. Zudem können einzelne Dienste und Services nicht verfügbar oder eingeschränkt sein. Aus diesem Grund ist ein Widerspruch ausgeschlossen.
 
+### Cookies
+
+Wie viele andere Webseiten verwenden wir auch so genannte „Cookies“. Bei Cookies handelt es sich um kleine Textdateien, die auf Ihrem Endgerät (Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie unsere Webseite besuchen.
+
+Sie können Sie einzelne Cookies oder den gesamten Cookie-Bestand löschen. Darüber hinaus erhalten Sie Informationen und Anleitungen, wie diese Cookies gelöscht oder deren Speicherung vorab blockiert werden können. Je nach Anbieter Ihres Browsers finden Sie die notwendigen Informationen unter den nachfolgenden Links:
+
+- Mozilla Firefox: https://support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen
+- Internet Explorer: https://support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies
+- Google Chrome: https://support.google.com/accounts/answer/61416?hl=de
+- Opera: http://www.opera.com/de/help
+- Safari: https://support.apple.com/kb/PH17191?locale=de_DE&viewlocale=de_DE
+
+#### Speicherdauer und eingesetzte Cookies
+
+Soweit Sie uns durch Ihre Browsereinstellungen oder Zustimmung die Verwendung von Cookies erlauben, können folgende Cookies auf unseren Webseiten zum Einsatz kommen:
+
+- Speicherung von hell/dunkel Schema
+- Speicherung ob Cookie Banner akzeptiert wurde
+
+### Technisch notwendige Cookies
+
+#### Art und Zweck der Verarbeitung
+
+Wir setzen Cookies ein, um unsere Website nutzerfreundlicher zu gestalten. Einige Elemente unserer Internetseite erfordern es, dass der aufrufende Browser auch nach einem Seitenwechsel identifiziert werden kann.
+
+Der Zweck der Verwendung technisch notwendiger Cookies ist, die Nutzung von Websites für die Nutzer zu vereinfachen. Einige Funktionen unserer Internetseite können ohne den Einsatz von Cookies nicht angeboten werden. Für diese ist es erforderlich, dass der Browser auch nach einem Seitenwechsel wiedererkannt wird.
+
+Für folgende Anwendungen benötigen wir Cookies:
+
+- Speicherung von hell/dunkel Schema
+- Speicherung ob Cookie Banner akzeptiert wurde
+
+#### Rechtsgrundlage und berechtigtes Interesse
+
+Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten Interesses an einer nutzerfreundlichen Gestaltung unserer Website.
+
+#### Empfänger
+
+Empfänger der Daten sind ggf. technische Dienstleister, die für den Betrieb und die Wartung unserer Website als Auftragsverarbeiter tätig werden.
+
+#### Bereitstellung vorgeschrieben oder erforderlich
+
+Die Bereitstellung der vorgenannten personenbezogenen Daten ist weder gesetzlich noch vertraglich vorgeschrieben. Ohne diese Daten ist jedoch der Dienst und die Funktionsfähigkeit unserer Website nicht gewährleistet. Zudem können einzelne Dienste und Services nicht verfügbar oder eingeschränkt sein.
+
+#### Widerspruch
+
+Lesen Sie dazu die Informationen über Ihr Widerspruchsrecht nach Art. 21 DSGVO weiter unten.
+
 ### SSL-Verschlüsselung
+
 Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z. B. SSL) über HTTPS.
+
+### Information über Ihr Widerspruchsrecht nach Art. 21 DSGVO
+
+#### Einzelfallbezogenes Widerspruchsrecht
+
+Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung Sie betreffender personenbezogener Daten, die aufgrund Art. 6 Abs. 1 lit. f DSGVO (Datenverarbeitung auf der Grundlage einer Interessenabwägung) erfolgt, Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmung gestütztes Profiling im Sinne von Art. 4 Nr. 4 DSGVO.
+
+Legen Sie Widerspruch ein, werden wir Ihre personenbezogenen Daten nicht mehr verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
+
+#### Empfänger eines Widerspruchs
+
+> Dr.-Ing. Christoph Cullmann<br>
+> Lessingstrasse 61<br>
+> 66121 Saarbrücken<br>
+> Deutschland
 
 ### Änderung unserer Datenschutzbestimmungen
 
