@@ -1,0 +1,2 @@
+# own 404 handler
+ErrorDocument 404 /404.html
