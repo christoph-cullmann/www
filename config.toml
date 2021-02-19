@@ -206,6 +206,24 @@ pygmentsCodefencesGuessSyntax = true
     # 网站图片, 用于 Open Graph 和 Twitter Cards
     images = ["images/christoph_logo.png"]
 
+  # Section (all posts) page config
+  [params.section]
+    # special amount of posts in each section page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "01-02"
+    # amount of RSS pages
+    #rss = 10
+
+  # List (category or tag) page config
+  [params.list]
+    # special amount of posts in each list page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "01-02"
+    # amount of RSS pages
+    #rss = 10
+
   # Page config
   [params.page]
     # whether to hide a page from home page
@@ -256,6 +274,10 @@ pygmentsCodefencesGuessSyntax = true
   # Cookie 许可配置
   [params.cookieconsent]
     enable = true
+
+  # Analytics config
+  [params.analytics]
+    enable = false
 
 # Markup related configuration in Hugo
 # Hugo 解析文档的配置
