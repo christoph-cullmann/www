@@ -13,8 +13,5 @@ export GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD`
 # rerun hugo generator
 hugo --minify --noTimes
 
-# copy .htaccess
-cp -f static/.htaccess public
-
 # current date
 date -Iseconds
