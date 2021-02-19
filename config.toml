@@ -143,7 +143,7 @@ pygmentsCodefencesGuessSyntax = true
       # Home page config
       [languages.en.params.home]
         # amount of RSS pages
-        rss = 10
+        rss = 10000
         # Home page profile
         [languages.en.params.home.profile]
           enable = true
