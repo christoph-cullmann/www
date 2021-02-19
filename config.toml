@@ -206,15 +206,6 @@ pygmentsCodefencesGuessSyntax = true
     # 网站图片, 用于 Open Graph 和 Twitter Cards
     images = ["images/christoph_logo.png"]
 
-    commit = true
-    rss = false
-    comments = false
-    readingTime = true
-    wordCount = false
-    useHLJS = true
-    socialShare = false
-    showRelatedPosts = true
-
   # Page config
   [params.page]
     # whether to hide a page from home page
