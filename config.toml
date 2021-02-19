@@ -213,7 +213,7 @@ pygmentsCodefencesGuessSyntax = true
     # date format (month and day)
     dateFormat = "01-02"
     # amount of RSS pages
-    rss = -1
+    rss = 10000
 
   # List (category or tag) page config
   [params.list]
@@ -222,7 +222,7 @@ pygmentsCodefencesGuessSyntax = true
     # date format (month and day)
     dateFormat = "01-02"
     # amount of RSS pages
-    rss = -1
+    rss = 10000
 
   # Page config
   [params.page]
