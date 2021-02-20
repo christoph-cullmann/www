@@ -26,7 +26,7 @@ The e.V. shall stay a representation of the currently active KDE contributors/co
 
 Just take a look at the [2002 e.V. meeting](https://ev.kde.org/reports/2002/) group photo below:
 
-<center><a href="/posts/join-the-kde-ev/images/2002_meeting.png" target="_blank"><img width=700 src="/posts/join-the-kde-ev/images/2002_meeting.png"></a></center>
+<center><a href="/posts/join-the-kde-ev/images/2002_meeting.png" target="_blank"><img width=700 src="/posts/join-the-kde-ev/images/2002_meeting_small.jpg"></a></center>
 
 A few of this people are still active, some of them many of the current active KDE community members have never heard of.
 The group pictured above isn't that diverse either.
@@ -36,7 +36,7 @@ I actually fished that picture out of my private data storage .P
 
 Let's take a look at the Akademy 2020 group photo below (CC BY 4.0, created by the Akademy team):
 
-<center><a href="/posts/join-the-kde-ev/images/akademy2020_group_photo_1080.png" target="_blank"><img width=700 src="/posts/join-the-kde-ev/images/akademy2020_group_photo_1080.png"></a></center>
+<center><a href="/posts/join-the-kde-ev/images/akademy2020_group_photo_1080.png" target="_blank"><img width=700 src="/posts/join-the-kde-ev/images/akademy2020_group_photo_1080_small.jpg"></a></center>
 
 This looks a lot more like the KDE community we all know and love.
 Therefore it would be fantastic if active people take care to join the e.V., too!
