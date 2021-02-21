@@ -6,6 +6,9 @@ categories: [kde, kate, development]
 tags: [kde, kate]
 url: /posts/kate-lsp-client-continued/
 author: "Christoph Cullmann"
+resources:
+  - name: "featured-image-preview"
+    src: "images/kate-diagnostics.png"
 ---
 
 The new LSP client by Mark Nauwelaerts made nice progress since the [LSP client restart](/posts/kate-lsp-client-restart/) post last week.

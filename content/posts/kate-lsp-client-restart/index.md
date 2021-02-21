@@ -6,6 +6,9 @@ categories: [kde, kate, development]
 tags: [kde, kate]
 url: /posts/kate-lsp-client-restart/
 author: "Christoph Cullmann"
+resources:
+  - name: "featured-image-preview"
+    src: "images/kate-auto-completion.png"
 ---
 
 Since my last post about the [LSP client progress](/posts/kate-lsp-client-progress/) in May I didn't work on that project at all I think.

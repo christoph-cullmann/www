@@ -6,6 +6,9 @@ categories: [kde, kate, development]
 tags: [kde, kate]
 url: /posts/kate-lsp-status-july-21/
 author: "Christoph Cullmann"
+resources:
+  - name: "featured-image-preview"
+    src: "images/kate-hover.png"
 ---
 
 The new LSP client by Mark Nauwelaerts keeps making nice progress.

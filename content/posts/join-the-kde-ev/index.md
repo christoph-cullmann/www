@@ -6,6 +6,9 @@ categories: [kde]
 tags: [kde]
 url: /posts/join-the-kde-ev/
 author: "Christoph Cullmann"
+resources:
+  - name: "featured-image-preview"
+    src: "images/akademy2020_group_photo_1080_small.jpg"
 ---
 
 The [KDE e.V.](https://ev.kde.org) is a registered non-profit organization that represents the [KDE Community](https://www.kde.org) in legal and financial matters.

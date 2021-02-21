@@ -6,6 +6,9 @@ categories: [kde, development]
 tags: [kde]
 url: /posts/kde-applications-on-windows/
 author: "Christoph Cullmann"
+resources:
+  - name: "featured-image-preview"
+    src: "images/kate-on-windows.png"
 ---
 
 #### KDE applications on Windows?

@@ -6,6 +6,9 @@ categories: [kde, qt, development]
 tags: [kde, qt]
 url: /posts/kde-qt-highdpi-scaling/
 author: "Christoph Cullmann"
+resources:
+  - name: "featured-image-preview"
+    src: "images/kate-19.08.2-hidpi-selection.png"
 ---
 
 ### What is a High DPI Display?
