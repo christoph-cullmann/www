@@ -319,6 +319,7 @@ hugo
       title = ""
       # 主页显示的网站副标题
       subtitle = "这是我的全新 Hugo 网站"
+      # {{< version 0.1.1 changed >}} (HTML format is supported)
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
@@ -399,7 +400,9 @@ hugo
     Matrix = ""
     Bilibili = ""
     Email = "xxxx@xxxx.com"
-    RSS = true #
+    RSS = true
+    # {{< version 0.1.2 >}} Open Researcher and Contributor ID
+    Orcid = ""
 
   #  文章页面配置
   [params.page]
@@ -494,6 +497,8 @@ hugo
       Skype = false
       Trello = false
       Mix = false
+      # {{< version 0.1.2 >}}
+      Telegram = false
     #  评论系统设置
     [params.page.comment]
       enable = true
@@ -559,6 +564,17 @@ hugo
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
+      # {{< version 0.2.0 >}} {{< link "https://waline.js.org/" "Waline" >}} 评论系统设置
+      [params.page.comment.waline]
+        enable = false
+        serverURL = "https://xxx.vercel.com"
+        visitor = true
+        dark = 'auto'
+      # {{< version 0.2.0 >}} {{< link "https://twikoo.js.org" "Twikoo" >}} 评论系统设置
+      [params.page.comment.twikoo]
+        enable = false
+        evnId = "https://xxx.vercel.com"
+
     #  第三方库配置
     [params.page.library]
       [params.page.library.css]

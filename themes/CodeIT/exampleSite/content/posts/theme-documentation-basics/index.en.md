@@ -312,9 +312,12 @@ Please open the code block below to view the complete sample configuration :(far
       gravatarEmail = ""
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.png"
+      # {{< version 0.1.1 >}} Alt text for avatar (default is the author name)
+      avatarAlt = ""
       # title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page
+      # {{< version 0.1.1 changed >}} (HTML format is supported)
       subtitle = "This is My New Hugo Site"
       # whether to use typeit animation for subtitle
       typeit = true
@@ -396,7 +399,9 @@ Please open the code block below to view the complete sample configuration :(far
     Matrix = ""
     Bilibili = ""
     Email = "xxxx@xxxx.com"
-    RSS = true #
+    RSS = true
+    # {{< version 0.1.2 >}} Open Researcher and Contributor ID
+    Orcid = ""
 
   # Page config
   [params.page]
@@ -491,6 +496,8 @@ Please open the code block below to view the complete sample configuration :(far
       Skype = false
       Trello = false
       Mix = false
+      # {{< version 0.1.2 >}}
+      Telegram = false
     # Comment config
     [params.page.comment]
       enable = true
@@ -556,6 +563,17 @@ Please open the code block below to view the complete sample configuration :(far
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
+      # {{< version 0.2.0 >}} {{< link "https://waline.js.org/en/" "Waline" >}} comment config
+      [params.page.comment.waline]
+        enable = false
+        serverURL = "https://xxx.vercel.com"
+        visitor = true
+        dark = 'auto'
+      # {{< version 0.2.0 >}} {{< link "https://twikoo.js.org" "Twikoo" >}} comment config
+      [params.page.comment.twikoo]
+        enable = false
+        evnId = "https://xxx.vercel.com"
+
     # Third-party library config
     [params.page.library]
       [params.page.library.css]

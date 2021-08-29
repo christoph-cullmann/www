@@ -116,7 +116,15 @@
     > h2 > .header-mark::before {
       content: "#";
     }
-
+    > h3 > .header-mark::before {
+      content: "##";
+    }
+    > h4 > .header-mark::before {
+      content: "###";
+    }
+    > h5 > .header-mark::before {
+      content: "####";
+    }
     p {
       margin: 0.5rem 0;
     }
@@ -278,6 +286,7 @@
     @import "../_partial/_single/mapbox";
     @import "../_partial/_single/music";
     @import "../_partial/_single/bilibili";
+    @import "../_partial/_single/katex";
 
     hr {
       margin: 1rem 0;
