@@ -7,17 +7,22 @@ author = "Christoph Cullmann"
 
 I work on various projects that are under the [KDE](https://www.kde.org/) umbrella.
 
-* The Kate editor, a full-featured text editor
- * https://kate-editor.org
- * https://invent.kde.org/utilities/kate
+### The Kate editor, a full-featured text editor
 
-* The KTextEditor framework, a versatile text editor component
- * https://api.kde.org/frameworks/ktexteditor/html
- * https://invent.kde.org/frameworks/ktexteditor
+* https://kate-editor.org
+* https://invent.kde.org/utilities/kate
 
-* The Syntax-Highlighting framework, close to 300 languages supported
- * https://api.kde.org/frameworks/syntax-highlighting/html
- * https://invent.kde.org/frameworks/syntax-highlighting
+### The KTextEditor framework, a versatile text editor component
+
+* https://api.kde.org/frameworks/ktexteditor/html
+* https://invent.kde.org/frameworks/ktexteditor
+
+### The Syntax-Highlighting framework, > 300 languages supported
+
+* https://api.kde.org/frameworks/syntax-highlighting/html
+* https://invent.kde.org/frameworks/syntax-highlighting
+
+### Random other stuff
 
 Other KDE related contributions can be found on my [invent.kde.org profile](https://invent.kde.org/cullmann).
 
