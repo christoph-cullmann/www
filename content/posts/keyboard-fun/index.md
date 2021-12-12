@@ -13,7 +13,7 @@ resources:
 
 ## Keyboards?
 
-In the recent past, I started to get more interested in the qualify of the keyboards I use at work and home.
+In the recent past, I started to get more interested in the quality of the keyboards I use at work and home.
 I always hated to use very cheap low-profile boards, but otherwise I more or less always worked  with what came stock with my PC in the good old times ;)
 
 ## TKL boards
@@ -33,7 +33,7 @@ Actually you can get the ping even if you just tap a bit on the backside of the 
 ## Removing the ping?
 
 All reviews I read didn't tell a thing about any ugly ping with the stock Varmilo board.
-Thought most reviews naturally did look at the ANSI variant, but I bought the ISO one, given I like the German layout.
+Though most reviews naturally did look at the ANSI variant, but I bought the ISO one, given I like the German layout.
 Perhaps they just altered something in the more recent fabrication, who knows.
 
 I did take some look at the internals of the keyboard to see if some more dampening or taping could help.
@@ -73,7 +73,7 @@ Varmilo was nice enough to include a keycaps puller anyways, already used for th
 <center><img width=700 src="/posts/keyboard-fun/images/xtrfy-varmilo-moonlight.jpg"></center>
 
 I think the final "product" looks nice.
-The RGB back-lighting still works, thought the new keycaps are not shine-through.
+The RGB back-lighting still works, though the new keycaps are not shine-through.
 
 In addition I have now a full shine-through ABS keycaps set as backup parts for more keyboard modding.
 And some more or less useless Varmilo baseboard.
