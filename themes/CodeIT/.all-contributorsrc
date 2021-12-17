@@ -419,6 +419,43 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "aozaki-kuro",
+      "name": "Aozaki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28428951?v=4",
+      "profile": "https://github.com/aozaki-kuro",
+      "contributions": [
+        "bug",
+        "code"
+      ]
+    },
+    {
+      "login": "deining",
+      "name": "Andreas Deininger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18169566?v=4",
+      "profile": "https://github.com/deining",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Ashpex",
+      "name": "Ashpex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38400042?v=4",
+      "profile": "http://ashpex.eu.org",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "KHannibal",
+      "name": "KHannibal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3843004?v=4",
+      "profile": "https://github.com/KHannibal",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,

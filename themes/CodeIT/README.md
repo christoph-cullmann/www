@@ -5,14 +5,14 @@
 [![License](https://img.shields.io/github/license/sunt-programator/CodeIT)](https://github.com/sunt-programator/CodeIT/blob/master/LICENSE)
 [![CodeQL](https://github.com/sunt-programator/CodeIT/workflows/CodeQL/badge.svg)](https://github.com/sunt-programator/CodeIT/actions?query=workflow%3ACodeQL)
 [![Deploy status](https://github.com/sunt-programator/CodeIT/workflows/Deploy%20status/badge.svg)](https://github.com/sunt-programator/CodeIT/actions?query=workflow%3A%22Deploy+status%22)
-![Github All Contributors](https://img.shields.io/github/all-contributors/sunt-programator/CodeIT)
+![GitHub All Contributors](https://img.shields.io/github/all-contributors/sunt-programator/CodeIT)
 
 > **CodeIT** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
 
 It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
 Since the three themes have a similar look, if you have questions about their differences,
-read [Why to choose CodeIT](#why-choose-CodeIT) so that you can choose the one that works best for you.
+read [Why to choose CodeIT](#question-why-choose-CodeIT) so that you can choose the one that works best for you.
 
 ![Hugo Theme CodeIT](https://github.com/sunt-programator/CodeIT/raw/master/images/Apple-Devices-Preview.png)
 
@@ -284,6 +284,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/OnlyFor"><img src="https://avatars.githubusercontent.com/u/16849187?v=4?s=100" width="100px;" alt=""/><br /><sub><b>OnlyFor</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=OnlyFor" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/commits?author=OnlyFor" title="Documentation">📖</a></td>
     <td align="center"><a href="https://tbm98.dev"><img src="https://avatars.githubusercontent.com/u/52562340?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Minh Tran</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=tbm98" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Atbm98" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/aozaki-kuro"><img src="https://avatars.githubusercontent.com/u/28428951?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aozaki</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Aaozaki-kuro" title="Bug reports">🐛</a> <a href="https://github.com/sunt-programator/CodeIT/commits?author=aozaki-kuro" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/deining"><img src="https://avatars.githubusercontent.com/u/18169566?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andreas Deininger</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=deining" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://ashpex.eu.org"><img src="https://avatars.githubusercontent.com/u/38400042?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ashpex</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=Ashpex" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/KHannibal"><img src="https://avatars.githubusercontent.com/u/3843004?v=4?s=100" width="100px;" alt=""/><br /><sub><b>KHannibal</b></sub></a><br /><a href="#ideas-KHannibal" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
