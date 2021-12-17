@@ -12,7 +12,7 @@ author = "Christoph Cullmann"
 
 ### Kontakt / Contact
 
-> Telefon/Mobile: +49 176 235 467 98<br>
+> Telefon/Mobile/Signal: +49 176 235 467 98<br>
 > E-Mail: [christoph@cullmann.io](mailto:christoph@cullmann.io)
 
 ## Datenschutzerklärung
