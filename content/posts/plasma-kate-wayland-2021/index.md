@@ -73,3 +73,7 @@ Naturally the experience can differ for other setups, like it did for me in the 
 If you encounter issues, please report them as bug reports to the respective upstream projects.
 And naturally, any help in fixing them would be welcome, too.
 For Kate/KTextEditor I might be able to at least reproduce and try to fix them now myself, given I use it now daily, thought other projects might rely more on external contributors to get the rough edges fledged out.
+
+## Feedback
+
+You can provide feedback on the matching [Reddit post](https://www.reddit.com/r/kde/comments/rjdgu5/kde_plasma_kate_on_wayland_end_of_2021/).
