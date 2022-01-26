@@ -73,7 +73,6 @@ For keycaps, yeah, same issue with the German ISO layout, there are not many set
 At work I now have some [SA profile](https://www.keycaps.info/) set from Signature Plastics, they are able to produce sets with proper legends and no missing German keys, unlike some other vendors I tried (and yes, I tried it with cheap vendors, it seems not to be trivial at all print all the proper German keys at all and not just forget them in the package...).
 Funny enough, shipping from US did take 4 weeks, even with air express, USPS seems to be not the fasted variant of travel.
 If others play with the idea to buy there, I must confess the quality is really good, but they are expensive, if you don't require exotic layouts like German, I would rather go with some cheaper sets, for US ANSI even the cheapest I tried out were ok, without obvious faults.
-sting all your keys, which is not that unneeded, given I was too dumb to properly install all my hot-swap switches ;)
 
 ![Keychron Q1 Ice Cap Keycaps](images/keyboard-q1-work.jpg "Keychron Q1 Ice Cap Keycaps")
 
