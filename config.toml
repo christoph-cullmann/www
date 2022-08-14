@@ -5,7 +5,7 @@ baseURL = "https://cullmann.io/"
 title = "Ignorance is bliss..."
 
 # theme hugo-coder
-theme = "CodeIT"
+theme = "LoveIt"
 
 # content == english, Impressum is german
 languagecode = "en"
