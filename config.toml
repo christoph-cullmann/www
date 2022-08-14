@@ -3,6 +3,7 @@ baseURL = "https://cullmann.io/"
 
 # cullmann.io website
 title = "Ignorance is bliss..."
+description = "Ignorance is bliss..."
 
 # theme hugo-coder
 theme = "LoveIt"
@@ -186,6 +187,10 @@ pygmentsCodefencesGuessSyntax = true
     # LoveIt 主题版本
     version = "0.2.X"
 
+    # cullmann.io website
+    title = "Ignorance is bliss..."
+    description = "Ignorance is bliss..."
+
     # site default theme ("light", "dark", "auto")
     # 网站默认主题 ("light", "dark", "auto")
     defaultTheme = "auto"
@@ -205,6 +210,14 @@ pygmentsCodefencesGuessSyntax = true
     # website images for Open Graph and Twitter Cards
     # 网站图片, 用于 Open Graph 和 Twitter Cards
     images = ["images/christoph_logo.png"]
+
+  [params.header.title]
+      # URL of the LOGO
+      # LOGO 的 URL
+      logo = ""
+      # title name
+      # 标题名称
+      name = "Ignorance is bliss..."
 
   # Section (all posts) page config
   [params.section]
