@@ -42,3 +42,13 @@ For my mails, I use postfix & dovecot, here some links about documentation and m
 * dovecot 2.x documentation: https://wiki2.dovecot.org/
 
 * blacklist performance monitoring: https://www.intra2net.com/en/support/antispam/
+
+## HHKB Resources
+
+* HHKB Reddit: https://www.reddit.com/r/HHKB/
+
+* HHKBs compared (Pro 2 vs. Classic vs. Hybrid Type-S): https://seongminpark.com/blog/20210826a/
+
+* HHKB Professional Hybrid review: https://materialjournal.com/blog/hhkb-hybrid-review
+
+* Happy Hacking Keyboard Professional Classic (HHKB Classic) review: https://www.keebsnstuff.com/keyboards/happy-hacking-keyboard-professional-classic-hhkb-classic
