@@ -21,7 +21,9 @@ The libraries linked below will in most cases be for C or C++.
 
 ## Compression Libraries
 
-* LZ4 compression: https://lz4.github.io/lz4
+* Zstandard compression: https://facebook.github.io/zstd/
+
+* LZ4 compression: https://lz4.github.io/lz4/
 
 ## XML Libraries
 
@@ -30,10 +32,6 @@ The libraries linked below will in most cases be for C or C++.
 ## JSON Libraries
 
 * fast JSON parser/generator: http://rapidjson.org
-
-## Git
-
-* BFG Repo-Cleaner, fast way to remove stuff from the history: https://rtyley.github.io/bfg-repo-cleaner/
 
 ## Mail Server Stuff
 
