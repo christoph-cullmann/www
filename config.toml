@@ -6,7 +6,7 @@ title = "Ignorance is bliss..."
 description = "Ignorance is bliss..."
 
 # theme hugo-coder
-theme = "LoveIt"
+theme = "PaperMod"
 
 # content == english, Impressum is german
 languagecode = "en"
@@ -193,7 +193,8 @@ pygmentsCodefencesGuessSyntax = true
 
     # site default theme ("light", "dark", "auto")
     # 网站默认主题 ("light", "dark", "auto")
-    defaultTheme = "auto"
+    defaultTheme = "dark"
+    disableThemeToggle = true
 
     # public git repo url only then enableGitInfo is true
     # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
