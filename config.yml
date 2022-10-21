@@ -59,9 +59,12 @@ services:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
+
     description: "Ignorance is bliss..."
-    author: Theme PaperMod
-    # author: ["Me", "You"] # multiple authors
+    author: Christoph Cullmann
+
+    # ensure rss feed is complete for e.g. planet.kde.org
+    ShowFullTextinRSS: true
 
     defaultTheme: dark
     disableThemeToggle: true
