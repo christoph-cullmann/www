@@ -72,54 +72,6 @@ Die Daten werden gelöscht, sobald diese für den Zweck der Erhebung nicht mehr 
 
 Die Bereitstellung der vorgenannten personenbezogenen Daten ist weder gesetzlich noch vertraglich vorgeschrieben. Ohne die IP-Adresse ist jedoch der Dienst und die Funktionsfähigkeit unserer Website nicht gewährleistet. Zudem können einzelne Dienste und Services nicht verfügbar oder eingeschränkt sein. Aus diesem Grund ist ein Widerspruch ausgeschlossen.
 
-### Cookies
-
-Wie viele andere Webseiten verwenden wir auch so genannte „Cookies“. Bei Cookies handelt es sich um kleine Textdateien, die auf Ihrem Endgerät (Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie unsere Webseite besuchen.
-
-Sie können Sie einzelne Cookies oder den gesamten Cookie-Bestand löschen. Darüber hinaus erhalten Sie Informationen und Anleitungen, wie diese Cookies gelöscht oder deren Speicherung vorab blockiert werden können. Je nach Anbieter Ihres Browsers finden Sie die notwendigen Informationen unter den nachfolgenden Links:
-
-- Mozilla Firefox: https://support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen
-- Internet Explorer: https://support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies
-- Google Chrome: https://support.google.com/accounts/answer/61416?hl=de
-- Opera: http://www.opera.com/de/help
-- Safari: https://support.apple.com/kb/PH17191?locale=de_DE&viewlocale=de_DE
-
-#### Speicherdauer und eingesetzte Cookies
-
-Soweit Sie uns durch Ihre Browsereinstellungen oder Zustimmung die Verwendung von Cookies erlauben, können folgende Cookies auf unseren Webseiten zum Einsatz kommen:
-
-- Speicherung von hell/dunkel Schema
-- Speicherung ob Cookie Banner akzeptiert wurde
-
-### Technisch notwendige Cookies
-
-#### Art und Zweck der Verarbeitung
-
-Wir setzen Cookies ein, um unsere Website nutzerfreundlicher zu gestalten. Einige Elemente unserer Internetseite erfordern es, dass der aufrufende Browser auch nach einem Seitenwechsel identifiziert werden kann.
-
-Der Zweck der Verwendung technisch notwendiger Cookies ist, die Nutzung von Websites für die Nutzer zu vereinfachen. Einige Funktionen unserer Internetseite können ohne den Einsatz von Cookies nicht angeboten werden. Für diese ist es erforderlich, dass der Browser auch nach einem Seitenwechsel wiedererkannt wird.
-
-Für folgende Anwendungen benötigen wir Cookies:
-
-- Speicherung von hell/dunkel Schema
-- Speicherung ob Cookie Banner akzeptiert wurde
-
-#### Rechtsgrundlage und berechtigtes Interesse
-
-Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten Interesses an einer nutzerfreundlichen Gestaltung unserer Website.
-
-#### Empfänger
-
-Empfänger der Daten sind ggf. technische Dienstleister, die für den Betrieb und die Wartung unserer Website als Auftragsverarbeiter tätig werden.
-
-#### Bereitstellung vorgeschrieben oder erforderlich
-
-Die Bereitstellung der vorgenannten personenbezogenen Daten ist weder gesetzlich noch vertraglich vorgeschrieben. Ohne diese Daten ist jedoch der Dienst und die Funktionsfähigkeit unserer Website nicht gewährleistet. Zudem können einzelne Dienste und Services nicht verfügbar oder eingeschränkt sein.
-
-#### Widerspruch
-
-Lesen Sie dazu die Informationen über Ihr Widerspruchsrecht nach Art. 21 DSGVO weiter unten.
-
 ### SSL-Verschlüsselung
 
 Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z. B. SSL) über HTTPS.
