@@ -43,7 +43,7 @@ Here [VIA](https://caniusevia.com/) comes into the picture.
 For sure, it is an Electron based monster, but it provides a cross-platform UI for QMK based keyboards that allow on the fly configuration of at least the common things, like keymaps.
 And it provides trivial things like testing all your keys, which is not that unneeded, given I was too dumb to properly install all my hot-swap switches ;)
 
-![VIA UI](images/keyboard-via.png "VIA UI")
+![VIA UI](/posts/keyboards-and-open-source/images/keyboard-via.png "VIA UI")
 
 ## Actual Keyboard?
 
@@ -74,14 +74,14 @@ At work I now have some [SA profile](https://www.keycaps.info/) set from Signatu
 Funny enough, shipping from US did take 4 weeks, even with air express, USPS seems to be not the fasted variant of travel.
 If others play with the idea to buy there, I must confess the quality is really good, but they are expensive, if you don't require exotic layouts like German, I would rather go with some cheaper sets, for US ANSI even the cheapest I tried out were ok, without obvious faults.
 
-![Keychron Q1 Ice Cap Keycaps](images/keyboard-q1-work.jpg "Keychron Q1 Ice Cap Keycaps")
+![Keychron Q1 Ice Cap Keycaps](/posts/keyboards-and-open-source/images/keyboard-q1-work.jpg "Keychron Q1 Ice Cap Keycaps")
 
 If you look a bit more around on the picture you will see I have still my good old Nokia rubber ducky, a sole survivor from the time Nokia owned Qt :P
 And no, I don't use a Mac, that is just one we use for our compile farm.
 
 At home I went with some [MT3 profile](https://matt3o.com/about-mt3-profile-and-devtty-set/) set without any legends, that is really cheap and funny enough did take only 4 days from US to Germany with standard UPS.
 
-![Keychron Q1 MT3 /dev/tty Keycaps](images/keyboard-q1-home.jpg "Keychron Q1 MT3 /dev/tty Keycaps")
+![Keychron Q1 MT3 /dev/tty Keycaps](/posts/keyboards-and-open-source/images/keyboard-q1-home.jpg "Keychron Q1 MT3 /dev/tty Keycaps")
 
 :=) And no, no second Nokia ducky at home.
 

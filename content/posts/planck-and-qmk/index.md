@@ -30,7 +30,7 @@ Unlike for my tries with the Q1, this time I just went the plain QMK route, with
 
 The Planck board offers a nice platform for experiments, given the plain grid layer that allows really to freely shuffle all your keys and experiment with extreme layouts.
 
-![Building the Planck keyboard](images/planck-building.webp "Building the Planck keyboard")
+![Building the Planck keyboard](/posts/planck-and-qmk/images/planck-building.webp "Building the Planck keyboard")
 
 ## Install QMK on NixOS
 
@@ -90,7 +90,7 @@ Below the state of a finalized Planck board with some more or less standard firs
 
 It even plays a nice startup sound on powering up.
 
-![Finalized Planck keyboard](images/planck-final.webp "Finalized Planck keyboard")
+![Finalized Planck keyboard](/posts/planck-and-qmk/images/planck-final.webp "Finalized Planck keyboard")
 
 My current keymap can be found on [GitHub](https://github.com/christoph-cullmann/qmk).
 
