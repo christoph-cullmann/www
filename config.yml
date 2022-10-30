@@ -94,8 +94,8 @@ params:
           url: "https://gitlab.com/cullmann"
         - name: reddit
           url: "https://www.reddit.com/user/ChristophCullmann"
-        - name: twitter
-          url: "https://twitter.com/ChrCullmann"
+        - name: mastodon
+          url: "https://mastodon.social/@cullmann"
         - name: youtube
           url: "https://youtube.com/ChristophCullmann"
         - name: email
