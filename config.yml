@@ -80,12 +80,18 @@ params:
     comments: false
 
     profileMode:
-        enabled: false
-
-    homeInfoParams:
-        Title: "Ignorance is bliss..."
-        Content: >
-            Welcome to Christoph Cullmann's personal web site.
+        enabled: true
+        title: "Ignorance is bliss..."
+        subtitle: Welcome to Christoph Cullmann's personal web site.
+        imageUrl: "/images/christoph_avatar.jpg"
+        imageTitle: "Christoph Cullmann"
+        imageWidth: 256
+        imageHeight: 256
+        buttons:
+            - name: Posts
+              url: "/posts"
+            - name: About
+              url: "/about"
 
     socialIcons:
         - name: github
