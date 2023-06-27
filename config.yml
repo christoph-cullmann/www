@@ -85,8 +85,8 @@ params:
         subtitle: Welcome to Christoph Cullmann's web site.
         imageUrl: "/images/christoph_avatar.jpg"
         imageTitle: "Christoph Cullmann"
-        imageWidth: 512
-        imageHeight: 512
+        imageWidth: 333
+        imageHeight: 333
         buttons:
             - name: Posts
               url: "/posts"
