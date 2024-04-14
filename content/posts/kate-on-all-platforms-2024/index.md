@@ -1,6 +1,6 @@
 ---
 title: "Kate on all Platforms - 2024"
-date: 2024-04-14T19:30:00+02:00
+date: 2024-04-14T19:31:01+02:00
 draft: false
 categories: [kde]
 tags: [kde]
