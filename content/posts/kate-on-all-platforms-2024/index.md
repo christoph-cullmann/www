@@ -31,27 +31,31 @@ How to compile Kate on your own on a Unix like system and start to help to devel
 
 ## Windows
 
-Since several years there are activities in the KDE community to provide our libraries and applications for Windows.
+Since several years there are activities in the KDE community to provide our libraries and applications for [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows).
 
 Even if that is a non-free platform, we can reach out to new users and developers that might later be then even interested to switch a full open platform.
 
 Progress is slow, but steady.
-We have some applications in the official Windows Store (including Kate) and nightly build for more of them.
-With reasonable effort you can develop Kate on Windows with Craft.
+We have Kate and some other applications in the official [Windows Store](https://apps.microsoft.com/search/publisher?name=KDE+e.V.) and nightly build for more of them.
+With reasonable effort you can develop Kate on Windows with [Craft](https://community.kde.org/Get_Involved/development/Windows).
 
 Below the current state of the master branch running on Windows 11 inside VirtualBox.
 
 <center><a href="/posts/kate-on-all-platforms-2024/images/2024-kate-windows.png" target="_blank"><img width=700 src="/posts/kate-on-all-platforms-2024/images/2024-kate-windows-small.png"></a></center>
 
+If you like to try that, use the nighly installer linked on the [Kate website](https://kate-editor.org/get-it/).
+
 ## macOS
 
-Beside Windows, the major other non-free platform Kate tries to support is macOS.
+Beside Windows, the major other non-free platform Kate tries to support is [macOS](https://en.wikipedia.org/wiki/MacOS).
 
-We have nighly build available for that and you can, like on Windows, develop Kate with the help of Craft.
+We have nighly build available for that and you can, like on Windows, develop Kate with the help of [Craft](https://community.kde.org/Get_Involved/development/Mac).
 
 Below the current state of the master branch running native on my M2 ARM Mac Mini.
 
 <center><a href="/posts/kate-on-all-platforms-2024/images/2024-kate-macos.png" target="_blank"><img width=700 src="/posts/kate-on-all-platforms-2024/images/2024-kate-macos-small.png"></a></center>
+
+Same as for Windows, if you like to try that, use the nighly installer for either ARM or Intel Macs linked on the [Kate website](https://kate-editor.org/get-it/).
 
 ## Others
 
