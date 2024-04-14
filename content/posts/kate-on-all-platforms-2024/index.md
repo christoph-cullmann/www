@@ -87,3 +87,7 @@ The current state is already sufficient that the nightly builds of Kate no longe
 
 Just don't get that wrong, DBus is great on the Linux or BSD systems that use it natively, but it is a pain on systems that have no notion of DBus and leads there to hangs or the spawning of unwanted processes.
 Beside that, the usefulness is low there, as there are no services on the bus to communicate with anyways.
+
+## Feedback
+
+You can provide feedback on the matching [Reddit post](https://www.reddit.com/r/kde/comments/1c3z0g4/kate_on_all_platforms_2024/).
