@@ -10,15 +10,15 @@ author: "Christoph Cullmann"
 
 ## Unix like systems with X11 or Wayland
 
-All Unix like systems with either X11 or Wayland are well supported since ever.
+All [Unix like systems](https://en.wikipedia.org/wiki/Unix) with either [X11](https://en.wikipedia.org/wiki/X_Window_System) or [Wayland](https://en.wikipedia.org/wiki/Wayland_(protocol)) are well supported since ever.
 
 Linux with X11 and now Wayland is for a long time the primary system on that Kate work happens.
 
-Over the years it was (like most of the KDE applications) ported to the most BSD variants.
+Over the years it was, like most of the [KDE applications](https://apps.kde.org/), ported to various [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution) variants.
 
-Be it some mainstream Linux distribution like Fedora or a niche one like NixOS, Kate is available as binary package.
+Be it some mainstream Linux distribution like [Fedora](https://fedoraproject.org/) or a niche one like [NixOS](http://nixos.org), Kate is available as binary package.
 You love BSD?
-FreeBSD or OpenBSD, you can get a Kate package via your normal package system.
+From [FreeBSD](https://freebsd.org) to [OpenBSD](https://openbsd.org), you can get a Kate package via your normal package system.
 
 And in the normal case, you can just build it from source on your own, all needed patches should be in our repositories upstream.
 If that is not the case for your system, please help to upstream them.
@@ -26,6 +26,8 @@ If that is not the case for your system, please help to upstream them.
 Below the current state of the master branch compiled on NixOS unstable with Wayland.
 
 <center><a href="/posts/kate-on-all-platforms-2024/images/2024-kate-linux-wayland.png" target="_blank"><img width=700 src="/posts/kate-on-all-platforms-2024/images/2024-kate-linux-wayland-small.png"></a></center>
+
+How to compile Kate on your own on a Unix like system and start to help to develop it can be found out [here](https://kate-editor.org/build-it/).
 
 ## Windows
 
@@ -72,3 +74,7 @@ Naturally the most of our developers are working on the Linux or some BSD.
 That means the other systems are always in need of more people to help out, both on the programming and testing side.
 
 For Kate, testing should be easy, grab a nighly build for Windows or macOS for example.
+
+One recent topic that needs love is the removal of DBus for Windows/macOS/Android and other systems that don't use that normally.
+If you are up to help with that, [here](https://invent.kde.org/packaging/craft-blueprints-kde/-/issues/17) that is coordinated.
+Just don't get that wrong, DBus is great on the Linux or BSD systems that use it natively, but it is a pain on systems that have no notion of DBus and leads there to hangs or the spawning of unwanted processes.
