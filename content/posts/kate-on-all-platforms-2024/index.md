@@ -57,15 +57,15 @@ Below the current state of the master branch running native on my M2 ARM Mac Min
 
 Same as for Windows, if you like to try that, use the nighly installer for either ARM or Intel Macs linked on the [Kate website](https://kate-editor.org/get-it/).
 
-## Others
+## Other Platforms
 
-Naturally there are more operating systems out there then mentioned above.
+Naturally there are more than the above mentioned operating systems around.
 
-Beside the mobile ones like Android and iOS that are not that interesting for Kate, many other small open desktop operating systems exist.
+Beside the mobile ones like [Android](https://en.wikipedia.org/wiki/Android_(operating_system)) and [iOS](https://en.wikipedia.org/wiki/IOS) that are not that interesting for Kate, many other desktop operating systems exist.
 
 Even if the Kate team itself doesn't put active work it them, that doesn't mean Kate can't run there.
 
-Without any active work on our side, for example a Kate port for Haiku was done.
+Without any active work on our side, for example a Kate port for [Haiku](https://www.haiku-os.org/) was done.
 Some one-liner patches for that got even upstreamed.
 
 If you work on some port of our stuff and need to upstream stuff, please contact us.
@@ -77,8 +77,13 @@ Naturally the most of our developers are working on the Linux or some BSD.
 
 That means the other systems are always in need of more people to help out, both on the programming and testing side.
 
-For Kate, testing should be easy, grab a nighly build for Windows or macOS for example.
+For Kate, testing should be easy, grab a nighly build for Windows or macOS on the [Kate website](https://kate-editor.org/get-it/).
+Or even better, get [Craft](https://community.kde.org/Craft) running, that will make it easier to contribute, too.
 
-One recent topic that needs love is the removal of DBus for Windows/macOS/Android and other systems that don't use that normally.
+One recent topic that needs love is the removal of [DBus](https://en.wikipedia.org/wiki/D-Bus) for Windows/macOS/Android and other systems that don't use it normally.
+
 If you are up to help with that, [here](https://invent.kde.org/packaging/craft-blueprints-kde/-/issues/17) that is coordinated.
+The current state is already sufficient that the nightly builds of Kate no longer hang on e.g. macOS, but still some frameworks like KIO will need more work.
+
 Just don't get that wrong, DBus is great on the Linux or BSD systems that use it natively, but it is a pain on systems that have no notion of DBus and leads there to hangs or the spawning of unwanted processes.
+Beside that, the usefulness is low there, as there are no services on the bus to communicate with anyways.
