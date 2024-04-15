@@ -39,7 +39,7 @@ For my mails, I use postfix & dovecot, here some links about documentation and m
 
 * postfix documentation: http://www.postfix.org/documentation.html
 
-* dovecot 2.x documentation: https://wiki2.dovecot.org/
+* dovecot 2.x documentation: https://doc.dovecot.org/
 
 * blacklist performance monitoring: https://www.intra2net.com/en/support/antispam/
 
