@@ -1,6 +1,6 @@
 ---
 title: "Kate on all Platforms - 2024"
-date: 2024-04-14T19:31:01+02:00
+date: 2024-04-14T19:32:02+02:00
 draft: false
 categories: [kde]
 tags: [kde]
@@ -90,4 +90,4 @@ Beside that, the usefulness is low there, as there are no services on the bus to
 
 ## Feedback
 
-You can provide feedback on the matching [KDE Social](https://lemmy.kde.social/post/1121189) or [reddit](https://www.reddit.com/r/kde/comments/1c3z0g4/kate_on_all_platforms_2024/) post.
+You can provide feedback on the matching [KDE Social](https://lemmy.kde.social/post/1121189), [reddit](https://www.reddit.com/r/kde/comments/1c3z0g4/kate_on_all_platforms_2024/) or [Hacker News](https://news.ycombinator.com/item?id=40032869) post.
