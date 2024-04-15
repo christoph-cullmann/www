@@ -47,6 +47,6 @@ For my mails, I use postfix & dovecot, here some links about documentation and m
 
 * HHKB Reddit: https://www.reddit.com/r/HHKB/
 
-* HHKBs compared (Pro 2 vs. Classic vs. Hybrid Type-S): https://seongminpark.com/blog/20210826a/
+* HHKBs compared (Pro 2 vs. Classic vs. Hybrid Type-S): https://seongminpark.com/hhkbs-compared/
 
 * HHKB Professional Hybrid review: https://materialjournal.com/blog/hhkb-hybrid-review
