@@ -13,7 +13,6 @@ enableSearch = true
 enableCodeCopy = true
 
 mainSections = ["posts"]
-# robots = ""
 
 disableImageOptimization = false
 disableTextInHeader = false
@@ -48,8 +47,8 @@ smartTOCHideUnfocusedChildren = false
 
 [article]
   showDate = false
-  showViews = true
-  showLikes = true
+  showViews = false
+  showLikes = false
   showDateOnlyInArticle = false
   showDateUpdated = false
   showAuthor = true
@@ -59,8 +58,7 @@ smartTOCHideUnfocusedChildren = false
   layoutBackgroundBlur = true # only used when heroStyle equals background
   showBreadcrumbs = true
   showDraftLabel = true
-  showEdit = true
-  editURL = "https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content"
+  showEdit = false
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = true
