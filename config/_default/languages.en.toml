@@ -14,7 +14,7 @@ title = "Ignorance is bliss..."
 [author]
   name = "Christoph Cullmann"
   image = "images/christoph_avatar.jpg"
-  headline = "Welcome to Christoph Cullmann's web site."
+  headline = "Welcome to Christoph Cullmann's web site"
   bio = "Software Engineer at AbsInt and KDE contributor"
   links = [
     { github = "https://github.com/christoph-cullmann" },
