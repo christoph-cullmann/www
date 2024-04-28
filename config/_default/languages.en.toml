@@ -1,0 +1,27 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Ignorance is bliss..."
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "images/christoph_avatar.png"
+  description = "Ignorance is bliss..."
+
+[author]
+  name = "Christoph Cullmann"
+  image = "images/christoph_avatar.jpg"
+  headline = "Welcome to Christoph Cullmann's web site."
+  bio = "Welcome to Christoph Cullmann's web site."
+  links = [
+    { github = "https://github.com/christoph-cullmann" },
+    { gitlab = "https://gitlab.com/cullmann" },
+    { reddit = "https://www.reddit.com/user/ChristophCullmann" },
+    { mastodon = "https://mastodon.social/@cullmann" },
+  #  { ycombinator = "https://news.ycombinator.com/user?id=cullmann" },
+    { youtube = "https://youtube.com/ChristophCullmann" },
+    { email = "mailto:christoph@cullmann.io" }
+  ]
