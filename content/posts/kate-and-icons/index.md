@@ -57,3 +57,7 @@ Then please don't install it as FDO icon theme and break all FOSS apps that rely
 If you care for non 'GNOME core apps' to work per default properly on distributions like that, please either get them to fix it (hints are given in the [linked issue](https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/issues/288)) or get the distributions to install a compliant theme.
 
 We can plan to work around this mess in [the future](https://invent.kde.org/frameworks/kiconthemes/-/issues/3) on our side, but that will not un-break the application versions that are now already shipped to our users and non-KDE frameworks based stuff that will just run into the same issues.
+
+## Feedback
+
+You can provide feedback on the matching [KDE Social](https://lemmy.kde.social/post/1212069), [reddit](https://www.reddit.com/r/linux/comments/1chzmya/kde_kate_editor_icons_or_how_fedora_40_with_the/) or [Hacker News](https://news.ycombinator.com/item?id=40230558) post.
