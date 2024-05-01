@@ -1,6 +1,9 @@
 +++
 title = "Links"
 author = "Christoph Cullmann"
+showDate = false
+showAuthor = false
+showReadingTime = false
 +++
 
 Links to stuff I often use/read/...

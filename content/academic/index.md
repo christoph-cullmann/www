@@ -1,6 +1,9 @@
 +++
 title = "Academic Work"
 author = "Christoph Cullmann"
+showDate = false
+showAuthor = false
+showReadingTime = false
 +++
 
 ## Academic Life

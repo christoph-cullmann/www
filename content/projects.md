@@ -1,6 +1,9 @@
 +++
 title = "Open Source Projects"
 author = "Christoph Cullmann"
+showDate = false
+showAuthor = false
+showReadingTime = false
 +++
 
 ## KDE

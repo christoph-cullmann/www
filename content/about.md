@@ -1,6 +1,9 @@
 +++
 title = "About"
 author = "Christoph Cullmann"
+showDate = false
+showAuthor = false
+showReadingTime = false
 +++
 
 cullmann.io is the personal web site of Christoph Cullmann.

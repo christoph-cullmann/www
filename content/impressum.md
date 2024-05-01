@@ -1,6 +1,9 @@
 +++
 title = "Impressum"
 author = "Christoph Cullmann"
+showDate = false
+showAuthor = false
+showReadingTime = false
 +++
 
 ## Angaben gemäß § 5 TMG
