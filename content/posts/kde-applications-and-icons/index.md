@@ -30,7 +30,7 @@ What most of these applications have in common is that they rely on rather large
 With that they depend at least indirectly on an icon set that covers large parts of what our default icon set Breeze provides.
 Even if you use no icons from that icon set yourself in your application, just using the standard actions or many widgets/dialogs from Frameworks will rely on some subset of Breeze.
 
-## The great Divider, your Desktop or Platform
+## Current State of Icons per Desktop or Platform
 
 When talking about the current situation of icons that depends largely on the desktop or platform you are running the KDE application on.
 
@@ -112,16 +112,45 @@ Kate and Dolphin 24.02 on MATE with dark mode on NixOS, normal system packages, 
 
 <center><a href="/posts/kde-applications-and-icons/images/2024-kate-and-dolphin-mate.png" target="_blank"><img width=700 src="/posts/kde-applications-and-icons/images/2024-kate-and-dolphin-mate-small.png"></a></center>
 
+System icons intermixed with Breeze as fallback icons, looks not that nice.
+Breeze icons not readable, as recoloring is not working.
+
 ### Xfce
 
 Kate and Dolphin 24.02 on Xfce with dark mode on NixOS, normal system packages, Breeze icons is installed.
 
 <center><a href="/posts/kde-applications-and-icons/images/2024-kate-and-dolphin-xfce.png" target="_blank"><img width=700 src="/posts/kde-applications-and-icons/images/2024-kate-and-dolphin-xfce-small.png"></a></center>
 
+Same mix and unreadable state as on MATE.
+
 ### Enlightenment
 
 Kate 24.02 on Enlightenment with dark mode on NixOS, normal system packages, Breeze icons is installed.
 
 <center><a href="/posts/kde-applications-and-icons/images/2024-kate-enlightenment.png" target="_blank"><img width=700 src="/posts/kde-applications-and-icons/images/2024-kate-enlightenment-small.png"></a></center>
+
+Just unreadable icons, beside out own Git icon and the few colored ones.
+
+## Summary: What's up with Icons today
+
+The icons in KDE applications do look perfect on KDE Plasma.
+That should be no real surprise as many people working on these applications will test them there and KDE Frameworks and Qt are well tested on Plasma, too.
+
+The icons look fine on Windows and macOS, too, at least for applications that got properly ported, but only thanks to patches we do in Craft.
+If you just grab e.g. Kate's and the needed frameworks sources from our normal repositories, you don't get that.
+
+If the maintainers of the port for some OS do care, like the Haiku people, KDE applications can look fine there.
+
+On other desktop environments it doesn't look that great out of the box.
+
+Unlike for the other operating systems, there the same packages without extra patches are running.
+
+Whereas that works perfect on Plasma, we rely too much that the desktop environment running provides an icon set that has a similar coverage and naming as Breeze. As we don't hard depend on the Breeze icons for our applications, it can even happen that just no fitting icons are there per default.
+
+Even if that can be solved with some better package dependencies, you still end up with a patchwork look and without a Qt platform theme plugin that handles the needed recoloring to make dark mode feasible.
+
+
+
+
 
 ## Feedback
