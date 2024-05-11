@@ -36,7 +36,7 @@ When talking about the current situation of icons that depends largely on the de
 
 Let's take a look at some (I for sure miss some that are common or loved, that doesn't mean I disregard them, I just want to limit the scope).
 
-### KDE Plasma (on Linux/BSD with Wayland/X11)
+### KDE Plasma on Linux/BSD with Wayland/X11
 
 If you just aim to run on the KDE Plasma desktop with your Qt and KDE Frameworks based application, all is fine with icons, there is no problem.
 
@@ -44,19 +44,34 @@ The KDE project did their job, at least for Kate I never did have any issues wit
 
 Below a screenshot of Kate 24.02 running on Plasma 6. All icons are there, they are properly re-colored for the dark theme, too, including not just the used Breeze icons but for example the small Git icons in the left sidebar that Kate has bundled.
 
-<center><a href="/posts/kate-on-all-platforms-2024/images/2024-kate-linux-wayland.png" target="_blank"><img width=700 src="/posts/kate-on-all-platforms-2024/images/2024-kate-linux-wayland-small.png"></a></center>
+<center><a href="/posts/kde-applications-and-icons/images/2024-kate-linux-wayland.png" target="_blank"><img width=700 src="/posts/kde-applications-and-icons/images/2024-kate-linux-wayland-small.png"></a></center>
 
 This is the vanilla state each user will get if Kate is installed on Plasma (and the dark theme is used).
 There are no patches done during building to achieve that nor is there any extra user configuration necessary.
 
-### Windows
+### Microsoft Windows
 
-<center><a href="/posts/kate-on-all-platforms-2024/images/2024-kate-windows.png" target="_blank"><img width=700 src="/posts/kate-on-all-platforms-2024/images/2024-kate-windows-small.png"></a></center>
+If you run Kate on Windows, the icon situation is good, too, if you use our Windows Store variant or get at build done via Craft.
 
-### macOS
+See below what the current nightly of Kate looks like in some Windows 11 VM (I just started it from the unpacked ZIP, no setup needed).
 
-<center><a href="/posts/kate-on-all-platforms-2024/images/2024-kate-macos.png" target="_blank"><img width=700 src="/posts/kate-on-all-platforms-2024/images/2024-kate-macos-small.png"></a></center>
+<center><a href="/posts/kde-applications-and-icons/images/2024-kate-windows.png" target="_blank"><img width=700 src="/posts/kde-applications-and-icons/images/2024-kate-windows-small.png"></a></center>
+
+In the Craft build descriptions we do some patches to ensure the Breeze icons are bundled as library and the application links with that.
+In addition we ensure with some more patching that our own icon engine is used to allow for the proper recoloring.
+
+If you don't do that patching you will end up with close to no icons or for dark theme black on black icons.
+
+### Apple's macOS
+
+The situation on macOS is the same as on Windows.
+
+If you go with a Craft build of Kate, you will end up with something like below.
+
+<center><a href="/posts/kde-applications-and-icons/images/2024-kate-macos.png" target="_blank"><img width=700 src="/posts/kde-applications-and-icons/images/2024-kate-macos-small.png"></a></center>
+
+All icons are there and even application provided icons like our Git one are properly recolored.
+
+Without the Craft patches Kate has more or less no icons like on Windows.
 
 ## Feedback
-
-You can provide feedback on the matching [KDE Social](https://lemmy.kde.social/post/1212069), [reddit](https://www.reddit.com/r/linux/comments/1chzmya/kde_kate_editor_icons_or_how_fedora_40_with_the/) or [Hacker News](https://news.ycombinator.com/item?id=40230558) post.
