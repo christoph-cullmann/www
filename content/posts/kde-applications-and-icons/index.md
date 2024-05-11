@@ -149,8 +149,13 @@ Whereas that works perfect on Plasma, we rely too much that the desktop environm
 
 Even if that can be solved with some better package dependencies, you still end up with a patchwork look and without a Qt platform theme plugin that handles the needed recoloring to make dark mode feasible.
 
+## The Way forward
 
+Fortunately, just because the status quo is not that nice, it must not stay that way.
 
+We have more or less all needed parts to fix the situation, we did already fix it during the porting to Windows and macOS.
+
+We just never pushed to get this stuff done on Linux and Co.
 
 
 ## Feedback
