@@ -76,12 +76,32 @@ Without the Craft patches Kate has more or less no icons like on Windows.
 
 ### Haiku
 
-After covering Plasma and the two large closed-source desktop operating systems, as a small excursion, look how Kate (the KF5 based version) looks if installed on Haiku with the packages they provide.
+After covering Plasma and the two large closed-source desktop operating systems, as a small excursion, look how Kate (the KF5 based version) looks if installed on [Haiku](https://www.haiku-os.org/) with the package they provide.
 
 <center><a href="/posts/kde-applications-and-icons/images/2024-kate-haiku.png" target="_blank"><img width=700 src="/posts/kde-applications-and-icons/images/2024-kate-haiku-small.png"></a></center>
 
 Kate looks ok, system icons intermixed with Breeze as fallback icons.
 
+### GNOME on Fedora
 
+For testing this, I installed the latest Fedora Workstation in a VM.
+I have done no user configuration beside what the installer and initial setup wizard asked and then just installed the Kate package.
+The shell was even helpful to ask to do that after you just tried to start the not installed Kate.
+
+<center><a href="/posts/kde-applications-and-icons/images/2024-kate-fedora-gnome.png" target="_blank"><img width=700 src="/posts/kde-applications-and-icons/images/2024-kate-fedora-gnome-small.png"></a></center>
+
+Most icons not there, not that nice.
+For details about that read [this post](/posts/kate-and-icons/), we don't need to re-iterate this again.
+
+If you think: that is just Kate, let us just try Okular.
+
+<center><a href="/posts/kde-applications-and-icons/images/2024-okular-fedora-gnome.png" target="_blank"><img width=700 src="/posts/kde-applications-and-icons/images/2024-okular-fedora-gnome-small.png"></a></center>
+
+One thing that can be at least solved easily is that the icons are gone, we just install the Breeze icon set as package.
+
+<center><a href="/posts/kde-applications-and-icons/images/2024-kate-and-okular-with-breeze-fedora-gnome.png" target="_blank"><img width=700 src="/posts/kde-applications-and-icons/images/2024-kate-and-okular-with-breeze-fedora-gnome-small.png"></a></center>
+
+Looks ok, system icons intermixed with Breeze as fallback icons just like on Haiku.
+Not stylish but usable.
 
 ## Feedback
