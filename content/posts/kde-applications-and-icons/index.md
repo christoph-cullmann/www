@@ -1,7 +1,7 @@
 ---
 title: "KDE Applications & Icons"
-date: 2024-05-11T00:36:00+02:00
-draft: true
+date: 2024-05-11T20:24:00+02:00
+draft: false
 categories: [kde]
 tags: [kde]
 url: /posts/kde-applications-and-icons/
