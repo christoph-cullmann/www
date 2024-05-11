@@ -104,4 +104,6 @@ One thing that can be at least solved easily is that the icons are gone, we just
 Looks ok, system icons intermixed with Breeze as fallback icons just like on Haiku.
 Not stylish but usable.
 
+I was unable to trigger Kate or Okular to adjust to the dark mode GNOME provides, therefore I can not test if we end up with black on black icons there, but it is likely, as the fallback is just Breeze.
+
 ## Feedback
