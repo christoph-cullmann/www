@@ -8,7 +8,7 @@ url: /posts/kate-on-all-platforms-2024/
 author: "Christoph Cullmann"
 resources:
   - name: "featured-image-preview"
-    src: "images/2024-kate-macos-small.png"
+    src: "images/2024-kate-macos.png"
 ---
 
 ## Unix like systems with X11 or Wayland
