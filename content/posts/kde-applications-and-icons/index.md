@@ -267,3 +267,7 @@ We still need to make use of it and we need to improve the implementation and up
 If you have time to help us, show up on [our meta issue](https://invent.kde.org/frameworks/kiconthemes/-/issues/3).
 
 Not just coding is needed, we for example have still a few icons that [don't recolor well](https://invent.kde.org/frameworks/breeze-icons/-/issues/17), help to fix that is wanted, too.
+
+## Feedback
+
+You can provide feedback on the matching [KDE Social](https://lemmy.kde.social/post/1259796), [reddit](https://www.reddit.com/r/linux/comments/1cpnuth/kde_applications_icons_current_state_and_how_to/) or [Hacker News](https://news.ycombinator.com/item?id=40329805) post.
