@@ -74,4 +74,14 @@ All icons are there and even application provided icons like our Git one are pro
 
 Without the Craft patches Kate has more or less no icons like on Windows.
 
+### Haiku
+
+After covering Plasma and the two large closed-source desktop operating systems, as a small excursion, look how Kate (the KF5 based version) looks if installed on Haiku with the packages they provide.
+
+<center><a href="/posts/kde-applications-and-icons/images/2024-kate-haiku.png" target="_blank"><img width=700 src="/posts/kde-applications-and-icons/images/2024-kate-haiku-small.png"></a></center>
+
+Kate looks ok, system icons intermixed with Breeze as fallback icons.
+
+
+
 ## Feedback
