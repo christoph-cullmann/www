@@ -8,7 +8,7 @@ url: /posts/kde-applications-and-icons/
 author: "Christoph Cullmann"
 resources:
   - name: "featured-image-preview"
-    src: "images/fedora-40-workstation.jpg"
+    src: "images/2024-kate-linux-wayland.png"
 ---
 
 In this rather lengthy post I talk a bit about the current issues with icons for the KDE applications I work on or use.
@@ -82,7 +82,7 @@ After covering Plasma and the two large closed-source desktop operating systems,
 
 Kate looks ok, system icons intermixed with Breeze as fallback icons.
 
-### GNOME on Fedora
+### GNOME
 
 For testing this, I installed the latest Fedora Workstation in a VM.
 I have done no user configuration beside what the installer and initial setup wizard asked and then just installed the Kate package.
@@ -105,5 +105,23 @@ Looks ok, system icons intermixed with Breeze as fallback icons just like on Hai
 Not stylish but usable.
 
 I was unable to trigger Kate or Okular to adjust to the dark mode GNOME provides, therefore I can not test if we end up with black on black icons there, but it is likely, as the fallback is just Breeze.
+
+### MATE
+
+Kate and Dolphin 24.02 on MATE with dark mode on NixOS, normal system packages, Breeze icons is installed.
+
+<center><a href="/posts/kde-applications-and-icons/images/2024-kate-and-dolphin-mate.png" target="_blank"><img width=700 src="/posts/kde-applications-and-icons/images/2024-kate-and-dolphin-mate-small.png"></a></center>
+
+### Xfce
+
+Kate and Dolphin 24.02 on Xfce with dark mode on NixOS, normal system packages, Breeze icons is installed.
+
+<center><a href="/posts/kde-applications-and-icons/images/2024-kate-and-dolphin-xfce.png" target="_blank"><img width=700 src="/posts/kde-applications-and-icons/images/2024-kate-and-dolphin-xfce-small.png"></a></center>
+
+### Enlightenment
+
+Kate 24.02 on Enlightenment with dark mode on NixOS, normal system packages, Breeze icons is installed.
+
+<center><a href="/posts/kde-applications-and-icons/images/2024-kate-enlightenment.png" target="_blank"><img width=700 src="/posts/kde-applications-and-icons/images/2024-kate-enlightenment-small.png"></a></center>
 
 ## Feedback
