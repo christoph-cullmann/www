@@ -1,6 +1,6 @@
 ---
 title: "KDE Applications & Icons"
-date: 2024-05-11T20:24:00+02:00
+date: 2024-05-11T20:30:00+02:00
 draft: false
 categories: [kde]
 tags: [kde]
