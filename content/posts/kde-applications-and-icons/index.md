@@ -149,7 +149,7 @@ Whereas that works perfect on Plasma, we rely too much that the desktop environm
 
 Even if that can be solved with some better package dependencies, you still end up with a patchwork look and without a Qt platform theme plugin that handles the needed recoloring to make dark mode feasible.
 
-## The Way forward
+## Getting it fixed
 
 Fortunately, just because the status quo is not that nice, it must not stay that way.
 
@@ -157,5 +157,113 @@ We have more or less all needed parts to fix the situation, we did already fix i
 
 We just never pushed to get this stuff done on Linux and Co.
 
+How did we solve it there?
 
-## Feedback
+* We have the Breeze icon set as Qt resource inside a library and link with that. That makes them a hard build and runtime dependency and easy to deploy.
+* We ensure the icon engine we have in our KIconThemes framework is there and used.
+* We enforce the Breeze Qt style. (this is not really icon related, but ensures an usable look'n'feel, too)
+
+The first and the last thing are easy to do on Linux and Co., too, even with still allowing the user to override the icon set and style, but still defaulting to Breeze.
+
+The second point is harder, as that requires at the moment a few hacks and is not 100% as good as going the Qt platform theme plugin route we use inside Plasma.
+
+For KDE Frameworks 6.3 we worked to get that done.
+
+See our [meta issue on our GitLab instance](https://invent.kde.org/frameworks/kiconthemes/-/issues/3) covering that topic.
+
+All is not perfect, we will need to get some Qt API to fully do that, but the current state is already usable.
+
+Here a comparison with the state as we have it now in our released software compared to with the state in the current master branch on an Cinnamon desktop.
+
+<center><a href="/posts/kde-applications-and-icons/images/2024-kate-fixed-cinnamon.png" target="_blank"><img width=700 src="/posts/kde-applications-and-icons/images/2024-kate-fixed-cinnamon-small.png"></a></center>
+
+The left side is the current Kate 24.02, the right side the current master build of Kate with master Frameworks.
+
+The hard dependency to the Breeze icon library is done in KIconThemes, if you link to that, you are guaranteed that you have Breeze icons.
+You can naturally just link to only the Breeze icon library on your own.
+
+The ensuring that the proper icon engine is done with some new API in KIconThemes that application developers must opt-in for.
+The same for the Qt style setup, there we have API in KConfigWidgets.
+
+For Kate the concrete changes can be [found here](https://invent.kde.org/utilities/kate/-/merge_requests/1482).
+They are minimal and even remove some platform specific code for the style setup.
+
+Including fallback code for pre 6.3 Frameworks compatibility of the style setting, the basic idea is:
+
+```cpp
+#include <KIconTheme>
+
+#define HAVE_STYLE_MANAGER __has_include(<KStyleManager>)
+#if HAVE_STYLE_MANAGER
+#include <KStyleManager>
+#endif
+
+int main(...)
+{
+    /**
+     * trigger initialisation of proper icon theme
+     */
+#if KICONTHEMES_VERSION >= QT_VERSION_CHECK(6, 3, 0)
+    KIconTheme::initTheme();
+#endif
+
+    QApplication yourAppInstance(...);
+
+#if HAVE_STYLE_MANAGER
+    /**
+     * trigger initialisation of proper application style
+     */
+    KStyleManager::initStyle();
+#else
+    /**
+     * For Windows and macOS: use Breeze if available
+     * Of all tested styles that works the best for us
+     */
+#if defined(Q_OS_MACOS) || defined(Q_OS_WIN)
+    QApplication::setStyle(QStringLiteral("breeze"));
+#endif
+#endif
+
+    ...
+}
+```
+
+In the long run, once 6.3 is the minimal version the application depends on, this is just:
+
+```cpp
+#include <KIconTheme>
+#include <KStyleManager>
+
+int main(...)
+{
+    /**
+     * trigger initialisation of proper icon theme
+     */
+    KIconTheme::initTheme();
+
+    QApplication yourAppInstance(...);
+
+    /**
+     * trigger initialisation of proper application style
+     */
+    KStyleManager::initStyle();
+
+    ...
+}
+```
+
+At the moment KIconTheme::initTheme() is still a bit hacky until we have proper Qt API, but that is not visible for the API user.
+
+If we get this properly done in our applications, that will not just solve the current issue for running them in other desktop environments.
+
+With that API in use and the now already upstreamed patches, one can build vanilla Frameworks and Kate on Windows and macOS and the icons will just work in the resulting application bundles and you get an usable style out of the box if Breeze is there.
+
+## Help Wanted!
+
+We have now some API to help our applications to be more usable on non-Plasma installations and Windows and macOS.
+
+We still need to make use of it and we need to improve the implementation and upstream to Qt the needed extra API to make it a real 100% replacement to what we do with the Plasma integration plugin.
+
+If you have time to help us, show up on [our meta issue](https://invent.kde.org/frameworks/kiconthemes/-/issues/3).
+
+Not just coding is needed, we for example have still a few icons that [don't recolor well](https://invent.kde.org/frameworks/breeze-icons/-/issues/17), help to fix that is wanted, too.
