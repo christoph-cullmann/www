@@ -18,7 +18,7 @@ Then let's see what will be improved in future releases.
 
 ## What do I mean with 'KDE Applications'
 
-If I speak about 'KDE Applications' here I talk about applications like Kate, Konsole, Okular and others like that.
+If I speak about 'KDE Applications' here I talk about applications like Kate, Dolphin, Okular and others like that.
 
 This means applications developed with Qt and KDE Frameworks that integrate well with the KDE Plasma desktop but are not restricted to it.
 
@@ -153,7 +153,7 @@ Even if that can be solved with some better package dependencies, you still end 
 
 Fortunately, just because the status quo is not that nice, it must not stay that way.
 
-We have more or less all needed parts to fix the situation, we did already fix it during the porting to Windows and macOS.
+We have more or less all needed parts to fix the situation, we did already fix it during [the porting to Windows and macOS](https://kate-editor.org/post/2021/2021-03-07-cross-platform-light-dark-themes-and-icons/).
 
 We just never pushed to get this stuff done on Linux and Co.
 
