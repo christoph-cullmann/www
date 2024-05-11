@@ -1,7 +1,7 @@
 ---
 title: "KDE Applications & Icons"
 date: 2024-05-11T00:36:00+02:00
-draft: false
+draft: true
 categories: [kde]
 tags: [kde]
 url: /posts/kde-applications-and-icons/
@@ -26,12 +26,20 @@ Many of this applications not just aim to work well on Linux & BSD or other open
 
 The above applications are part of the KDE Gear releases, but the described issues and solutions naturally are not restricted to stuff released with that.
 
-Therefore, all talked about in this post is only interesting for such applications.
+What most of these applications have in common is that they rely on rather large parts of our Frameworks.
+With that they depend at least indirectly on an icon set that covers large parts of what our default icon set Breeze provides.
+Even if you use no icons from that icon set yourself in your application, just using the standard actions or many widgets/dialogs from Frameworks will rely on some subset of Breeze.
 
-## My Icons are fine
+## The great Divider, your Desktop or Platform
 
+When talking about the current situation of icons that depends largely on the desktop or platform you are running the KDE application on.
+
+Let's take a look at some (I for sure miss some that are common or loved, that doesn't mean I disregard them, I just want to limit the scope).
+
+### KDE Plasma (on Linux/BSD with Wayland/X11)
 
 If you just aim to run on the KDE Plasma desktop with your Qt and KDE Frameworks based application, all is fine with icons, there is no problem.
+
 The KDE project did their job, at least for Kate I never did have any issues with icons on Plasma.
 
 
