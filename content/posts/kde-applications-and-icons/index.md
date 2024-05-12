@@ -1,6 +1,6 @@
 ---
 title: "KDE Applications & Icons"
-date: 2024-05-11T20:30:00+02:00
+date: 2024-05-11T20:30:01+02:00
 draft: false
 categories: [kde]
 tags: [kde]
@@ -270,4 +270,4 @@ Not just coding is needed, we for example have still a few icons that [don't rec
 
 ## Feedback
 
-You can provide feedback on the matching [KDE Social](https://lemmy.kde.social/post/1259796), [reddit](https://www.reddit.com/r/linux/comments/1cpnuth/kde_applications_icons_current_state_and_how_to/) or [Hacker News](https://news.ycombinator.com/item?id=40329805) post.
+You can provide feedback on the matching [KDE Social](https://lemmy.kde.social/post/1259796) or [reddit](https://www.reddit.com/r/linux/comments/1cpnuth/kde_applications_icons_current_state_and_how_to/) post.
