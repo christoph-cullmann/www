@@ -33,8 +33,13 @@ Contributors to these projects are welcome.
 
 If you wish to sponsor the work done by KDE in non-technical ways, please think about [donating](https://kde.org/donations).
 
+## Personal projects
+
+* https://cullmann.io/git/
+
 ## GitHub
 
-Some smaller things I work on can be found on my [GitHub](https://github.com/) account:
+Contributions to projects hosted on [GitHub](https://github.com/) can be seen in this account:
 
 * https://github.com/christoph-cullmann/
+
