@@ -6,6 +6,12 @@ showAuthor = false
 showReadingTime = false
 +++
 
+## Personal projects
+
+Personal stuff like this web site or my QMK config are hosted on this server:
+
+* https://cullmann.io/git/
+
 ## KDE
 
 I work on various projects that are under the [KDE](https://www.kde.org/) umbrella.
@@ -32,10 +38,6 @@ Other KDE related contributions can be found on my [invent.kde.org profile](http
 Contributors to these projects are welcome.
 
 If you wish to sponsor the work done by KDE in non-technical ways, please think about [donating](https://kde.org/donations).
-
-## Personal projects
-
-* https://cullmann.io/git/
 
 ## GitHub
 
