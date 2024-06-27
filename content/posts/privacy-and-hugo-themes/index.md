@@ -16,9 +16,9 @@ I thought, given Hugo generates plain static HTML pages, I would be on the safe 
 
 But unfortunately, the theme I use includes some external resources, like the Google web fonts...
 
-I now patched that out in my [fork](https://github.com/christoph-cullmann/hugo-coder) of the theme and provide local copies on my own server.
+I now patched that out of the theme and provide local copies on my own server.
 
-The local mirrored files can be found [here](https://github.com/christoph-cullmann/cullmann.io/tree/master/static).
+The local mirrored files can be found [here](https://cullmann.io/git/cullmann.io).
 
 Actually, this shows, for a "normal" user, it is really hard to ensure no privacy violations are on his/her/... website, given you need to control each and every page.
 
