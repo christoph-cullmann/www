@@ -92,7 +92,7 @@ It even plays a nice startup sound on powering up.
 
 ![Finalized Planck keyboard](/posts/planck-and-qmk/images/planck-final.webp "Finalized Planck keyboard")
 
-My current keymap can be found [here](https://cullmann.io/git/qmk).
+My current keymap can be found [here](https://git.babylon2k.com/cullmann/qmk).
 
 As the history of this repository shows, I already experimented if some different layouts.
 

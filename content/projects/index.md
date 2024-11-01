@@ -10,7 +10,7 @@ showReadingTime = false
 
 Personal stuff like this web site or my QMK config are hosted on this server:
 
-* https://cullmann.io/git/
+* https://git.babylon2k.com/cullmann/
 
 ## KDE
 
