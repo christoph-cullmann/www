@@ -18,6 +18,7 @@ title = "Ignorance is bliss..."
   headline = "Welcome to Christoph Cullmann's web site"
   bio = "Software Engineer at AbsInt and KDE contributor"
   links = [
+    { codeberg = "https://codeberg.org/cullmann" },
     { github = "https://github.com/christoph-cullmann" },
     { gitlab = "https://gitlab.com/cullmann" },
     { reddit = "https://www.reddit.com/user/ChristophCullmann" },
