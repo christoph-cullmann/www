@@ -11,8 +11,9 @@ title = "Ignorance is bliss..."
   logo = "images/christoph_small.png"
   description = "Ignorance is bliss..."
 
-[author]
+[params.author]
   name = "Christoph Cullmann"
+  email = "christoph@cullmann.io"
   image = "images/christoph_avatar.jpg"
   headline = "Welcome to Christoph Cullmann's web site"
   bio = "Software Engineer at AbsInt and KDE contributor"
