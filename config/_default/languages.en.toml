@@ -8,13 +8,13 @@ title = "Ignorance is bliss..."
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "images/christoph_small.png"
+  logo = "images/christoph_small.webp"
   description = "Ignorance is bliss..."
 
 [params.author]
   name = "Christoph Cullmann"
   email = "christoph@cullmann.io"
-  image = "images/christoph_avatar.jpg"
+  image = "images/christoph_avatar.webp"
   headline = "Welcome to Christoph Cullmann's web site"
   bio = "Software Engineer at AbsInt and KDE contributor"
   links = [
