@@ -17,7 +17,9 @@ mainSections = ["posts"]
 disableImageOptimization = false
 disableTextInHeader = false
 
-defaultBackgroundImage = "/img/background.svg"
+# non-animated background
+defaultBackgroundImage = "/images/alps-keycaps.jpg"
+
 defaultFeaturedImage = "/img/featured.svg"
 
 highlightCurrentMenuArea = true
