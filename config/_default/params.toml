@@ -18,7 +18,7 @@ disableImageOptimization = false
 disableTextInHeader = false
 
 # non-animated background
-defaultBackgroundImage = "/images/alps-keycaps.jpg"
+defaultBackgroundImage = "/images/alps-keycaps.webp"
 
 defaultFeaturedImage = "/img/featured.svg"
 
