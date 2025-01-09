@@ -14,9 +14,6 @@ enableCodeCopy = true
 
 mainSections = ["posts"]
 
-# images are already OK
-disableImageOptimization = true
-
 # non-animated background
 defaultBackgroundImage = "/images/alps-keycaps.webp"
 
