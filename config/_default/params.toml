@@ -14,10 +14,9 @@ enableCodeCopy = true
 
 mainSections = ["posts"]
 
-# non-animated background
+# non-animated background & place holder
 defaultBackgroundImage = "/images/alps-keycaps.webp"
-
-defaultFeaturedImage = "/img/featured.svg"
+defaultFeaturedImage = "/images/alps-keycaps-small.webp"
 
 highlightCurrentMenuArea = true
 smartTOC = true
