@@ -18,7 +18,7 @@ But unfortunately, the theme I use includes some external resources, like the Go
 
 I now patched that out of the theme and provide local copies on my own server.
 
-The local mirrored files can be found [here](https://git.babylon2k.com/cullmann/cullmann.io).
+The local mirrored files can be found [here](https://git.babylon2k.com/cullmann/www).
 
 Actually, this shows, for a "normal" user, it is really hard to ensure no privacy violations are on his/her/... website, given you need to control each and every page.
 

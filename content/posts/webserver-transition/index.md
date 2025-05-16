@@ -8,7 +8,7 @@ url: /posts/webserver-transition/
 author: "Christoph Cullmann"
 ---
 
-Several years the [kate-editor.org](https://kate-editor.org) & [cullmann.io](https://cullmann.io) pages got hosted on a [Hetzner](https://www.hetzner.de/) root server.
+Several years the Kate editor & my personal web site got hosted on a [Hetzner](https://www.hetzner.de/) root server.
 To reduce costs and switch away from old hardware they got now moved to an [OpenVZ](https://openvz.org/) based virtual server at [Host Europe](https://www.hosteurope.de).
 
 On both servers [CentOS](https://centos.org) 7.x is running, it did always provide a stable foundation for the services these sites use.

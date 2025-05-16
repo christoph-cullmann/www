@@ -6,9 +6,9 @@ showAuthor = false
 showReadingTime = false
 +++
 
-cullmann.io is the personal web site of Christoph Cullmann.
+cullmann.dev is the personal web site of Christoph Cullmann.
 
-The full sources of this web site can be found on [here](https://git.babylon2k.com/cullmann/cullmann.io).
+The full sources of this web site can be found on [here](https://git.babylon2k.com/cullmann/www).
 
 ## Professional Life
 

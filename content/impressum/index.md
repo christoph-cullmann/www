@@ -16,7 +16,7 @@ showReadingTime = false
 ### Kontakt / Contact
 
 > Telefon/Mobile/Signal: +49 176 235 467 98<br>
-> E-Mail: [christoph@cullmann.io](mailto:christoph@cullmann.io)
+> E-Mail: [christoph@cullmann.dev](mailto:christoph@cullmann.dev)
 
 ## Datenschutzerklärung
 

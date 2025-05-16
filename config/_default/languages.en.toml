@@ -13,7 +13,7 @@ title = "Ignorance is bliss..."
 
 [params.author]
   name = "Christoph Cullmann"
-  email = "christoph@cullmann.io"
+  email = "christoph@cullmann.dev"
   image = "images/christoph_avatar.webp"
   headline = "Welcome to Christoph Cullmann's web site"
   bio = "Software Engineer at AbsInt and KDE contributor"
@@ -25,5 +25,5 @@ title = "Ignorance is bliss..."
     { mastodon = "https://mastodon.social/@cullmann" },
   #  { ycombinator = "https://news.ycombinator.com/user?id=cullmann" },
     { youtube = "https://youtube.com/ChristophCullmann" },
-    { email = "mailto:christoph@cullmann.io" }
+    { email = "mailto:christoph@cullmann.dev" }
   ]
