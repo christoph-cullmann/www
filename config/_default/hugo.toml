@@ -8,12 +8,14 @@ defaultContentLanguage = "en"
 disableLanguages = [] #to allow translation work requiring shipping to production
 
 enableRobotsTXT = true
-paginate = 12
 summaryLength = 30
 hasCJKLanguage = true
 
 buildDrafts = false
 buildFuture = false
+
+[pagination]
+  pagerSize = 12
 
 [imaging]
   anchor = 'Center'
