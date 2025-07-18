@@ -2,7 +2,7 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/getting-started/
 
-theme = "hugo-PaperMod"
+theme = "blowfish"
 baseURL = "https://cullmann.dev/"
 defaultContentLanguage = "en"
 disableLanguages = [] #to allow translation work requiring shipping to production
