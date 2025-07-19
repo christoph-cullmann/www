@@ -6,9 +6,6 @@ categories: [kde]
 tags: [kde, gnome, fdo]
 url: /posts/kate-and-icons/
 author: "Christoph Cullmann"
-resources:
-  - name: "featured-image-preview"
-    src: "images/fedora-40-workstation.jpg"
 ---
 
 ## How it shall look...

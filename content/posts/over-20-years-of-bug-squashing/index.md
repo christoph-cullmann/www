@@ -6,9 +6,6 @@ categories: [kde]
 tags: [kde]
 url: /posts/over-20-years-of-bug-squashing/
 author: "Christoph Cullmann"
-resources:
-  - name: "featured-image-preview"
-    src: "images/kate-bug-statistics.png"
 ---
 
 The open source project I work on for the longest time is [KDE](https://www.kde.org) and there more specific [Kate](https://kate-editor.org).

@@ -6,9 +6,6 @@ categories: [kde]
 tags: [kde]
 url: /posts/kde-applications-and-icons/
 author: "Christoph Cullmann"
-resources:
-  - name: "featured-image-preview"
-    src: "images/2024-kate-fixed-cinnamon.png"
 ---
 
 In this rather lengthy post I talk a bit about the current issues with icons for the KDE applications I work on or use.

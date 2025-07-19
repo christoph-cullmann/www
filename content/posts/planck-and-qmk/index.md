@@ -6,9 +6,6 @@ categories: [keyboard]
 tags: [keyboard]
 url: /posts/planck-and-qmk/
 author: "Christoph Cullmann"
-resources:
-  - name: "featured-image-preview"
-    src: "images/planck-final.webp"
 ---
 
 ## The Planck Keyboard

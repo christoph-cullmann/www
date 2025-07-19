@@ -6,9 +6,6 @@ categories: [keyboard]
 tags: [keyboard]
 url: /posts/keyboards-and-open-source/
 author: "Christoph Cullmann"
-resources:
-  - name: "featured-image-preview"
-    src: "images/keyboard-q1-home.jpg"
 ---
 
 ## Keyboards and Open-Source, how is that related?
