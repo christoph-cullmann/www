@@ -27,7 +27,7 @@ Naturally, for larger increments, the upload is the restricting part here, this 
 
 Let's see what happens if I backup my data again after I bought some music album online and the usual stuff that happens in a day:
 
-<pre>
+{{< highlight bash >}}
 Time (start): Fri, 2021-09-10 20:38:39
 Time (end):   Fri, 2021-09-10 20:39:19
 Duration: 40.65 seconds
@@ -41,13 +41,13 @@ All archives:                1.82 TB              1.77 TB            240.18 GB
                        Unique chunks         Total chunks
 Chunk index:                  148438              1118042
 ------------------------------------------------------------------------------
-</pre>
+{{< / highlight >}}
 
 Just the expected, more or less the size of my new album + a bit more given other minor things in my home did change, like this blog post ;=)
 
 More or less the same happens for my remote increment:
 
-<pre>
+{{< highlight bash >}}
 Time (start): Fri, 2021-09-10 20:38:32
 Time (end):   Fri, 2021-09-10 20:40:52
 Duration: 2 minutes 20.11 seconds
@@ -61,7 +61,7 @@ All archives:                2.38 TB              2.32 TB            240.41 GB
                        Unique chunks         Total chunks
 Chunk index:                  148994              1454388
 ------------------------------------------------------------------------------
-</pre>
+{{< / highlight >}}
 
 The backup time is more or less just the local network backup time + the extra time you need for the poor 25-50 MBit upload speed.
 
@@ -145,7 +145,7 @@ And that's it ;=)
 
 The initial BorgBackup run is slow (single core machine), but the compression actually make at least some visible difference on my server data, not just the de-duplication:
 
-<pre>
+{{< highlight bash >}}
 Time (start): Fri, 2021-09-10 21:21:35
 Time (end):   Fri, 2021-09-10 22:02:00
 Duration: 40 minutes 25.12 seconds
@@ -159,11 +159,11 @@ All archives:               56.48 GB             45.17 GB             40.61 GB
                        Unique chunks         Total chunks
 Chunk index:                  252076               278721
 ------------------------------------------------------------------------------
-</pre>
+{{< / highlight >}}
 
 An increment is a much faster thing, just like for my normal backup:
 
-<pre>
+{{< highlight bash >}}
 Time (start): Fri, 2021-09-10 22:16:36
 Time (end):   Fri, 2021-09-10 22:19:36
 Duration: 2 minutes 59.12 seconds
@@ -177,7 +177,7 @@ All archives:              112.99 GB             90.35 GB             40.66 GB
                        Unique chunks         Total chunks
 Chunk index:                  252551               557639
 ------------------------------------------------------------------------------
-</pre>
+{{< / highlight >}}
 
 Btw., the rsync received size was ~76 MB for the above run, BorgBackup did break this down to just 46 MB for the increment, not that bad.
 
