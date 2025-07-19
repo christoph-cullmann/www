@@ -28,7 +28,7 @@ The most thing are internal cleanups and minor improvements.
 
 Feature wise, the hover implementation works now more like in other editors or IDEs, you get some nice tool tip after some delay:
 
-{{< image src="/posts/kate-lsp-status-july-21/images/kate-hover.png" alt="Hover" >}}
+{{< image src="images/kate-hover.png" alt="Hover" >}}
 
 Never try to guess again what some *auto* means ;=)
 

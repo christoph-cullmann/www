@@ -4,7 +4,7 @@ date: 2019-07-07T15:13:00+02:00
 draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
-url: /posts/kate-lsp-client-restart/
+url:
 author: "Christoph Cullmann"
 ---
 
@@ -29,15 +29,15 @@ What does work (tested with clangd and kate.git/work projects) at the moment:
 
 * Auto completion: you get the proper LSP server provided completion items
 
-{{< image src="/posts/kate-lsp-client-restart/images/kate-auto-completion.png" alt="Auto completion" >}}
+{{< image src="images/kate-auto-completion.png" alt="Auto completion" >}}
 
 * Outline view: Get an extra tool view with the symbols of your current view
 
-{{< image src="/posts/kate-lsp-client-restart/images/kate-outline-view.png" alt="Outline view" >}}
+{{< image src="images/kate-outline-view.png" alt="Outline view" >}}
 
 * Document highlight: highlight all occurrences of a variable/... inside the current view
 
-{{< image src="/posts/kate-lsp-client-restart/images/kate-document-highlight.png" alt="Document highlight" >}}
+{{< image src="images/kate-document-highlight.png" alt="Document highlight" >}}
 
 * Code navigation: jump to the definition/declaration
 

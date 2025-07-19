@@ -4,7 +4,7 @@ date: 2019-07-14T15:33:00+02:00
 draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
-url: /posts/kate-lsp-client-continued/
+url:
 author: "Christoph Cullmann"
 ---
 
@@ -20,21 +20,21 @@ What is new?
 
 * Diagnostics support: A tab in the LSP client toolview will show the diagnistics, grouped by file with links to jump to the locations. Issues will be highlighted in the editor view, too.
 
-{{< image src="/posts/kate-lsp-client-continued/images/kate-diagnostics.png" alt="Diagnostics support" >}}
+{{< image src="images/kate-diagnostics.png" alt="Diagnostics support" >}}
 
 * Find references: Find all references for some variable/function in your complete program. They are listed like the diagnostics grouped per file in an extra tab.
 
-{{< image src="/posts/kate-lsp-client-continued/images/kate-find-references.png" alt="Find references" >}}
+{{< image src="images/kate-find-references.png" alt="Find references" >}}
 
 * Improved document highlight: Highlight all occurrences of a variable/... inside the current document. Beside highlighting the reads/writes/uses, you get a jump list like for the other stuff as tab, too.
 
-{{< image src="/posts/kate-lsp-client-continued/images/kate-document-highlight.png" alt="Improved document highlight" >}}
+{{< image src="images/kate-document-highlight.png" alt="Improved document highlight" >}}
 
 A feature I missed to show last time:
 
 * Hover support: Show more meta info about a code location, like the proper type, useful e.g. for [almost-always-auto](https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/) C++ programming.
 
-{{< image src="/posts/kate-lsp-client-continued/images/kate-hover.png" alt="Hover support" >}}
+{{< image src="images/kate-hover.png" alt="Hover support" >}}
 
 We even got already two patches for the fresh plugin:
 

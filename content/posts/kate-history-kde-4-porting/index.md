@@ -4,7 +4,7 @@ date: 2019-04-12T23:52:00+02:00
 draft: false
 categories: [kde, kate, development]
 tags: [kde, kate]
-url: /posts/kate-history-kde-4-porting/
+url:
 author: "Christoph Cullmann"
 ---
 
@@ -16,19 +16,19 @@ The KDE 3 -> 4 transition was a large hassle. It did take weeks of work just to 
 
 We first started with some trivial KTextEditor container (a mini KWrite) for the porting to get KTextEditor at all doing something. That started out with something that even had no menu or toolbars working:
 
-{{< image src="/posts/kate-history-kde-4-porting/images/katetest-kde4-20050515-more.png" alt="no menu or toolbars working kde 4" >}}
+{{< image src="images/katetest-kde4-20050515-more.png" alt="no menu or toolbars working kde 4" >}}
 
 This evolved after two days into a kind of working KWrite port (icons still randomly missing):
 
-{{< image src="/posts/kate-history-kde-4-porting/images/katetest-kde4-20050517.png" alt="kwrite kde 4" >}}
+{{< image src="images/katetest-kde4-20050517.png" alt="kwrite kde 4" >}}
 
 After the KTextEditor part did work "reasonable", we started with Kate:
 
-{{< image src="/posts/kate-history-kde-4-porting/images/kate-kde4-20050519.png" alt="kate kde 4" >}}
+{{< image src="images/kate-kde4-20050519.png" alt="kate kde 4" >}}
 
 And ended up with an initial ported prototype three days later:
 
-{{< image src="/posts/kate-history-kde-4-porting/images/kate-kde4-20050522.png" alt="kate kde 4" >}}
+{{< image src="images/kate-kde4-20050522.png" alt="kate kde 4" >}}
 
 And after that a long time of actual polishing for KDE 4.0 did start. Kate was actually one of the first ported applications during the KDE 3 -> 4 transition.
 
@@ -36,6 +36,6 @@ The KDE 4 -> KF5 transition was much nicer, even thought the Frameworks split di
 
 And where did we end up with this ~14 years later? Actually, just here:
 
-{{< image src="/posts/kate-history-kde-4-porting/images/kate-kf5-20190412.png" alt="kate kf5" >}}
+{{< image src="images/kate-kf5-20190412.png" alt="kate kf5" >}}
 
 It is still recognizable the same application, thought I hope some progress is visible :=)

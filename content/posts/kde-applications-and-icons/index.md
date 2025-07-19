@@ -4,7 +4,7 @@ date: 2024-05-11T20:30:01+02:00
 draft: false
 categories: [kde]
 tags: [kde]
-url: /posts/kde-applications-and-icons/
+url:
 author: "Christoph Cullmann"
 ---
 
@@ -41,7 +41,7 @@ The KDE project did their job, at least for Kate I never did have any issues wit
 
 Below a screenshot of Kate 24.02 running on Plasma 6. All icons are there, they are properly re-colored for the dark theme, too, including not just the used Breeze icons but for example the small Git icons in the left sidebar that Kate has bundled.
 
-{{< image src="/posts/kde-applications-and-icons/images/2024-kate-linux-wayland.png" alt="KDE Plasma on Linux/BSD with Wayland/X11" >}}
+{{< image src="images/2024-kate-linux-wayland.png" alt="KDE Plasma on Linux/BSD with Wayland/X11" >}}
 
 This is the vanilla state each user will get if Kate is installed on Plasma (and the dark theme is used).
 There are no patches done during building to achieve that nor is there any extra user configuration necessary.
@@ -52,7 +52,7 @@ If you run Kate on Windows, the icon situation is good, too, if you use our Wind
 
 See below what the current nightly of Kate looks like in some Windows 11 VM (I just started it from the unpacked ZIP, no setup needed).
 
-{{< image src="/posts/kde-applications-and-icons/images/2024-kate-windows.png" alt="Microsoft Windows" >}}
+{{< image src="images/2024-kate-windows.png" alt="Microsoft Windows" >}}
 
 In the Craft build descriptions we do some patches to ensure the Breeze icons are bundled as library and the application links with that.
 In addition we ensure with some more patching that our own icon engine is used to allow for the proper recoloring.
@@ -65,7 +65,7 @@ The situation on macOS is the same as on Windows.
 
 If you go with a Craft build of Kate, you will end up with something like below.
 
-{{< image src="/posts/kde-applications-and-icons/images/2024-kate-macos.png" alt="Apple's macOS" >}}
+{{< image src="images/2024-kate-macos.png" alt="Apple's macOS" >}}
 
 All icons are there and even application provided icons like our Git one are properly recolored.
 
@@ -75,7 +75,7 @@ Without the Craft patches Kate has more or less no icons like on Windows.
 
 After covering Plasma and the two large closed-source desktop operating systems, as a small excursion, look how Kate (the KF5 based version) looks if installed on [Haiku](https://www.haiku-os.org/) with the package they provide.
 
-{{< image src="/posts/kde-applications-and-icons/images/2024-kate-haiku.png" alt="Haiku" >}}
+{{< image src="images/2024-kate-haiku.png" alt="Haiku" >}}
 
 Kate looks ok, system icons intermixed with Breeze as fallback icons.
 
@@ -85,18 +85,18 @@ For testing this, I installed the latest Fedora Workstation in a VM.
 I have done no user configuration beside what the installer and initial setup wizard asked and then just installed the Kate package.
 The shell was even helpful to ask to do that after you just tried to start the not installed Kate.
 
-{{< image src="/posts/kde-applications-and-icons/images/2024-kate-fedora-gnome.png" alt="Kate on GNOME" >}}
+{{< image src="images/2024-kate-fedora-gnome.png" alt="Kate on GNOME" >}}
 
 Most icons not there, not that nice.
 For details about that read [this post](/posts/kate-and-icons/), we don't need to re-iterate this again.
 
 If you think: that is just Kate, let us just try Okular.
 
-{{< image src="/posts/kde-applications-and-icons/images/2024-okular-fedora-gnome.png" alt="Okular on GNOME" >}}
+{{< image src="images/2024-okular-fedora-gnome.png" alt="Okular on GNOME" >}}
 
 One thing that can be at least solved easily is that the icons are gone, we just install the Breeze icon set as package.
 
-{{< image src="/posts/kde-applications-and-icons/images/2024-kate-and-okular-with-breeze-fedora-gnome.png" alt="Kate and Okular with Breeze on GNOME" >}}
+{{< image src="images/2024-kate-and-okular-with-breeze-fedora-gnome.png" alt="Kate and Okular with Breeze on GNOME" >}}
 
 Looks ok, system icons intermixed with Breeze as fallback icons just like on Haiku.
 Not stylish but usable.
@@ -107,7 +107,7 @@ I was unable to trigger Kate or Okular to adjust to the dark mode GNOME provides
 
 Kate and Dolphin 24.02 on MATE with dark mode on NixOS, normal system packages, Breeze icons is installed.
 
-{{< image src="/posts/kde-applications-and-icons/images/2024-kate-and-dolphin-mate.png" alt="MATE" >}}
+{{< image src="images/2024-kate-and-dolphin-mate.png" alt="MATE" >}}
 
 System icons intermixed with Breeze as fallback icons, looks not that nice.
 Breeze icons not readable, as recoloring is not working.
@@ -116,7 +116,7 @@ Breeze icons not readable, as recoloring is not working.
 
 Kate and Dolphin 24.02 on Xfce with dark mode on NixOS, normal system packages, Breeze icons is installed.
 
-{{< image src="/posts/kde-applications-and-icons/images/2024-kate-and-dolphin-xfce.png" alt="Xfce" >}}
+{{< image src="images/2024-kate-and-dolphin-xfce.png" alt="Xfce" >}}
 
 Same mix and unreadable state as on MATE.
 
@@ -124,7 +124,7 @@ Same mix and unreadable state as on MATE.
 
 Kate 24.02 on Enlightenment with dark mode on NixOS, normal system packages, Breeze icons is installed.
 
-{{< image src="/posts/kde-applications-and-icons/images/2024-kate-enlightenment.png" alt="Enlightenment" >}}
+{{< image src="images/2024-kate-enlightenment.png" alt="Enlightenment" >}}
 
 Just unreadable icons, beside out own Git icon and the few colored ones.
 
@@ -172,7 +172,7 @@ All is not perfect, we will need to get some Qt API to fully do that, but the cu
 
 Here a comparison with the state as we have it now in our released software compared to with the state in the current master branch on an Cinnamon desktop.
 
-{{< image src="/posts/kde-applications-and-icons/images/2024-kate-fixed-cinnamon.png" alt="Cinnamon" >}}
+{{< image src="images/2024-kate-fixed-cinnamon.png" alt="Cinnamon" >}}
 
 The left side is the current Kate 24.02, the right side the current master build of Kate with master Frameworks.
 

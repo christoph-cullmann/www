@@ -4,7 +4,7 @@ date: 2021-12-12T14:10:00+03:00
 draft: false
 categories: [keyboard]
 tags: [keyboard]
-url: /posts/keyboard-fun/
+url:
 author: "Christoph Cullmann"
 ---
 
@@ -37,13 +37,13 @@ I did take some look at the internals of the keyboard to see if some more dampen
 
 See the disassembly and later playing around with stuff and tape below.
 
-{{< image src="/posts/keyboard-fun/images/varmilo-moonlight-disass-1.jpg" alt="Removing the ping?" >}}
+{{< image src="images/varmilo-moonlight-disass-1.jpg" alt="Removing the ping?" >}}
 
-{{< image src="/posts/keyboard-fun/images/varmilo-moonlight-disass-2.jpg" alt="Removing the ping?" >}}
+{{< image src="images/varmilo-moonlight-disass-2.jpg" alt="Removing the ping?" >}}
 
-{{< image src="/posts/keyboard-fun/images/varmilo-moonlight-disass-3.jpg" alt="Removing the ping?" >}}
+{{< image src="images/varmilo-moonlight-disass-3.jpg" alt="Removing the ping?" >}}
 
-{{< image src="/posts/keyboard-fun/images/varmilo-moonlight-disass-4.jpg" alt="Removing the ping?" >}}
+{{< image src="images/varmilo-moonlight-disass-4.jpg" alt="Removing the ping?" >}}
 
 Short answer: it didn't help. You can even stuff the lower parts totally with "anything", given you screw all things together later it will still ping.
 Even alone the upper plate does ping if you tick it without any extra parts.
@@ -62,17 +62,17 @@ Solution? Create one out of both.
 
 Given the red switches and the typing on the Xtrfy board was nice, why not just use the Varmilo keycaps for it?
 
-{{< image src="/posts/keyboard-fun/images/xtrfy-varmilo-moonlight-transfer-1.jpg" alt="The solution?" >}}
+{{< image src="images/xtrfy-varmilo-moonlight-transfer-1.jpg" alt="The solution?" >}}
 
-{{< image src="/posts/keyboard-fun/images/xtrfy-varmilo-moonlight-transfer-2.jpg" alt="The solution?" >}}
+{{< image src="images/xtrfy-varmilo-moonlight-transfer-2.jpg" alt="The solution?" >}}
 
-{{< image src="/posts/keyboard-fun/images/xtrfy-varmilo-moonlight-transfer-3.jpg" alt="The solution?" >}}
+{{< image src="images/xtrfy-varmilo-moonlight-transfer-3.jpg" alt="The solution?" >}}
 
 Varmilo was nice enough to include a keycaps puller anyways, already used for the total disassembly above.
 
 ## End result
 
-{{< image src="/posts/keyboard-fun/images/xtrfy-varmilo-moonlight.jpg" alt="End result" >}}
+{{< image src="images/xtrfy-varmilo-moonlight.jpg" alt="End result" >}}
 
 I think the final "product" looks nice.
 The RGB back-lighting still works, though the new keycaps are not shine-through.

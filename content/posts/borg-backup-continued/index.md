@@ -200,4 +200,4 @@ But at least from my side: thanks to the BorgBackup developers to provide the wo
 
 At least my backup setup got successfully assimilated .P
 
-{{< image src="/posts/borg-backup-continued/images/borg-backup-logo.png" alt="BorgBackup" >}}
+{{< image src="images/borg-backup-logo.png" alt="BorgBackup" >}}

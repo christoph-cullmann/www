@@ -4,7 +4,7 @@ date: 2019-09-21T23:13:00+02:00
 draft: false
 categories: [kde, development]
 tags: [kde]
-url: /posts/kde-applications-on-windows/
+url:
 author: "Christoph Cullmann"
 ---
 
@@ -53,15 +53,15 @@ Direct links to the store entries can be found below (the screenshots are in Ger
 
 * [Okular - more than a reader](https://www.microsoft.com/store/apps/9N41MSQ1WNM8)
 
-{{< image src="/posts/kde-applications-on-windows/images/okular-on-windows.png" alt="Okular - more than a reader" >}}
+{{< image src="images/okular-on-windows.png" alt="Okular - more than a reader" >}}
 
 * [Kate - Advanced Text Editor](https://www.microsoft.com/store/apps/9NWMW7BB59HW)
 
-{{< image src="/posts/kde-applications-on-windows/images/kate-on-windows.png" alt="Kate - Advanced Text Editor" >}}
+{{< image src="images/kate-on-windows.png" alt="Kate - Advanced Text Editor" >}}
 
 * [KStars - Astronomy Software](https://www.microsoft.com/store/apps/9PPRZ2QHLXTG)
 
-{{< image src="/posts/kde-applications-on-windows/images/kstars-on-windows.png" alt="KStars - Astronomy Software" >}}
+{{< image src="images/kstars-on-windows.png" alt="KStars - Astronomy Software" >}}
 
 #### Help Wanted!
 

@@ -4,7 +4,7 @@ date: 2024-04-14T19:32:02+02:00
 draft: false
 categories: [kde]
 tags: [kde]
-url: /posts/kate-on-all-platforms-2024/
+url:
 author: "Christoph Cullmann"
 ---
 
@@ -25,7 +25,7 @@ If that is not the case for your system, please help to upstream them.
 
 Below the current state of the master branch compiled on NixOS unstable with Wayland.
 
-{{< image src="/posts/kate-on-all-platforms-2024/images/2024-kate-linux-wayland.png" alt="Unix like systems with X11 or Wayland" >}}
+{{< image src="images/2024-kate-linux-wayland.png" alt="Unix like systems with X11 or Wayland" >}}
 
 How to compile Kate on your own on a Unix like system and start to help to develop it can be found out [here](https://kate-editor.org/build-it/).
 
@@ -41,7 +41,7 @@ With reasonable effort you can develop Kate on Windows with [Craft](https://comm
 
 Below the current state of the master branch running on Windows 11 inside VirtualBox.
 
-{{< image src="/posts/kate-on-all-platforms-2024/images/2024-kate-windows.png" alt="Windows" >}}
+{{< image src="images/2024-kate-windows.png" alt="Windows" >}}
 
 If you like to try that, use the nighly installer linked on the [Kate website](https://kate-editor.org/get-it/).
 
@@ -53,7 +53,7 @@ We have nighly build available for that and you can, like on Windows, develop Ka
 
 Below the current state of the master branch running native on my M2 ARM Mac Mini.
 
-{{< image src="/posts/kate-on-all-platforms-2024/images/2024-kate-macos.png" alt="macOS" >}}
+{{< image src="images/2024-kate-macos.png" alt="macOS" >}}
 
 Same as for Windows, if you like to try that, use the nighly installer for either ARM or Intel Macs linked on the [Kate website](https://kate-editor.org/get-it/).
 

@@ -1,5 +1,7 @@
 <center>
-<a href="{{ .Get "src" }}" target="_new" style="border-bottom: 0px; background-color: inherit;">
-    <img width="90%" src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" style="border: 0px;" />
+{{ $original := .Page.Resources.GetMatch (.Get "src") }}
+{{ $preview := $original.Resize "660x" }}
+<a href="{{ $original.RelPermalink }}" target="_new" style="border-bottom: 0px; background-color: inherit;">
+    <img src="{{ $preview.RelPermalink }}" alt="{{ .Get "alt" }}" style="border: 0px;" />
 </a>
 </center>

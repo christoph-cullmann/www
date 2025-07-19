@@ -48,7 +48,7 @@ duplicity is just nicely installable via pkg there, too!
 
 I investigated a bit more what I could use as duplicity replacement, and ended up giving [BorgBackup](https://www.borgbackup.org/) a try.
 
-{{< image src="/posts/borg-backup/images/borg-backup-logo.png" alt="BorgBackup" >}}
+{{< image src="images/borg-backup-logo.png" alt="BorgBackup" >}}
 
 The [documentation](https://borgbackup.readthedocs.io/en/stable/) is a nice starting point, beside that, you find plenty of useful tutorial online.
 
