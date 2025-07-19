@@ -33,11 +33,11 @@ What does work (tested with clangd and kate.git/work projects) at the moment:
 
 * Outline view: Get an extra tool view with the symbols of your current view
 
-![Outline view](/posts/kate-lsp-client-restart/images/kate-outline-view.png)
+{{< image src="/posts/kate-lsp-client-restart/images/kate-outline-view.png" alt="Outline view" >}}
 
 * Document highlight: highlight all occurrences of a variable/... inside the current view
 
-![Document highlight](/posts/kate-lsp-client-restart/images/kate-document-highlight.png)
+{{< image src="/posts/kate-lsp-client-restart/images/kate-document-highlight.png" alt="Document highlight" >}}
 
 * Code navigation: jump to the definition/declaration
 

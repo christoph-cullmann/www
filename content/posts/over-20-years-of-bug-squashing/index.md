@@ -17,7 +17,7 @@ This means I look at user bug reports for over 20 years now.
 
 The statistics tell me our team got more than 9000 bugs since around 2001 (just for Kate, this excludes the libraries like KTextEditor that we maintain, too).
 
-![Kate Bug Statistics](/posts/over-20-years-of-bug-squashing/images/kate-bug-statistics.png "Kate Bug Statistics")
+{{< image src="/posts/over-20-years-of-bug-squashing/images/kate-bug-statistics.png" alt="Kate Bug Statistics" >}}
 
 That is a bit more than one bug per day for over two decades.
 

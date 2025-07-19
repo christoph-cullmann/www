@@ -57,7 +57,7 @@ Let's continue to improve that in the next years even more!
 
 Even [Wine](https://www.winehq.org/) based gaming in parallel to coding is possible, awesome!
 
-![My current KDE Plasma on Wayland session ;=)](/posts/plasma-kate-wayland-2021/images/plasma-kate-diablo-wayland.webp)
+{{< image src="/posts/plasma-kate-wayland-2021/images/plasma-kate-diablo-wayland.webp" alt="My current KDE Plasma on Wayland session ;=)" >}}
 
 ## Try it out!
 

@@ -53,15 +53,15 @@ Direct links to the store entries can be found below (the screenshots are in Ger
 
 * [Okular - more than a reader](https://www.microsoft.com/store/apps/9N41MSQ1WNM8)
 
-![Okular - more than a reader](/posts/kde-applications-on-windows/images/okular-on-windows.png)
+{{< image src="/posts/kde-applications-on-windows/images/okular-on-windows.png" alt="Okular - more than a reader" >}}
 
 * [Kate - Advanced Text Editor](https://www.microsoft.com/store/apps/9NWMW7BB59HW)
 
-![Kate - Advanced Text Editor](/posts/kde-applications-on-windows/images/kate-on-windows.png)
+{{< image src="/posts/kde-applications-on-windows/images/kate-on-windows.png" alt="Kate - Advanced Text Editor" >}}
 
 * [KStars - Astronomy Software](https://www.microsoft.com/store/apps/9PPRZ2QHLXTG)
 
-![KStars - Astronomy Software](/posts/kde-applications-on-windows/images/kstars-on-windows.png)
+{{< image src="/posts/kde-applications-on-windows/images/kstars-on-windows.png" alt="KStars - Astronomy Software" >}}
 
 #### Help Wanted!
 
