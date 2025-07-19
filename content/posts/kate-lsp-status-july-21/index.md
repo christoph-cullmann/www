@@ -6,9 +6,6 @@ categories: [kde, kate, development]
 tags: [kde, kate]
 url: /posts/kate-lsp-status-july-21/
 author: "Christoph Cullmann"
-resources:
-  - name: "featured-image-preview"
-    src: "images/kate-hover.png"
 ---
 
 The new LSP client by Mark Nauwelaerts keeps making nice progress.
@@ -31,9 +28,7 @@ The most thing are internal cleanups and minor improvements.
 
 Feature wise, the hover implementation works now more like in other editors or IDEs, you get some nice tool tip after some delay:
 
-<p align="center">
-    <a href="images/kate-hover.png" target="_blank"><img width=500 src="images/kate-hover.png"></a>
-</p>
+![Hover](/posts/kate-lsp-status-july-21/images/kate-hover.png)
 
 Never try to guess again what some *auto* means ;=)
 
