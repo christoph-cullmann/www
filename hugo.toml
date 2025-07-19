@@ -2,7 +2,7 @@
 baseURL = "https://cullmann.dev"
 
 # the name of the theme to use
-theme = 'hugo-bearblog'
+theme = 'archie'
 
 # basic metadata
 title = "Ignorance is bliss..."
@@ -18,6 +18,12 @@ disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 
 [params]
+  # dark theme only
+  mode="dark"
+
+  # all stuff on my server
+  useCDN = false
+
   # The "description" of your website. This is used in the meta data of your generated html.
   description = "Christoph Cullmann's web site"
 
