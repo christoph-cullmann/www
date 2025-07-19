@@ -6,9 +6,6 @@ categories: [kde, kate, development]
 tags: [kde, kate]
 url: /posts/kate-lsp-client-continued/
 author: "Christoph Cullmann"
-resources:
-  - name: "featured-image-preview"
-    src: "images/kate-diagnostics.png"
 ---
 
 The new LSP client by Mark Nauwelaerts made nice progress since the [LSP client restart](/posts/kate-lsp-client-restart/) post last week.
@@ -22,26 +19,22 @@ The code can still be found kate.git master, see [lspclient](https://cgit.kde.or
 What is new?
 
 * Diagnostics support: A tab in the LSP client toolview will show the diagnistics, grouped by file with links to jump to the locations. Issues will be highlighted in the editor view, too.
-<p align="center">
-    <a href="images/kate-diagnostics.png" target="_blank"><img width=500 src="images/kate-diagnostics.png"></a>
-</p>
+
+![Diagnostics support](/posts/kate-lsp-client-continued/images/kate-diagnostics.png)
 
 * Find references: Find all references for some variable/function in your complete program. They are listed like the diagnostics grouped per file in an extra tab.
-<p align="center">
-    <a href="images/kate-find-references.png" target="_blank"><img width=500 src="images/kate-find-references.png"></a>
-</p>
+
+![Find references](/posts/kate-lsp-client-continued/images/kate-find-references.png)
 
 * Improved document highlight: Highlight all occurrences of a variable/... inside the current document. Beside highlighting the reads/writes/uses, you get a jump list like for the other stuff as tab, too.
-<p align="center">
-    <a href="images/kate-document-highlight.png" target="_blank"><img width=500 src="images/kate-document-highlight.png"></a>
-</p>
+
+![Improved document highlight](/posts/kate-lsp-client-continued/images/kate-document-highlight.png)
 
 A feature I missed to show last time:
 
 * Hover support: Show more meta info about a code location, like the proper type, useful e.g. for [almost-always-auto](https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/) C++ programming.
-<p align="center">
-    <a href="images/kate-hover.png" target="_blank"><img width=500 src="images/kate-hover.png"></a>
-</p>
+
+![Hover support](/posts/kate-lsp-client-continued/images/kate-hover.png)
 
 We even got already two patches for the fresh plugin:
 
