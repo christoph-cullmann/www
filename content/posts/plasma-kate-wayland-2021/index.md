@@ -6,9 +6,6 @@ categories: [kde]
 tags: [kde]
 url: /posts/plasma-kate-wayland-2021/
 author: "Christoph Cullmann"
-resources:
-  - name: "featured-image-preview"
-    src: "images/plasma-kate-diablo-wayland-small.webp"
 ---
 
 ## Wayland, the future after X11
@@ -60,7 +57,7 @@ Let's continue to improve that in the next years even more!
 
 Even [Wine](https://www.winehq.org/) based gaming in parallel to coding is possible, awesome!
 
-<center><a href="/posts/plasma-kate-wayland-2021/images/plasma-kate-diablo-wayland.webp" target="_blank"><img width=700 src="/posts/plasma-kate-wayland-2021/images/plasma-kate-diablo-wayland-small.webp"></a></center>
+![My current KDE Plasma on Wayland session ;=)](/posts/plasma-kate-wayland-2021/images/plasma-kate-diablo-wayland.webp)
 
 ## Try it out!
 
