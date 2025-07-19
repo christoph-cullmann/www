@@ -6,9 +6,6 @@ categories: [backup]
 tags: [backup]
 url: /posts/borg-backup-continued/
 author: "Christoph Cullmann"
-resources:
-  - name: "featured-image-preview"
-    src: "images/borg-backup-logo.png"
 ---
 
 In my last [BorgBackup post](/posts/borg-backup/) I described my new setup using [BorgBackup](https://www.borgbackup.org/) for the backup of my private data.
@@ -203,4 +200,4 @@ But at least from my side: thanks to the BorgBackup developers to provide the wo
 
 At least my backup setup got successfully assimilated .P
 
-<center><a href="https://www.borgbackup.org/" target="_blank"><img width=700 src="/posts/borg-backup/images/borg-backup-logo.png"></a></center>
+{{< image src="/posts/borg-backup-continued/images/borg-backup-logo.png" alt="BorgBackup" >}}
