@@ -6,9 +6,6 @@ categories: [kde, qt, development]
 tags: [kde, qt]
 url: /posts/kde-qt-highdpi-scaling/
 author: "Christoph Cullmann"
-resources:
-  - name: "featured-image-preview"
-    src: "images/kate-19.08.2-hidpi-selection.png"
 ---
 
 ### What is a High DPI Display?
@@ -56,7 +53,7 @@ I used PNG to avoid that some JPEG artifacts make the real rendering artifacts u
 
 Let's show the current state with [Kate](https://kate-editor.org) & [Konsole](https://konsole.kde.org), here how Kate 19.08.1 looks if you start it on the second screen with default configuration with COPYING.LIB of ktexteditor.git as file:
 
-<center><a href="/posts/kde-qt-highdpi-scaling/images/kate-19.08.1-hidpi-second-screen.png" target="_blank"><img width=640 src="/posts/kde-qt-highdpi-scaling/images/kate-19.08.1-hidpi-second-screen.png"></a></center>
+![Experiments on Kate & Konsole](/posts/kde-qt-highdpi-scaling/images/kate-19.08.1-hidpi-second-screen.png)
 
 This looks kind of strange. What you see is actually no split screen, even that is a pure rendering artifacts, actually, the whole Kate windows is more or less one artifacts.
 
@@ -70,7 +67,7 @@ This is now fixed and backported to the 19.08 branch.
 
 This means, with 19.08.2, you will have the following experience:
 
-<center><a href="/posts/kde-qt-highdpi-scaling/images/kate-19.08.2-hidpi-second-screen.png" target="_blank"><img width=640 src="/posts/kde-qt-highdpi-scaling/images/kate-19.08.2-hidpi-second-screen.png"></a></center>
+![Experiments on Kate & Konsole with 19.08.2](/posts/kde-qt-highdpi-scaling/images/kate-19.08.2-hidpi-second-screen.png)
 
 This somehow looks more like an actual working application.
 
@@ -79,7 +76,7 @@ For people not able to update, a workaround is to disable both project and termi
 Is now all fine with Kate?
 Unfortunately not, lets change my font size a bit and select things:
 
-<center><a href="/posts/kde-qt-highdpi-scaling/images/kate-19.08.2-hidpi-selection.png" target="_blank"><img width=640 src="/posts/kde-qt-highdpi-scaling/images/kate-19.08.2-hidpi-selection.png"></a></center>
+![Experiments on Kate & Konsole with 19.08.2 with selection](/posts/kde-qt-highdpi-scaling/images/kate-19.08.2-hidpi-selection.png)
 
 I selected both in the text view (KTextEditor) and in the KonsolePart to show the issue is not just a plain "we are too dumb to render things" in KTextEditor.
 You get equal artifacts with most of our software :(
@@ -126,7 +123,7 @@ This leads to this current state of the rendering in the master branch.
 I did select + deselect a bit text in the terminal to trigger the paintEvent related clipping failure, you can see a few small one pixel high selection leftovers below the selection area.
 You need to play a bit with the scaling factor and font size, too, to trigger the effects, as like all rounding errors, you need specific values to trigger them.
 
-<center><a href="/posts/kde-qt-highdpi-scaling/images/kate-master-hidpi.png" target="_blank"><img width=640 src="/posts/kde-qt-highdpi-scaling/images/kate-master-hidpi.png"></a></center>
+![Experiments on Kate master](/posts/kde-qt-highdpi-scaling/images/kate-master-hidpi.png)
 
 I hope the Qt bugs linked above can be fixed in the near future, as I doubt we can add workaround to all the applications affected (nor do we want to) and the clipping issue of the paintEvent, if it really is the reason for the last remaining Konsole artifacts, seems not to be really fixable at all in the application code, beside going away from fine grained repaints.
 
