@@ -6,9 +6,6 @@ categories: [backup]
 tags: [backup]
 url: /posts/borg-backup/
 author: "Christoph Cullmann"
-resources:
-  - name: "featured-image-preview"
-    src: "images/borg-backup-logo.png"
 ---
 
 Backup is always something you under-appreciate until you need it.
@@ -51,7 +48,7 @@ duplicity is just nicely installable via pkg there, too!
 
 I investigated a bit more what I could use as duplicity replacement, and ended up giving [BorgBackup](https://www.borgbackup.org/) a try.
 
-<center><a href="https://www.borgbackup.org/" target="_blank"><img width=700 src="/posts/borg-backup/images/borg-backup-logo.png"></a></center>
+{{< image src="/posts/borg-backup/images/borg-backup-logo.png" alt="BorgBackup" >}}
 
 The [documentation](https://borgbackup.readthedocs.io/en/stable/) is a nice starting point, beside that, you find plenty of useful tutorial online.
 
