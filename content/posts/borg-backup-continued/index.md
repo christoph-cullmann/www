@@ -16,7 +16,7 @@ After two weeks of use, I have now first experiences on the way the incremental 
 
 I must confess, I am positively impressed.
 
-As told before, my [duplicity](http://duplicity.nongnu.org/) setup did have a very bad performance (even just in the locally to my NAS).
+As told before, my [duplicity](https://duplicity.gitlab.io/) setup did have a very bad performance (even just in the locally to my NAS).
 Perhaps I did something wrong, on the other side, I followed the default way as described to setup a encrypted backup.
 
 On the other side, the new BorgBackup powered variant performs well locally (with 1 GBit networking) and remotely (with just between 25-50 MBit upload).

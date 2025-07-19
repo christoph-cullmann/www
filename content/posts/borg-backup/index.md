@@ -14,7 +14,7 @@ At least this allowed me to keep all my Kate related development mails intact si
 
 ## My old way of doing backups: rsync & duplicity
 
-So far, I did my backup on my Unix machines by using [rsync](https://rsync.samba.org/) to a second host and [duplicity](http://duplicity.nongnu.org/) to archive stuff on my old Synology NAS.
+So far, I did my backup on my Unix machines by using [rsync](https://rsync.samba.org/) to a second host and [duplicity](https://duplicity.gitlab.io/) to archive stuff on my old Synology NAS.
 
 ### Plain rsync?
 
