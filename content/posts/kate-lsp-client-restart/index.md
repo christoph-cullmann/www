@@ -6,9 +6,6 @@ categories: [kde, kate, development]
 tags: [kde, kate]
 url: /posts/kate-lsp-client-restart/
 author: "Christoph Cullmann"
-resources:
-  - name: "featured-image-preview"
-    src: "images/kate-auto-completion.png"
 ---
 
 Since my last post about the [LSP client progress](/posts/kate-lsp-client-progress/) in May I didn't work on that project at all I think.
@@ -31,17 +28,17 @@ But, even nicer, it does actually work a lot better than my variant, already now
 What does work (tested with clangd and kate.git/work projects) at the moment:
 
 * Auto completion: you get the proper LSP server provided completion items
-<p align="center">
-    <a href="images/kate-auto-completion.png" target="_blank"><img width=500 src="images/kate-auto-completion.png"></a>
-</p>
+
+![Auto completion](/posts/kate-lsp-client-restart/images/kate-auto-completion.png)
+
 * Outline view: Get an extra tool view with the symbols of your current view
-<p align="center">
-    <a href="images/kate-outline-view.png" target="_blank"><img width=500 src="images/kate-outline-view.png"></a>
-</p>
+
+![Outline view](/posts/kate-lsp-client-restart/images/kate-outline-view.png)
+
 * Document highlight: highlight all occurrences of a variable/... inside the current view
-<p align="center">
-    <a href="images/kate-document-highlight.png" target="_blank"><img width=500 src="images/kate-document-highlight.png"></a>
-</p>
+
+![Document highlight](/posts/kate-lsp-client-restart/images/kate-document-highlight.png)
+
 * Code navigation: jump to the definition/declaration
 
 There is still a lot of stuff missing and this is all prototype quality.
