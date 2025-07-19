@@ -6,9 +6,6 @@ categories: [kde, development]
 tags: [kde]
 url: /posts/kde-applications-on-windows/
 author: "Christoph Cullmann"
-resources:
-  - name: "featured-image-preview"
-    src: "images/kate-on-windows.png"
 ---
 
 #### KDE applications on Windows?
@@ -56,15 +53,15 @@ Direct links to the store entries can be found below (the screenshots are in Ger
 
 * [Okular - more than a reader](https://www.microsoft.com/store/apps/9N41MSQ1WNM8)
 
-<center><a href="/posts/kde-applications-on-windows/images/okular-on-windows.png" target="_blank"><img width=500 src="/posts/kde-applications-on-windows/images/okular-on-windows.png"></a></center>
+![Okular - more than a reader](/posts/kde-applications-on-windows/images/okular-on-windows.png)
 
 * [Kate - Advanced Text Editor](https://www.microsoft.com/store/apps/9NWMW7BB59HW)
 
-<center><a href="/posts/kde-applications-on-windows/images/kate-on-windows.png" target="_blank"><img width=500 src="/posts/kde-applications-on-windows/images/kate-on-windows.png"></a></center>
+![Kate - Advanced Text Editor](/posts/kde-applications-on-windows/images/kate-on-windows.png)
 
 * [KStars - Astronomy Software](https://www.microsoft.com/store/apps/9PPRZ2QHLXTG)
 
-<center><a href="/posts/kde-applications-on-windows/images/kstars-on-windows.png" target="_blank"><img width=500 src="/posts/kde-applications-on-windows/images/kstars-on-windows.png"></a></center>
+![KStars - Astronomy Software](/posts/kde-applications-on-windows/images/kstars-on-windows.png)
 
 #### Help Wanted!
 
