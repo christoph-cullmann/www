@@ -1,5 +1,6 @@
 rm -rf themes
 mkdir themes
-git clone https://github.com/nunocoracao/blowfish.git themes/blowfish --depth=1
-rm -rf themes/blowfish/.git* themes/blowfish/exampleSite
-git add themes
+cd themes
+git clone --depth=1 https://github.com/janraasch/hugo-bearblog.git
+rm -rf hugo-bearblog/.git* hugo-bearblog/exampleSite
+git add .

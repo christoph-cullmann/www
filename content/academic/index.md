@@ -1,5 +1,7 @@
 +++
-title = "Academic Work"
+title = "Academic"
+menu = "main"
+weight = 30
 author = "Christoph Cullmann"
 showDate = false
 showAuthor = false

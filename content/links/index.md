@@ -1,5 +1,7 @@
 +++
 title = "Links"
+menu = "main"
+weight = 40
 author = "Christoph Cullmann"
 showDate = false
 showAuthor = false
