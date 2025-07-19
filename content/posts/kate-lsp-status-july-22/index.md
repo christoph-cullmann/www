@@ -32,7 +32,7 @@ parts to your **cmake** call. If you use **ninja** and not **make**, just use
 
 Then, let's see what you can do, once you are in a prepared build directory and have a **master** version of **Kate** in your **PATH**.
 
-{{< video src="/posts/kate-lsp-status-july-22/images/kate-lsp-video.mp4" type="video/mp4" preload="auto" >}}
+{{< video src="/posts/kate-lsp-status-july-22/images/kate-lsp-video.mp4" >}}
 
 I hope the quality is acceptable, that is my first try in a long time to do some screen-cast ;)
 

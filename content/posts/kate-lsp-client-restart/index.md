@@ -29,7 +29,7 @@ What does work (tested with clangd and kate.git/work projects) at the moment:
 
 * Auto completion: you get the proper LSP server provided completion items
 
-![Auto completion](/posts/kate-lsp-client-restart/images/kate-auto-completion.png)
+{{< image src="/posts/kate-lsp-client-restart/images/kate-auto-completion.png" alt="Auto completion" >}}
 
 * Outline view: Get an extra tool view with the symbols of your current view
 
