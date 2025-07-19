@@ -6,9 +6,6 @@ categories: [kde]
 tags: [kde]
 url: /posts/kate-on-all-platforms-2024/
 author: "Christoph Cullmann"
-resources:
-  - name: "featured-image-preview"
-    src: "images/2024-kate-macos.png"
 ---
 
 ## Unix like systems with X11 or Wayland
@@ -28,7 +25,7 @@ If that is not the case for your system, please help to upstream them.
 
 Below the current state of the master branch compiled on NixOS unstable with Wayland.
 
-<center><a href="/posts/kate-on-all-platforms-2024/images/2024-kate-linux-wayland.png" target="_blank"><img width=700 src="/posts/kate-on-all-platforms-2024/images/2024-kate-linux-wayland-small.png"></a></center>
+![Unix like systems with X11 or Wayland](/posts/kate-on-all-platforms-2024/images/2024-kate-linux-wayland.png)
 
 How to compile Kate on your own on a Unix like system and start to help to develop it can be found out [here](https://kate-editor.org/build-it/).
 
@@ -44,7 +41,7 @@ With reasonable effort you can develop Kate on Windows with [Craft](https://comm
 
 Below the current state of the master branch running on Windows 11 inside VirtualBox.
 
-<center><a href="/posts/kate-on-all-platforms-2024/images/2024-kate-windows.png" target="_blank"><img width=700 src="/posts/kate-on-all-platforms-2024/images/2024-kate-windows-small.png"></a></center>
+![Windows](/posts/kate-on-all-platforms-2024/images/2024-kate-windows.png)
 
 If you like to try that, use the nighly installer linked on the [Kate website](https://kate-editor.org/get-it/).
 
@@ -56,7 +53,7 @@ We have nighly build available for that and you can, like on Windows, develop Ka
 
 Below the current state of the master branch running native on my M2 ARM Mac Mini.
 
-<center><a href="/posts/kate-on-all-platforms-2024/images/2024-kate-macos.png" target="_blank"><img width=700 src="/posts/kate-on-all-platforms-2024/images/2024-kate-macos-small.png"></a></center>
+![macOS](/posts/kate-on-all-platforms-2024/images/2024-kate-macos.png)
 
 Same as for Windows, if you like to try that, use the nighly installer for either ARM or Intel Macs linked on the [Kate website](https://kate-editor.org/get-it/).
 
