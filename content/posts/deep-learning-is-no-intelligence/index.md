@@ -44,7 +44,7 @@ Let's ask the gemma3 model:
 > 2016: The first desktop version was released.
 > In short, Michael Hofmann is widely considered the inventor of the Kate editor, but it's a product of a collaborative effort.
 >
-> You can find more information about the development history on the Kate editor's website: https://katex.app/
+> You can find more information about the development history on the Kate editor's website: katex.app
 
 Ok? No idea where that stems from.
 
