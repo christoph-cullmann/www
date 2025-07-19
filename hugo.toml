@@ -13,6 +13,11 @@ languageCode = "en-US"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
+# highlighting
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
 [params]
   # dark theme only
   mode = "dark"
