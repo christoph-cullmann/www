@@ -10,23 +10,23 @@ showReadingTime = false
 
 ## Angaben gemäß § 5 TMG
 
-> Dr.-Ing. Christoph Cullmann<br>
-> Lessingstrasse 61<br>
-> 66121 Saarbrücken<br>
+> Dr.-Ing. Christoph Cullmann
+> Lessingstrasse 61
+> 66121 Saarbrücken
 > Deutschland
 
 ### Kontakt / Contact
 
-> Telefon/Mobile/Signal: +49 176 235 467 98<br>
+> Telefon/Mobile/Signal: +49 176 235 467 98
 > E-Mail: [christoph@cullmann.dev](mailto:christoph@cullmann.dev)
 
 ## Datenschutzerklärung
 
 Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
 
-> Dr.-Ing. Christoph Cullmann<br>
-> Lessingstrasse 61<br>
-> 66121 Saarbrücken<br>
+> Dr.-Ing. Christoph Cullmann
+> Lessingstrasse 61
+> 66121 Saarbrücken
 > Deutschland
 
 ### Ihre Betroffenenrechte
@@ -91,9 +91,9 @@ Legen Sie Widerspruch ein, werden wir Ihre personenbezogenen Daten nicht mehr ve
 
 #### Empfänger eines Widerspruchs
 
-> Dr.-Ing. Christoph Cullmann<br>
-> Lessingstrasse 61<br>
-> 66121 Saarbrücken<br>
+> Dr.-Ing. Christoph Cullmann
+> Lessingstrasse 61
+> 66121 Saarbrücken
 > Deutschland
 
 ### Änderung unserer Datenschutzbestimmungen
@@ -104,9 +104,9 @@ Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets de
 
 Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz verantwortliche Person in unserer Organisation:
 
-> Dr.-Ing. Christoph Cullmann<br>
-> Lessingstrasse 61<br>
-> 66121 Saarbrücken<br>
+> Dr.-Ing. Christoph Cullmann
+> Lessingstrasse 61
+> 66121 Saarbrücken
 > Deutschland
 
 Generiert von [Datenschutzerklärungs-Generator der activeMind AG (Version 2018-09-24)](https://www.activemind.de/datenschutz/datenschutzhinweis-generator/).
