@@ -46,3 +46,12 @@ ignoreErrors = ["error-disable-taxonomy"]
   # for details. An example TOML config that uses [ISO
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
   dateFormat = "2006-01-02"
+
+# ensure the highlighting is dark and avoids black boxes around the text
+# https://gohugo.io/configuration/markup/#highlight
+[markup]
+  [markup.highlight]
+    style = 'average'
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
