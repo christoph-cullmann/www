@@ -15,23 +15,23 @@ resources:
 
 ### Linux & BSDs
 
-<center><a href="/posts/kate-on-all-platforms-2024/images/2024-kate-linux-wayland.png" target="_blank"><img width=700 src="/posts/kate-on-all-platforms-2024/images/2024-kate-linux-wayland-small.png"></a></center>
+![Linux & BSDs](/posts/kate-on-all-platforms-2024/images/2024-kate-linux-wayland.png)
 
 ### Windows
 
-<center><a href="/posts/kate-on-all-platforms-2024/images/2024-kate-windows.png" target="_blank"><img width=700 src="/posts/kate-on-all-platforms-2024/images/2024-kate-windows-small.png"></a></center>
+![Windows](/posts/kate-on-all-platforms-2024/images/2024-kate-windows.png)
 
 ### macOS
 
-<center><a href="/posts/kate-on-all-platforms-2024/images/2024-kate-macos.png" target="_blank"><img width=700 src="/posts/kate-on-all-platforms-2024/images/2024-kate-macos-small.png"></a></center>
+![macOS](/posts/kate-on-all-platforms-2024/images/2024-kate-macos.png)
 
 ## State on Fedora 40 Workstation & XFCE Spin...
 
 Screenshots taken from the [GNOME bugtracker](https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/issues/288), copies to not stall their GitLab instance.
 
-<center><a href="/posts/kate-and-icons/images/fedora-40-workstation.jpg" target="_blank"><img width=700 src="/posts/kate-and-icons/images/fedora-40-workstation.jpg"></a></center>
+![Fedora 40 Workstation](/posts/kate-and-icons/images/fedora-40-workstation.jpg)
 
-<center><a href="/posts/kate-and-icons/images/fedora-40-xfce.png" target="_blank"><img width=700 src="/posts/kate-and-icons/images/fedora-40-xfce.png"></a></center>
+![Fedora 40 XFCE Spin](/posts/kate-and-icons/images/fedora-40-xfce.png)
 
 I think that is rather unpleasant and for e.g. the left icon-only border just an unusable insult.
 
