@@ -88,3 +88,7 @@ If you encounter issues, please report them as bug reports to the respective ups
 And naturally, any help in fixing them would be welcome, too.
 For Kate/KTextEditor beside the above mentioned window activation, I got all stuff that bothered me fixed.
 Naturally there will still be things that annoy others, patches welcome, scratch your own itch!
+
+## Feedback
+
+You can provide feedback on the matching [Reddit post](https://www.reddit.com/r/kde/comments/1m4u6c4/plasma_kate_on_wayland_in_2025/).
