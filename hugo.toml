@@ -26,7 +26,7 @@ enableRobotsTXT = true
     contentDir = "content"
 
     [languages.en.params]
-      madeWith = "Made with [Hugo](https://gohugo.io) & [Bear Cub](https://github.com/clente/hugo-bearcub)"
+      madeWith = "Made with [Hugo](https://gohugo.io) & [ᕦʕ •ᴥ•ʔᕤ Bear Cub](https://github.com/clente/hugo-bearcub)"
 
 [params]
   # dark theme only

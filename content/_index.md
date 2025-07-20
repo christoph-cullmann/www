@@ -11,7 +11,7 @@ showReadingTime = false
 
 cullmann.dev is the personal web site of Christoph Cullmann.
 
-The full sources of this web site can be found on [here](https://git.babylon2k.com/cullmann/www).
+The full sources of this web site can be found on [on my Forgejo instance](https://git.babylon2k.com/cullmann/www).
 
 ## Professional Life
 
