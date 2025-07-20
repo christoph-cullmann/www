@@ -1,5 +1,8 @@
 #!/usr/bin/env zsh
 
+# kill old output
+clear
+
 # failures are evil
 set -e
 

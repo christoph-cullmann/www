@@ -1,6 +1,7 @@
+{{ $original := .Page.Resources.GetMatch (.Get "src") }}
 <center>
     <video width="700" preload="auto" controls style="border: 0px;">
-        <source src="{{ .Get "src" }}" />
+        <source src="{{ $original.Permalink }}" />
         Your browser does not seem to support the video {{ .Get "src" }}.
     </video>
 </center>

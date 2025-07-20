@@ -2,7 +2,7 @@
 baseURL = "https://cullmann.dev"
 
 # the name of the theme to use
-theme = 'archie'
+theme = 'hugo-bearcub'
 
 # basic metadata
 title = "Ignorance is bliss..."
