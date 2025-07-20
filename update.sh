@@ -7,7 +7,7 @@ set -e
 git pull -q &> /dev/null
 
 # rerun hugo generator
-hugo --minify --noTimes
+hugo --cleanDestinationDir --enableGitInfo --gc --minify
 
 # current date
 date -Iseconds
