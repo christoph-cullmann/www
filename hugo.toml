@@ -16,10 +16,17 @@ copyright = "Copyright © Christoph Cullmann"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
-# highlighting
-pygmentsstyle = "monokai"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+# Multilingual mode config. More for information about how to setup translation,
+# see https://gohugo.io/content-management/multilingual/
+[languages]
+  [languages.en]
+    title = "Ignorance is bliss..."
+    languageName = "en-US 🇺🇸"
+    LanguageCode = "en-US"
+    contentDir = "content"
+
+    [languages.en.params]
+      madeWith = "Made with [Hugo](https://gohugo.io) & [Bear Cub](https://github.com/clente/hugo-bearcub)"
 
 [params]
   # dark theme only
