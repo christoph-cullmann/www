@@ -4,11 +4,14 @@ baseURL = "https://cullmann.dev"
 # the name of the theme to use
 theme = 'hugo-bearcub'
 
+# default content is English
+defaultContentLanguage = "en"
+languageCode = "en-US"
+
 # basic metadata
 title = "Ignorance is bliss..."
 author = "Christoph Cullmann"
 copyright = "Copyright © Christoph Cullmann"
-languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
@@ -32,3 +35,29 @@ pygmentscodefencesguesssyntax = true
   # opengraph structured data template.
   # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
   title = "Ignorance is bliss..."
+
+  # (EXPERIMENTAL) This theme has two options for its CSS styles: "original" and
+  # "herman". The former is what you see on Bear Cub's demo (an optimized
+  # version of Hugo Bear Blog), while the latter has a more modern look based on
+  # Herman Martinus's version of the Blogster Minimal theme for Astro.
+  themeStyle = "herman"
+
+
+  # Author metadata. This is mostly used for the RSS feed of your site, but the
+  # email is also added to the footer of each post. You can hide the "reply to"
+  # link by using a `hideReply` param in front matter.
+  [params.author]
+    name = "Christoph Cullmann" # Your name as shown in the RSS feed metadata
+    email = "christoph@cullmann.dev" # Added to the footer so readers can reply to posts
+
+# Setup syntax highlighting without inline styles. For more information about
+# why you'd want to avoid inline styles, see
+# https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src#unsafe_inline_styles
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    # This allows Bear Cub to use a variation of Dracula that is more accessible
+    # to people with poor eyesight. For more information about color contrast
+    # and accessibility, see https://web.dev/color-and-contrast-accessibility/
+    noClasses = false
