@@ -10,7 +10,7 @@ showReadingTime = false
 
 ## Academic Life
 
-I studied computer science at [Saarland University](https://www.uni-saarland.de/nc/en/home.html).
+I studied computer science at [Saarland University](https://www.uni-saarland.de/).
 
 I finished my Diploma thesis ["Statische Berechnung sicherer Schleifengrenzen auf Maschinencode"](publications/diplom.pdf) in 2006.
 
