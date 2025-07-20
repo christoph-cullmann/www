@@ -1,6 +1,6 @@
 <center>
 {{ $original := .Page.Resources.GetMatch (.Get "src") }}
-{{ $preview := $original.Resize "700x Lanczos webp" }}
+{{ $preview := $original.Resize "800x Lanczos webp" }}
 <a href="{{ $original.Permalink }}" target="_new" style="border-bottom: 0px; background-color: inherit;">
     <img src="{{ $preview.Permalink }}" alt="{{ .Get "alt" }}" style="border: 0px;" />
 </a>
