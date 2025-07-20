@@ -50,13 +50,7 @@ enableRobotsTXT = true
   themeStyle = "herman"
 
   # The path to your favicon
-  favicon = "images/favicon.ico"
-
-  # These images will show up when services want to generate a preview of a link
-  # to your site. Ignored if `generateSocialCard = true`. For more information
-  # about previews, see https://gohugo.io/templates/internal#twitter-cards and
-  # https://gohugo.io/templates/internal#open-graph
-  images = ["images/christoph_avatar.webp"]
+  favicon = "favicon.ico"
 
   # (EXPERIMENTAL) This theme is capable of dynamically generating social cards
   # for posts that don't have `images` defined in their front matter; By setting
