@@ -58,6 +58,12 @@ enableRobotsTXT = true
   # https://gohugo.io/templates/internal#open-graph
   images = ["images/christoph_avatar.webp"]
 
+  # (EXPERIMENTAL) This theme is capable of dynamically generating social cards
+  # for posts that don't have `images` defined in their front matter; By setting
+  # `generateSocialCard` to false, you can prevent this behavior. For more
+  # information see layouts/partials/social_card.html
+  generateSocialCard = true
+
   # Author metadata. This is mostly used for the RSS feed of your site, but the
   # email is also added to the footer of each post. You can hide the "reply to"
   # link by using a `hideReply` param in front matter.
