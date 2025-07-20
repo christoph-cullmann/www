@@ -91,4 +91,4 @@ Naturally there will still be things that annoy others, patches welcome, scratch
 
 ## Feedback
 
-You can provide feedback on the matching [Reddit post](https://www.reddit.com/r/kde/comments/1m4u6c4/plasma_kate_on_wayland_in_2025/).
+You can provide feedback on the matching [Reddit post](https://www.reddit.com/r/linux/comments/1m4u5y3/plasma_kate_on_wayland_in_2025/).
