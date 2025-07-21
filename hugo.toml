@@ -29,12 +29,6 @@ enableRobotsTXT = true
       madeWith = "Made with [Hugo](https://gohugo.io) & [ᕦʕ •ᴥ•ʔᕤ Bear Cub](https://github.com/clente/hugo-bearcub)"
 
 [params]
-  # dark theme only
-  mode = "dark"
-
-  # all stuff on my server
-  useCDN = false
-
   # The "description" of your website. This is used in the meta data of your generated html.
   description = "Christoph Cullmann's web site"
 
@@ -51,12 +45,6 @@ enableRobotsTXT = true
 
   # The path to your favicon
   favicon = "favicon.ico"
-
-  # (EXPERIMENTAL) This theme is capable of dynamically generating social cards
-  # for posts that don't have `images` defined in their front matter; By setting
-  # `generateSocialCard` to false, you can prevent this behavior. For more
-  # information see layouts/partials/social_card.html
-  generateSocialCard = true
 
   # Author metadata. This is mostly used for the RSS feed of your site, but the
   # email is also added to the footer of each post. You can hide the "reply to"
