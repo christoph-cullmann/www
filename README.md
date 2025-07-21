@@ -1,6 +1,6 @@
 # cullmann.dev
 
-cullmann.dev website
+This repository contains the full [cullmann.dev](https://cullmann.dev) website.
 
 # Update theme
 
