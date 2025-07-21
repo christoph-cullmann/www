@@ -1,2 +1,3 @@
-{{ $extra := resources.Get "cullmann.css" | minify }}
-<link href="{{ $extra.RelPermalink }}" rel="stylesheet">
+{{ with resources.Get "cullmann.css" | minify }}
+<style>{{ .Content | safeCSS }}</style>
+{{ end }}
