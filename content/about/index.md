@@ -20,7 +20,7 @@ My work is focused on [static program analysis](https://en.wikipedia.org/wiki/St
 
 For binary programs, the worst-case [stack usage](https://www.absint.com/stackanalyzer/) or [execution time](https://www.absint.com/ait/) are computed.
 
-For source programs, [coding rules](https://www.absint.com/rulechecker/) or [run time errors](https://www.absint.com/astree/) are checked.
+For source programs, [coding rules](https://www.absint.com/rulechecker/) or [run time errors](https://www.absint.com/astree/) are checked and a formally verified [C compiler](https://www.absint.com/compcert/) is offered.
 
 ## Open Source Projects
 
