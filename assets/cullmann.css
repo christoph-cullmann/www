@@ -18,6 +18,10 @@ body {
   font-family: "Geist";
 }
 
-code {
+code,
+time,
+.date {
   font-family: "GeistMono";
+  font-weight: normal;
+  font-style: normal;
 }
