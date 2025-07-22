@@ -1,7 +1,7 @@
 +++
 title = "Posts"
 menu = "main"
-weight = 10
+weight = 20
 author = "Christoph Cullmann"
 showDate = false
 showAuthor = false

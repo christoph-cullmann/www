@@ -1,7 +1,7 @@
 +++
 title = "Academic"
 menu = "main"
-weight = 30
+weight = 50
 author = "Christoph Cullmann"
 showDate = false
 showAuthor = false

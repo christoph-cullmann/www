@@ -1,7 +1,7 @@
 +++
 title = "Impressum"
 menu = "main"
-weight = 50
+weight = 60
 author = "Christoph Cullmann"
 showDate = false
 showAuthor = false
