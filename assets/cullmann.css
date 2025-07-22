@@ -19,8 +19,7 @@ body {
 }
 
 code,
-time,
-.date {
+time {
   font-family: "GeistMono";
   font-weight: normal;
   font-style: normal;
