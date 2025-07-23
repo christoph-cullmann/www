@@ -8,9 +8,9 @@ showAuthor = false
 showReadingTime = false
 +++
 
-cullmann.dev is the personal web site of Christoph Cullmann.
+## Christoph Cullmann
 
-The full sources of this web site can be found [on my Forgejo instance](https://git.babylon2k.com/cullmann/www).
+{{< image src="images/christoph.jpg" alt="Christoph Cullmann" >}}
 
 ## Professional Life
 
@@ -25,9 +25,14 @@ For source programs, [coding rules](https://www.absint.com/rulechecker/) or [run
 ## Open Source Projects
 
 In my spare time, I work on various open source projects.
+The most work goes into [Kate](https://kate-editor.org), the GUI text editor I maintain since two decades.
 
 For more details take a look at the [Projects](/projects/) page.
 
 ## Contact Information
 
 My contact information can be found on the [Impressum](/impressum/) page.
+
+## Cartoon-like Me :P
+
+{{< image src="images/christoph.png" alt="Christoph Cullmann" >}}
