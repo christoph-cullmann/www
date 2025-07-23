@@ -8,4 +8,6 @@ showAuthor = false
 showReadingTime = false
 +++
 
-cullmann.dev is the personal web site of Christoph Cullmann.
+Welcome to [Christoph Cullmann](/about/)'s personal web site :)
+
+{{< image src="images/landing-page.webp" alt="Split keyboards are fun!" >}}
