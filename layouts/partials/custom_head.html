@@ -3,6 +3,45 @@
 <link rel="preload" href="/fonts/GeistMono[wght].woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/GeistMono-Italic[wght].woff2" as="font" type="font/woff2" crossorigin>
 
-{{ with resources.Get "cullmann.css" | minify }}
-<style>{{ .Content | safeCSS }}</style>
-{{ end }}
+<style>
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist[wght].woff2') format("woff2-variations");
+  font-weight: 100 1000;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Italic[wght].woff2') format("woff2-variations");
+  font-weight: 100 1000;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  src: url('/fonts/GeistMono[wght].woff2') format("woff2-variations");
+  font-weight: 100 1000;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  src: url('/fonts/GeistMono-Italic[wght].woff2') format("woff2-variations");
+  font-weight: 100 1000;
+  font-style: italic;
+}
+
+body {
+  font-family: "Geist";
+}
+
+code,
+time {
+  font-family: "GeistMono";
+  font-weight: normal;
+  font-style: normal;
+}
+
+</style>
