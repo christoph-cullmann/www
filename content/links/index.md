@@ -38,6 +38,14 @@ The libraries linked below will in most cases be for C or C++.
 
 * fast JSON parser/generator: http://rapidjson.org
 
+## Fonts
+
+* Geist & Geist Mono - used on this page for everything: https://vercel.com/font
+
+* MonoLisa - a commercial coding font: https://www.monolisa.dev/
+
+* LucasFonts - small fonts studio in Germany: https://www.lucasfonts.com/
+
 ## Mail Server Stuff
 
 For my mails, I use postfix & dovecot, here some links about documentation and more.
