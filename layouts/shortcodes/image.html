@@ -1,7 +1,8 @@
 <center>
-{{ $original := .Page.Resources.GetMatch (.Get "src") }}
-{{ $preview := $original.Resize "640x Lanczos webp q90" }}
-<a href="{{ $original.Permalink }}" target="_new" style="border-bottom: 0px; background-color: inherit;">
+{{ $raw := .Page.Resources.GetMatch (.Get "src") }}
+{{ $full := $raw.Process "webp q100" }}
+{{ $preview := $raw.Resize "640x Lanczos webp q90" }}
+<a href="{{ $full.Permalink }}" target="_new" style="border-bottom: 0px; background-color: inherit;">
     <img fetchpriority="high" src="{{ $preview.Permalink }}" alt="{{ .Get "alt" }}" style="border: 0px; border-radius: 8px;" width="{{ $preview.Width }}" height="{{ $preview.Height }}" />
 </a>
 </center>
