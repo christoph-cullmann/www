@@ -2,6 +2,6 @@
 {{ $original := .Page.Resources.GetMatch (.Get "src") }}
 {{ $preview := $original.Resize "640x Lanczos webp q90" }}
 <a href="{{ $original.Permalink }}" target="_new" style="border-bottom: 0px; background-color: inherit;">
-    <img src="{{ $preview.Permalink }}" alt="{{ .Get "alt" }}" style="border: 0px; border-radius: 8px;" width="{{ $preview.Width }}" height="{{ $preview.Height }}" />
+    <img fetchpriority="high" src="{{ $preview.Permalink }}" alt="{{ .Get "alt" }}" style="border: 0px; border-radius: 8px;" width="{{ $preview.Width }}" height="{{ $preview.Height }}" />
 </a>
 </center>
