@@ -7,4 +7,4 @@ clear
 set -e
 
 # run hugo in local server mode, show all stuff
-exec hugo server -D --buildFuture
+exec hugo server -D --buildFuture --enableGitInfo --minify

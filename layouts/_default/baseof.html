@@ -43,6 +43,11 @@
   </main>
   <footer>
     {{- partial "footer.html" . -}}
+
+    <!-- add git info -->
+    {{- if $.GitInfo -}}
+      <p><small>Latest commit: <a href="https://git.babylon2k.com/cullmann/www/commit/{{ .GitInfo.Hash }}" target="_new">{{ .GitInfo.AbbreviatedHash }}</a></small></p>
+    {{- end -}}
   </footer>
 
   <!-- A partial to be overwritten by the user.
