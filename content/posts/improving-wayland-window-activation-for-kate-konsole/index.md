@@ -96,4 +96,4 @@ I will happily help to implement that in Kate and Co., but until that happens, a
 
 ## Feedback
 
-You can provide feedback on the matching [Reddit post](https://www.reddit.com/r/kde/comments/1n53df3/improving_wayland_window_activation_for_kate/).
+You can provide feedback on the matching [Lemmy](https://lemmy.kde.social/post/4473601) and [Reddit](https://www.reddit.com/r/kde/comments/1n53df3/improving_wayland_window_activation_for_kate/) posts.
