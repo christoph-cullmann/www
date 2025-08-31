@@ -93,3 +93,7 @@ Therefore this is more of a hack than a proper solution.
 If it inspires others to come up with something generic, that would be awesome!
 
 I will happily help to implement that in Kate and Co., but until that happens, at least my workflow is back working in my [Wayland session](/posts/plasma-kate-wayland-2025/).
+
+## Feedback
+
+You can provide feedback on the matching [Reddit post](https://www.reddit.com/r/kde/comments/1n53df3/improving_wayland_window_activation_for_kate/).
