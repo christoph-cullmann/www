@@ -57,3 +57,7 @@ If you want to help, or just turn up and tell that your old project, web site or
 - [Mailing List Cleanup](https://invent.kde.org/websites/kde-org/-/issues/42)
 
 - [Website Cleanup](https://invent.kde.org/websites/kde-org/-/issues/43)
+
+### Discussion
+
+Feel free to join the discussion at the [KDE reddit](https://www.reddit.com/r/kde/comments/1o8elxw/kde_gardening_2025/).
