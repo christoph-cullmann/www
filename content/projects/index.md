@@ -28,7 +28,7 @@ I work on various projects that are under the [KDE](https://www.kde.org/) umbrel
 * [API documentation](https://api.kde.org/ktexteditor-index.html)
 * [Git repository](https://invent.kde.org/frameworks/ktexteditor)
 
-### The Syntax-Highlighting framework, > 300 languages supported
+### The KSyntaxHighlighting framework, > 300 languages supported
 
 * [API documentation](https://api.kde.org/ksyntaxhighlighting-index.html)
 * [Git repository](https://invent.kde.org/frameworks/syntax-highlighting)
