@@ -25,13 +25,13 @@ I work on various projects that are under the [KDE](https://www.kde.org/) umbrel
 
 ### The KTextEditor framework, a versatile text editor component
 
-* [API documentation](https://api.kde.org/ktexteditor-index.html)
-* [Git repository](https://invent.kde.org/frameworks/ktexteditor)
+* [KTextEditor API documentation](https://api.kde.org/ktexteditor-index.html)
+* [KTextEditor Git repository](https://invent.kde.org/frameworks/ktexteditor)
 
 ### The KSyntaxHighlighting framework, > 300 languages supported
 
-* [API documentation](https://api.kde.org/ksyntaxhighlighting-index.html)
-* [Git repository](https://invent.kde.org/frameworks/syntax-highlighting)
+* [KSyntaxHighlighting API documentation](https://api.kde.org/ksyntaxhighlighting-index.html)
+* [KSyntaxHighlighting Git repository](https://invent.kde.org/frameworks/syntax-highlighting)
 
 ### Random other stuff
 
