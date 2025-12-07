@@ -23,3 +23,7 @@ I will not personally get any money from that, but I will benefit largely from t
 Keep the money flowing, money is not everything, but if you can not contribute in another way and you have some spare money, [please consider a donation](https://kde.org/fundraisers/yearend2025/).
 
 I wish you all a good end of the year :)
+
+### Discussion
+
+Feel free to join the discussion at the [Linux reddit](https://www.reddit.com/r/linux/comments/1pgpbk5/kde_end_of_year_fundraiser_2025/).
