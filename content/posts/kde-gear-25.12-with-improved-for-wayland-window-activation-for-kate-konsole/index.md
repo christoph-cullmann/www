@@ -25,3 +25,7 @@ If that works nicely for our users, perhaps somebody will come up with a more ge
 :) For me that is already a nice Christmas present, I disliked that this was broken for years :)
 
 Btw., thanks again for the amazing [end of the year fundraiser results](https://kde.org/fundraisers/yearend2025/)! €280k and counting :)
+
+## Feedback
+
+You can provide feedback on the matching [Reddit](https://www.reddit.com/r/kde/comments/1plpopz/kde_gear_2512_with_improved_wayland_window/) post.
